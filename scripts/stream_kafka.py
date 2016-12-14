@@ -8,9 +8,8 @@ from kafka import KafkaProducer
 try:
    data_file = sys.argv[1]
 except:
-   data_file   = '/mosaic_data_smalltest.csv'
+   data_file   = '/traceroute_testdata.txt'
 
-#data_file   = '/mosaic_data.csv' 
 #brokers     = ['seregion03.cloud.hortonworks.com:6667','seregion04.cloud.hortonworks.com:6667']
 #brokers     = ['sandbox.hortonworks.com:6667']
 brokers     = ['kafka.dev:9092']
