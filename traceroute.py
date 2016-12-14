@@ -1,13 +1,25 @@
 
-import re
+# Usage:
+# traceroute.py <host> <output_file>
+
+import re,sys
 import subprocess
 import requests
 import json
 import time
 
-hostname   = 'google.com'
+try:
+    hostname   = sys.argv[1]
+except:
+    hostname   = 'google.com'
+    print '[ INFO ] No host provided, scanning google.com'
 
-file       = '/Users/dzaratsian/Dropbox/data/traceroute_google.txt'
+try:
+    file = sys.argv[2]
+except:
+    file = '/tmp/traceroute_google.txt'
+    print '[ INFO ] No output file/path provided, writing results to /tmp/traceroute_google.txt'
+
 outputfile = open(file,'wb')
 outputfile.write('iteration|level|ip_address|response_time|country|region|city|longitude|latitude|isp|org\n')
 outputfile.close()
@@ -47,7 +59,7 @@ for iteration in range(1,100):
             print '[ ROUTE ] ' + str(iteration) + '|' + str(level) + '|' + ip_address + '|' + response_time + '|' + country + '|' + region + '|' + city + '|' + longitude + '|' + latitude + '|' + isp + '|' + org + '\n'
             outputfile.write(str(iteration) + '|' + str(level) + '|' + ip_address + '|' + response_time + '|' + country + '|' + region + '|' + city + '|' + longitude + '|' + latitude + '|' + isp + '|' + org + '\n')
         except:
-            print '[ PASSED ]'
+            pass
     
     outputfile.close()
     traceroute.kill()
