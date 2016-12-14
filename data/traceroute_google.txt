@@ -1,0 +1,1678 @@
+iteration|level|ip_address|response_time|country|region|city|longitude|latitude|isp|org
+1|1|192.168.0.1|1.312 ms|||||||
+1|2|174.111.102.224|33.235 ms|United States|NC|High Point|-80.0053|35.9557|Time Warner Cable|Time Warner Cable
+1|3|24.25.62.48|13.987 ms|United States|NY|New York|-73.9597|40.7903|Time Warner Cable|Time Warner Cable
+1|4|24.93.67.200|22.853 ms|United States|NC|Charlotte|-80.8439|35.2277|Time Warner Cable|Time Warner Cable
+1|5|24.93.64.184|17.721 ms|United States|NC|Charlotte|-80.8431|35.2271|Time Warner Cable|Time Warner Cable
+1|6|66.109.6.80|22.542 ms|United States|GA|Forest Park|-84.3691|33.6221|Time Warner Cable|Time Warner Cable
+1|7|216.50.79.33|48.703 ms|United States|VA|Newport News|-76.5892|37.1254|XO Communications|XO Communications
+1|8|216.50.79.66|20.299 ms|United States|VA|Newport News|-76.5892|37.1254|XO Communications|XO Communications
+1|9|216.239.62.139|24.544 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+1|10|216.239.49.181|19.978 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+1|11|216.239.50.93|25.123 ms|United States|CA|Mountain View|-122.085|37.4229|Google|Google
+1|12|216.239.48.2|57.896 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+1|13|216.239.48.6|82.488 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+1|14|216.239.48.2|31.735 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+1|15|216.239.40.132|30.607 ms|United States|FL|Sarasota|-82.356|27.2379|Google|Google
+1|16|216.239.40.118|30.014 ms|United States|FL|Sarasota|-82.356|27.2379|Google|Google
+1|17|209.85.253.1|46.604 ms|United States|CA|Mountain View|-122.085|37.4229|Google|Google
+1|18|209.85.143.197|24.647 ms|United States|CA|Mountain View|-122.085|37.4229|Google|Google
+1|19|173.194.219.138|30.008 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+2|1|192.168.0.1|1.216 ms|||||||
+2|2|174.111.102.226|29.861 ms|United States|NC|High Point|-80.0053|35.9557|Time Warner Cable|Time Warner Cable
+2|3|24.25.62.50|11.915 ms|United States|NY|New York|-73.9597|40.7903|Time Warner Cable|Time Warner Cable
+2|4|24.93.67.202|21.859 ms|United States|NC|Charlotte|-80.8439|35.2277|Time Warner Cable|Time Warner Cable
+2|5|24.93.64.186|25.396 ms|United States|NC|Charlotte|-80.8431|35.2271|Time Warner Cable|Time Warner Cable
+2|6|66.109.6.82|30.781 ms|United States|GA|Forest Park|-84.3691|33.6221|Time Warner Cable|Time Warner Cable
+2|7|205.197.180.41|27.330 ms|United States|IL|Chicago|-87.6441|41.8825|XO Communications|XO Communications
+2|8|205.197.180.54|22.474 ms|United States|IL|Chicago|-87.6441|41.8825|XO Communications|XO Communications
+2|9|216.239.51.47|26.074 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+2|10|216.239.51.53|22.458 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+2|11|216.239.51.245|67.616 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+2|12|108.170.232.71|28.579 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+2|13|66.249.94.20|24.741 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+2|14|209.85.143.201|30.242 ms|United States|CA|Mountain View|-122.085|37.4229|Google|Google
+2|15|209.85.142.157|23.305 ms|United States|CA|Mountain View|-122.085|37.4229|Google|Google
+2|16|64.233.174.133|22.933 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+2|17|173.194.219.139|21.397 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+3|1|192.168.0.1|1.341 ms|||||||
+3|2|174.111.102.226|17.824 ms|United States|NC|High Point|-80.0053|35.9557|Time Warner Cable|Time Warner Cable
+3|3|24.25.62.50|12.617 ms|United States|NY|New York|-73.9597|40.7903|Time Warner Cable|Time Warner Cable
+3|4|24.93.64.186|21.827 ms|United States|NC|Charlotte|-80.8431|35.2271|Time Warner Cable|Time Warner Cable
+3|5|24.93.67.202|22.895 ms|United States|NC|Charlotte|-80.8439|35.2277|Time Warner Cable|Time Warner Cable
+3|6|24.93.64.186|21.269 ms|United States|NC|Charlotte|-80.8431|35.2271|Time Warner Cable|Time Warner Cable
+3|7|66.109.6.82|47.622 ms|United States|GA|Forest Park|-84.3691|33.6221|Time Warner Cable|Time Warner Cable
+3|8|205.197.180.41|26.187 ms|United States|IL|Chicago|-87.6441|41.8825|XO Communications|XO Communications
+3|9|205.197.180.54|24.160 ms|United States|IL|Chicago|-87.6441|41.8825|XO Communications|XO Communications
+3|10|216.239.51.53|23.420 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+3|11|216.239.51.47|24.002 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+3|12|66.249.94.20|29.217 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+3|13|108.170.232.71|22.562 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+3|14|216.239.51.243|25.786 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+3|15|209.85.243.254|25.976 ms|United States|CA|Mountain View|-122.085|37.4229|Google|Google
+3|16|209.85.253.1|23.681 ms|United States|CA|Mountain View|-122.085|37.4229|Google|Google
+3|17|209.85.143.197|25.386 ms|United States|CA|Mountain View|-122.085|37.4229|Google|Google
+3|18|173.194.219.139|21.405 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+4|1|192.168.0.1|0.999 ms|||||||
+4|2|174.111.102.226|25.597 ms|United States|NC|High Point|-80.0053|35.9557|Time Warner Cable|Time Warner Cable
+4|3|24.25.62.50|16.889 ms|United States|NY|New York|-73.9597|40.7903|Time Warner Cable|Time Warner Cable
+4|4|24.93.64.186|22.479 ms|United States|NC|Charlotte|-80.8431|35.2271|Time Warner Cable|Time Warner Cable
+4|5|66.109.6.82|27.715 ms|United States|GA|Forest Park|-84.3691|33.6221|Time Warner Cable|Time Warner Cable
+4|6|205.197.180.41|18.392 ms|United States|IL|Chicago|-87.6441|41.8825|XO Communications|XO Communications
+4|7|205.197.180.54|22.571 ms|United States|IL|Chicago|-87.6441|41.8825|XO Communications|XO Communications
+4|8|216.239.51.53|42.034 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+4|9|216.239.51.47|24.682 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+4|10|216.239.51.53|24.684 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+4|11|209.85.247.150|30.168 ms|United States|CA|Mountain View|-122.085|37.4229|Google|Google
+4|12|66.249.94.20|20.319 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+4|13|209.85.142.138|26.562 ms|United States|CA|Mountain View|-122.085|37.4229|Google|Google
+4|14|209.85.243.254|25.379 ms|United States|CA|Mountain View|-122.085|37.4229|Google|Google
+4|15|64.233.174.133|29.493 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+4|16|74.125.196.100|129.898 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+5|1|192.168.0.1|1.569 ms|||||||
+5|2|174.111.102.226|26.779 ms|United States|NC|High Point|-80.0053|35.9557|Time Warner Cable|Time Warner Cable
+5|3|24.25.62.50|19.572 ms|United States|NY|New York|-73.9597|40.7903|Time Warner Cable|Time Warner Cable
+5|4|24.93.67.202|85.443 ms|United States|NC|Charlotte|-80.8439|35.2277|Time Warner Cable|Time Warner Cable
+5|5|66.109.6.82|115.658 ms|United States|GA|Forest Park|-84.3691|33.6221|Time Warner Cable|Time Warner Cable
+5|6|205.197.180.41|73.065 ms|United States|IL|Chicago|-87.6441|41.8825|XO Communications|XO Communications
+5|7|205.197.180.54|35.387 ms|United States|IL|Chicago|-87.6441|41.8825|XO Communications|XO Communications
+5|8|216.239.51.53|22.057 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+5|9|216.239.51.47|25.102 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+5|10|66.249.94.20|36.487 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+5|11|108.170.232.71|33.931 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+5|12|64.233.174.133|25.857 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+5|13|209.85.142.157|31.389 ms|United States|CA|Mountain View|-122.085|37.4229|Google|Google
+5|14|74.125.196.100|21.211 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+6|1|192.168.0.1|5.058 ms|||||||
+6|2|174.111.102.226|27.105 ms|United States|NC|High Point|-80.0053|35.9557|Time Warner Cable|Time Warner Cable
+6|3|24.25.62.50|16.070 ms|United States|NY|New York|-73.9597|40.7903|Time Warner Cable|Time Warner Cable
+6|4|24.93.64.186|29.611 ms|United States|NC|Charlotte|-80.8431|35.2271|Time Warner Cable|Time Warner Cable
+6|5|66.109.6.82|26.835 ms|United States|GA|Forest Park|-84.3691|33.6221|Time Warner Cable|Time Warner Cable
+6|6|205.197.180.41|23.337 ms|United States|IL|Chicago|-87.6441|41.8825|XO Communications|XO Communications
+6|7|205.197.180.54|21.995 ms|United States|IL|Chicago|-87.6441|41.8825|XO Communications|XO Communications
+6|8|216.239.51.53|21.363 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+6|9|216.239.51.47|24.169 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+6|10|216.239.51.243|22.582 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+6|11|108.170.232.71|25.516 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+6|12|209.85.142.140|26.889 ms|United States|CA|Mountain View|-122.085|37.4229|Google|Google
+6|13|209.85.143.197|32.755 ms|United States|CA|Mountain View|-122.085|37.4229|Google|Google
+6|14|64.233.174.133|26.564 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+6|15|209.85.253.1|25.771 ms|United States|CA|Mountain View|-122.085|37.4229|Google|Google
+6|16|173.194.219.113|139.132 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+7|1|192.168.0.1|3.576 ms|||||||
+7|2|174.111.102.226|1048.939 ms|United States|NC|High Point|-80.0053|35.9557|Time Warner Cable|Time Warner Cable
+7|3|24.25.62.50|19.928 ms|United States|NY|New York|-73.9597|40.7903|Time Warner Cable|Time Warner Cable
+7|4|24.93.64.186|73.273 ms|United States|NC|Charlotte|-80.8431|35.2271|Time Warner Cable|Time Warner Cable
+7|5|66.109.6.82|117.376 ms|United States|GA|Forest Park|-84.3691|33.6221|Time Warner Cable|Time Warner Cable
+7|6|205.197.180.41|120.459 ms|United States|IL|Chicago|-87.6441|41.8825|XO Communications|XO Communications
+7|7|205.197.180.54|127.838 ms|United States|IL|Chicago|-87.6441|41.8825|XO Communications|XO Communications
+7|8|216.239.51.47|134.914 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+7|9|216.239.51.53|132.651 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+7|10|66.249.94.20|141.114 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+7|11|216.239.51.245|178.903 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+7|12|108.170.232.71|121.100 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+7|13|209.85.243.254|130.518 ms|United States|CA|Mountain View|-122.085|37.4229|Google|Google
+7|14|209.85.253.1|124.891 ms|United States|CA|Mountain View|-122.085|37.4229|Google|Google
+7|15|209.85.143.201|126.935 ms|United States|CA|Mountain View|-122.085|37.4229|Google|Google
+7|16|173.194.219.113|26.252 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+8|1|192.168.0.1|17.529 ms|||||||
+8|2|174.111.102.226|32.797 ms|United States|NC|High Point|-80.0053|35.9557|Time Warner Cable|Time Warner Cable
+8|3|24.25.62.50|13.245 ms|United States|NY|New York|-73.9597|40.7903|Time Warner Cable|Time Warner Cable
+8|4|24.93.67.202|20.609 ms|United States|NC|Charlotte|-80.8439|35.2277|Time Warner Cable|Time Warner Cable
+8|5|24.93.64.186|18.391 ms|United States|NC|Charlotte|-80.8431|35.2271|Time Warner Cable|Time Warner Cable
+8|6|66.109.6.82|47.888 ms|United States|GA|Forest Park|-84.3691|33.6221|Time Warner Cable|Time Warner Cable
+8|7|205.197.180.41|23.593 ms|United States|IL|Chicago|-87.6441|41.8825|XO Communications|XO Communications
+8|8|205.197.180.54|24.827 ms|United States|IL|Chicago|-87.6441|41.8825|XO Communications|XO Communications
+8|9|216.239.51.53|24.335 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+8|10|66.249.94.20|62.856 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+8|11|216.239.51.243|26.962 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+8|12|209.85.142.140|23.043 ms|United States|CA|Mountain View|-122.085|37.4229|Google|Google
+8|13|64.233.175.12|40.648 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+8|14|209.85.248.53|24.545 ms|United States|CA|Mountain View|-122.085|37.4229|Google|Google
+8|15|74.125.21.139|41.965 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+9|1|192.168.0.1|1.916 ms|||||||
+9|2|174.111.102.226|38.889 ms|United States|NC|High Point|-80.0053|35.9557|Time Warner Cable|Time Warner Cable
+9|3|24.25.62.50|11.411 ms|United States|NY|New York|-73.9597|40.7903|Time Warner Cable|Time Warner Cable
+9|4|24.93.67.202|20.501 ms|United States|NC|Charlotte|-80.8439|35.2277|Time Warner Cable|Time Warner Cable
+9|5|24.93.64.186|23.053 ms|United States|NC|Charlotte|-80.8431|35.2271|Time Warner Cable|Time Warner Cable
+9|6|66.109.6.82|26.978 ms|United States|GA|Forest Park|-84.3691|33.6221|Time Warner Cable|Time Warner Cable
+9|7|205.197.180.41|33.956 ms|United States|IL|Chicago|-87.6441|41.8825|XO Communications|XO Communications
+9|8|205.197.180.54|25.004 ms|United States|IL|Chicago|-87.6441|41.8825|XO Communications|XO Communications
+9|9|216.239.51.47|24.005 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+9|10|216.239.51.53|23.159 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+9|11|66.249.94.20|40.563 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+9|12|209.85.142.140|20.325 ms|United States|CA|Mountain View|-122.085|37.4229|Google|Google
+9|13|108.170.232.71|22.864 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+9|14|209.85.142.153|24.385 ms|United States|CA|Mountain View|-122.085|37.4229|Google|Google
+9|15|216.239.56.166|21.791 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+9|16|216.239.56.164|34.834 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+9|17|74.125.21.139|26.829 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+10|1|192.168.0.1|1.916 ms|||||||
+10|2|174.111.102.226|31.330 ms|United States|NC|High Point|-80.0053|35.9557|Time Warner Cable|Time Warner Cable
+10|3|24.25.62.50|16.574 ms|United States|NY|New York|-73.9597|40.7903|Time Warner Cable|Time Warner Cable
+10|4|24.93.67.202|19.571 ms|United States|NC|Charlotte|-80.8439|35.2277|Time Warner Cable|Time Warner Cable
+10|5|24.93.64.186|19.668 ms|United States|NC|Charlotte|-80.8431|35.2271|Time Warner Cable|Time Warner Cable
+10|6|66.109.6.82|29.130 ms|United States|GA|Forest Park|-84.3691|33.6221|Time Warner Cable|Time Warner Cable
+10|7|205.197.180.41|24.807 ms|United States|IL|Chicago|-87.6441|41.8825|XO Communications|XO Communications
+10|8|205.197.180.54|23.393 ms|United States|IL|Chicago|-87.6441|41.8825|XO Communications|XO Communications
+10|9|216.239.51.47|26.865 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+10|10|216.239.51.53|19.825 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+10|11|209.85.142.138|25.279 ms|United States|CA|Mountain View|-122.085|37.4229|Google|Google
+10|12|216.239.51.243|33.340 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+10|13|209.85.142.138|27.734 ms|United States|CA|Mountain View|-122.085|37.4229|Google|Google
+10|14|209.85.248.53|23.157 ms|United States|CA|Mountain View|-122.085|37.4229|Google|Google
+10|15|64.233.175.12|23.993 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+10|16|74.125.21.139|24.126 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+11|1|192.168.0.1|5.221 ms|||||||
+11|2|174.111.102.226|144.870 ms|United States|NC|High Point|-80.0053|35.9557|Time Warner Cable|Time Warner Cable
+11|3|24.25.62.50|19.765 ms|United States|NY|New York|-73.9597|40.7903|Time Warner Cable|Time Warner Cable
+11|4|24.93.67.202|22.851 ms|United States|NC|Charlotte|-80.8439|35.2277|Time Warner Cable|Time Warner Cable
+11|5|24.93.64.186|21.972 ms|United States|NC|Charlotte|-80.8431|35.2271|Time Warner Cable|Time Warner Cable
+11|6|66.109.6.82|24.322 ms|United States|GA|Forest Park|-84.3691|33.6221|Time Warner Cable|Time Warner Cable
+11|7|205.197.180.41|40.331 ms|United States|IL|Chicago|-87.6441|41.8825|XO Communications|XO Communications
+11|8|205.197.180.54|77.063 ms|United States|IL|Chicago|-87.6441|41.8825|XO Communications|XO Communications
+11|9|216.239.51.47|114.385 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+11|10|216.239.51.243|133.687 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+11|11|66.249.94.20|130.748 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+11|12|64.233.175.12|125.435 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+11|13|209.85.253.3|108.179 ms|United States|CA|Mountain View|-122.085|37.4229|Google|Google
+11|14|209.85.248.53|140.616 ms|United States|CA|Mountain View|-122.085|37.4229|Google|Google
+11|15|74.125.21.139|23.113 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+12|1|192.168.0.1|12.133 ms|||||||
+12|2|174.111.102.226|32.754 ms|United States|NC|High Point|-80.0053|35.9557|Time Warner Cable|Time Warner Cable
+12|3|24.25.62.50|10.103 ms|United States|NY|New York|-73.9597|40.7903|Time Warner Cable|Time Warner Cable
+12|4|24.93.64.186|19.324 ms|United States|NC|Charlotte|-80.8431|35.2271|Time Warner Cable|Time Warner Cable
+12|5|24.93.67.202|19.036 ms|United States|NC|Charlotte|-80.8439|35.2277|Time Warner Cable|Time Warner Cable
+12|6|66.109.6.82|25.636 ms|United States|GA|Forest Park|-84.3691|33.6221|Time Warner Cable|Time Warner Cable
+12|7|205.197.180.41|53.346 ms|United States|IL|Chicago|-87.6441|41.8825|XO Communications|XO Communications
+12|8|205.197.180.54|39.189 ms|United States|IL|Chicago|-87.6441|41.8825|XO Communications|XO Communications
+12|9|216.239.51.53|106.838 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+12|10|209.85.247.150|124.664 ms|United States|CA|Mountain View|-122.085|37.4229|Google|Google
+12|11|216.239.51.243|161.001 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+12|12|209.85.142.138|134.125 ms|United States|CA|Mountain View|-122.085|37.4229|Google|Google
+12|13|209.85.253.3|129.063 ms|United States|CA|Mountain View|-122.085|37.4229|Google|Google
+12|14|216.239.56.166|134.867 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+12|15|74.125.21.139|147.688 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+13|1|192.168.0.1|8.316 ms|||||||
+13|2|174.111.102.224|128.312 ms|United States|NC|High Point|-80.0053|35.9557|Time Warner Cable|Time Warner Cable
+13|3|24.25.62.48|124.289 ms|United States|NY|New York|-73.9597|40.7903|Time Warner Cable|Time Warner Cable
+13|4|24.93.64.184|137.081 ms|United States|NC|Charlotte|-80.8431|35.2271|Time Warner Cable|Time Warner Cable
+13|5|24.93.67.200|122.944 ms|United States|NC|Charlotte|-80.8439|35.2277|Time Warner Cable|Time Warner Cable
+13|6|66.109.6.80|136.988 ms|United States|GA|Forest Park|-84.3691|33.6221|Time Warner Cable|Time Warner Cable
+13|7|216.50.79.33|139.585 ms|United States|VA|Newport News|-76.5892|37.1254|XO Communications|XO Communications
+13|8|216.50.79.66|112.493 ms|United States|VA|Newport News|-76.5892|37.1254|XO Communications|XO Communications
+13|9|216.239.62.139|145.563 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+13|10|216.58.215.46|140.049 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+13|11|216.239.49.181|107.859 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+13|12|108.170.235.157|120.480 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+13|13|216.239.49.197|20.243 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+13|14|216.239.48.31|34.565 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+13|15|216.239.40.138|26.993 ms|United States|FL|Sarasota|-82.356|27.2379|Google|Google
+13|16|216.239.40.118|27.102 ms|United States|FL|Sarasota|-82.356|27.2379|Google|Google
+13|17|64.233.174.133|49.001 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+13|18|209.85.253.1|34.536 ms|United States|CA|Mountain View|-122.085|37.4229|Google|Google
+13|19|64.233.185.138|146.656 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+14|1|192.168.0.1|5.296 ms|||||||
+14|2|174.111.102.224|44.082 ms|United States|NC|High Point|-80.0053|35.9557|Time Warner Cable|Time Warner Cable
+14|3|24.25.62.48|14.901 ms|United States|NY|New York|-73.9597|40.7903|Time Warner Cable|Time Warner Cable
+14|4|24.93.64.184|21.876 ms|United States|NC|Charlotte|-80.8431|35.2271|Time Warner Cable|Time Warner Cable
+14|5|24.93.67.200|17.398 ms|United States|NC|Charlotte|-80.8439|35.2277|Time Warner Cable|Time Warner Cable
+14|6|66.109.6.80|29.743 ms|United States|GA|Forest Park|-84.3691|33.6221|Time Warner Cable|Time Warner Cable
+14|7|216.50.79.33|16.891 ms|United States|VA|Newport News|-76.5892|37.1254|XO Communications|XO Communications
+14|8|216.50.79.66|19.791 ms|United States|VA|Newport News|-76.5892|37.1254|XO Communications|XO Communications
+14|9|216.58.215.46|20.613 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+14|10|216.239.62.139|23.655 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+14|11|216.239.49.181|23.301 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+14|12|108.170.235.157|41.926 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+14|13|216.239.49.197|36.674 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+14|14|216.239.48.6|31.109 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+14|15|216.239.48.31|26.839 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+14|16|216.239.48.6|34.082 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+14|17|216.239.40.138|33.997 ms|United States|FL|Sarasota|-82.356|27.2379|Google|Google
+14|18|216.239.40.130|29.317 ms|United States|FL|Sarasota|-82.356|27.2379|Google|Google
+14|19|216.239.40.118|27.071 ms|United States|FL|Sarasota|-82.356|27.2379|Google|Google
+14|20|209.85.142.157|30.196 ms|United States|CA|Mountain View|-122.085|37.4229|Google|Google
+14|21|209.85.254.105|29.903 ms|United States|CA|Mountain View|-122.085|37.4229|Google|Google
+14|22|64.233.174.133|30.400 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+14|23|64.233.185.138|30.519 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+15|1|192.168.0.1|1.756 ms|||||||
+15|2|174.111.102.226|25.976 ms|United States|NC|High Point|-80.0053|35.9557|Time Warner Cable|Time Warner Cable
+15|3|24.25.62.50|14.219 ms|United States|NY|New York|-73.9597|40.7903|Time Warner Cable|Time Warner Cable
+15|4|24.93.67.202|20.486 ms|United States|NC|Charlotte|-80.8439|35.2277|Time Warner Cable|Time Warner Cable
+15|5|24.93.64.186|25.821 ms|United States|NC|Charlotte|-80.8431|35.2271|Time Warner Cable|Time Warner Cable
+15|6|24.93.67.202|20.494 ms|United States|NC|Charlotte|-80.8439|35.2277|Time Warner Cable|Time Warner Cable
+15|7|66.109.6.82|20.235 ms|United States|GA|Forest Park|-84.3691|33.6221|Time Warner Cable|Time Warner Cable
+15|8|205.197.180.41|22.876 ms|United States|IL|Chicago|-87.6441|41.8825|XO Communications|XO Communications
+15|9|205.197.180.54|25.800 ms|United States|IL|Chicago|-87.6441|41.8825|XO Communications|XO Communications
+15|10|216.239.51.53|33.212 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+15|11|216.239.51.47|24.061 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+15|12|209.85.244.218|18.524 ms|United States|CA|Mountain View|-122.085|37.4229|Google|Google
+15|13|216.239.51.245|43.772 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+15|14|66.249.94.20|23.767 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+15|15|209.85.253.1|28.091 ms|United States|CA|Mountain View|-122.085|37.4229|Google|Google
+15|16|209.85.143.193|20.413 ms|United States|CA|Mountain View|-122.085|37.4229|Google|Google
+15|17|209.85.243.254|26.591 ms|United States|CA|Mountain View|-122.085|37.4229|Google|Google
+15|18|74.125.196.102|23.640 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+16|1|192.168.0.1|24.469 ms|||||||
+16|2|174.111.102.226|34.576 ms|United States|NC|High Point|-80.0053|35.9557|Time Warner Cable|Time Warner Cable
+16|3|24.25.62.50|18.215 ms|United States|NY|New York|-73.9597|40.7903|Time Warner Cable|Time Warner Cable
+16|4|24.93.64.186|16.756 ms|United States|NC|Charlotte|-80.8431|35.2271|Time Warner Cable|Time Warner Cable
+16|5|24.93.67.202|19.118 ms|United States|NC|Charlotte|-80.8439|35.2277|Time Warner Cable|Time Warner Cable
+16|6|24.93.64.186|24.709 ms|United States|NC|Charlotte|-80.8431|35.2271|Time Warner Cable|Time Warner Cable
+16|7|66.109.6.82|26.996 ms|United States|GA|Forest Park|-84.3691|33.6221|Time Warner Cable|Time Warner Cable
+16|8|205.197.180.41|33.482 ms|United States|IL|Chicago|-87.6441|41.8825|XO Communications|XO Communications
+16|9|205.197.180.54|26.186 ms|United States|IL|Chicago|-87.6441|41.8825|XO Communications|XO Communications
+16|10|216.239.51.53|26.530 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+16|11|216.239.51.47|28.623 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+16|12|209.85.247.150|26.339 ms|United States|CA|Mountain View|-122.085|37.4229|Google|Google
+16|13|216.239.51.243|23.165 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+16|14|209.85.244.218|25.734 ms|United States|CA|Mountain View|-122.085|37.4229|Google|Google
+16|15|209.85.253.1|18.858 ms|United States|CA|Mountain View|-122.085|37.4229|Google|Google
+16|16|209.85.143.193|27.206 ms|United States|CA|Mountain View|-122.085|37.4229|Google|Google
+16|17|209.85.243.254|23.028 ms|United States|CA|Mountain View|-122.085|37.4229|Google|Google
+16|18|74.125.196.102|26.690 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+17|1|192.168.0.1|37.530 ms|||||||
+17|2|174.111.102.226|489.371 ms|United States|NC|High Point|-80.0053|35.9557|Time Warner Cable|Time Warner Cable
+17|3|24.25.62.50|121.181 ms|United States|NY|New York|-73.9597|40.7903|Time Warner Cable|Time Warner Cable
+17|4|24.93.67.202|131.229 ms|United States|NC|Charlotte|-80.8439|35.2277|Time Warner Cable|Time Warner Cable
+17|5|24.93.64.186|128.200 ms|United States|NC|Charlotte|-80.8431|35.2271|Time Warner Cable|Time Warner Cable
+17|6|24.93.67.202|125.360 ms|United States|NC|Charlotte|-80.8439|35.2277|Time Warner Cable|Time Warner Cable
+17|7|66.109.6.82|140.980 ms|United States|GA|Forest Park|-84.3691|33.6221|Time Warner Cable|Time Warner Cable
+17|8|205.197.180.41|140.691 ms|United States|IL|Chicago|-87.6441|41.8825|XO Communications|XO Communications
+17|9|205.197.180.54|131.490 ms|United States|IL|Chicago|-87.6441|41.8825|XO Communications|XO Communications
+17|10|216.239.51.47|24.639 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+17|11|216.239.51.53|14.668 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+17|12|209.85.244.218|22.054 ms|United States|CA|Mountain View|-122.085|37.4229|Google|Google
+17|13|209.85.142.140|26.019 ms|United States|CA|Mountain View|-122.085|37.4229|Google|Google
+17|14|209.85.143.197|27.289 ms|United States|CA|Mountain View|-122.085|37.4229|Google|Google
+17|15|209.85.142.157|29.641 ms|United States|CA|Mountain View|-122.085|37.4229|Google|Google
+17|16|64.233.185.113|127.877 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+18|1|192.168.0.1|1.020 ms|||||||
+18|2|174.111.102.226|451.931 ms|United States|NC|High Point|-80.0053|35.9557|Time Warner Cable|Time Warner Cable
+18|3|24.25.62.50|35.080 ms|United States|NY|New York|-73.9597|40.7903|Time Warner Cable|Time Warner Cable
+18|4|24.93.64.186|110.391 ms|United States|NC|Charlotte|-80.8431|35.2271|Time Warner Cable|Time Warner Cable
+18|5|24.93.67.202|55.303 ms|United States|NC|Charlotte|-80.8439|35.2277|Time Warner Cable|Time Warner Cable
+18|6|24.93.64.186|107.786 ms|United States|NC|Charlotte|-80.8431|35.2271|Time Warner Cable|Time Warner Cable
+18|7|66.109.6.82|127.868 ms|United States|GA|Forest Park|-84.3691|33.6221|Time Warner Cable|Time Warner Cable
+18|8|205.197.180.41|118.451 ms|United States|IL|Chicago|-87.6441|41.8825|XO Communications|XO Communications
+18|9|205.197.180.54|20.567 ms|United States|IL|Chicago|-87.6441|41.8825|XO Communications|XO Communications
+18|10|216.239.51.53|26.654 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+18|11|216.239.51.47|110.410 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+18|12|66.249.94.20|129.455 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+18|13|216.239.51.243|165.753 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+18|14|209.85.143.201|139.860 ms|United States|CA|Mountain View|-122.085|37.4229|Google|Google
+18|15|64.233.174.133|138.719 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+18|16|209.85.143.197|23.040 ms|United States|CA|Mountain View|-122.085|37.4229|Google|Google
+18|17|173.194.219.113|26.091 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+19|1|192.168.0.1|1.900 ms|||||||
+19|2|174.111.102.226|293.668 ms|United States|NC|High Point|-80.0053|35.9557|Time Warner Cable|Time Warner Cable
+19|3|24.25.62.50|126.437 ms|United States|NY|New York|-73.9597|40.7903|Time Warner Cable|Time Warner Cable
+19|4|24.93.67.202|138.794 ms|United States|NC|Charlotte|-80.8439|35.2277|Time Warner Cable|Time Warner Cable
+19|5|24.93.64.186|138.167 ms|United States|NC|Charlotte|-80.8431|35.2271|Time Warner Cable|Time Warner Cable
+19|6|24.93.67.202|141.213 ms|United States|NC|Charlotte|-80.8439|35.2277|Time Warner Cable|Time Warner Cable
+19|7|66.109.6.82|186.975 ms|United States|GA|Forest Park|-84.3691|33.6221|Time Warner Cable|Time Warner Cable
+19|8|205.197.180.41|21.119 ms|United States|IL|Chicago|-87.6441|41.8825|XO Communications|XO Communications
+19|9|205.197.180.54|17.743 ms|United States|IL|Chicago|-87.6441|41.8825|XO Communications|XO Communications
+19|10|216.239.51.53|22.996 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+19|11|216.239.51.47|24.459 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+19|12|216.239.51.53|15.196 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+19|13|216.239.51.245|23.439 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+19|14|209.85.142.140|24.178 ms|United States|CA|Mountain View|-122.085|37.4229|Google|Google
+19|15|66.249.94.20|27.355 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+19|16|64.233.174.133|35.771 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+19|17|209.85.143.193|99.791 ms|United States|CA|Mountain View|-122.085|37.4229|Google|Google
+19|18|173.194.219.113|113.190 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+20|1|192.168.0.1|3.938 ms|||||||
+20|2|174.111.102.224|32.871 ms|United States|NC|High Point|-80.0053|35.9557|Time Warner Cable|Time Warner Cable
+20|3|24.25.62.48|15.752 ms|United States|NY|New York|-73.9597|40.7903|Time Warner Cable|Time Warner Cable
+20|4|24.93.64.184|18.351 ms|United States|NC|Charlotte|-80.8431|35.2271|Time Warner Cable|Time Warner Cable
+20|5|24.93.67.200|26.561 ms|United States|NC|Charlotte|-80.8439|35.2277|Time Warner Cable|Time Warner Cable
+20|6|66.109.6.80|33.533 ms|United States|GA|Forest Park|-84.3691|33.6221|Time Warner Cable|Time Warner Cable
+20|7|216.50.79.33|21.383 ms|United States|VA|Newport News|-76.5892|37.1254|XO Communications|XO Communications
+20|8|216.50.79.66|17.679 ms|United States|VA|Newport News|-76.5892|37.1254|XO Communications|XO Communications
+20|9|216.58.215.46|17.886 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+20|10|209.85.240.63|24.713 ms|United States|CA|Mountain View|-122.085|37.4229|Google|Google
+20|11|216.239.48.95|19.745 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+20|12|216.239.48.6|27.839 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+20|13|216.239.48.9|26.175 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+20|14|216.239.48.2|47.322 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+20|15|216.239.40.118|39.154 ms|United States|FL|Sarasota|-82.356|27.2379|Google|Google
+20|16|216.239.56.164|26.510 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+20|17|209.85.253.3|32.609 ms|United States|CA|Mountain View|-122.085|37.4229|Google|Google
+20|18|216.239.56.164|30.991 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+20|19|74.125.21.100|29.843 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+21|1|192.168.0.1|1.960 ms|||||||
+21|2|174.111.102.224|640.032 ms|United States|NC|High Point|-80.0053|35.9557|Time Warner Cable|Time Warner Cable
+21|3|24.25.62.48|14.606 ms|United States|NY|New York|-73.9597|40.7903|Time Warner Cable|Time Warner Cable
+21|4|24.93.64.184|14.354 ms|United States|NC|Charlotte|-80.8431|35.2271|Time Warner Cable|Time Warner Cable
+21|5|24.93.67.200|12.748 ms|United States|NC|Charlotte|-80.8439|35.2277|Time Warner Cable|Time Warner Cable
+21|6|66.109.6.80|28.323 ms|United States|GA|Forest Park|-84.3691|33.6221|Time Warner Cable|Time Warner Cable
+21|7|216.50.79.33|95.673 ms|United States|VA|Newport News|-76.5892|37.1254|XO Communications|XO Communications
+21|8|216.50.79.66|85.460 ms|United States|VA|Newport News|-76.5892|37.1254|XO Communications|XO Communications
+21|9|216.58.215.46|24.161 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+21|10|216.239.62.139|39.874 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+21|11|216.239.49.197|19.363 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+21|12|216.239.50.93|20.171 ms|United States|CA|Mountain View|-122.085|37.4229|Google|Google
+21|13|216.239.49.181|18.924 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+21|14|216.239.48.6|27.537 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+21|15|216.239.48.2|33.508 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+21|16|216.239.40.132|30.486 ms|United States|FL|Sarasota|-82.356|27.2379|Google|Google
+21|17|216.239.40.118|51.519 ms|United States|FL|Sarasota|-82.356|27.2379|Google|Google
+21|18|216.239.40.132|35.184 ms|United States|FL|Sarasota|-82.356|27.2379|Google|Google
+21|19|216.239.56.164|35.774 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+21|20|209.85.142.153|26.821 ms|United States|CA|Mountain View|-122.085|37.4229|Google|Google
+21|21|209.85.248.53|34.878 ms|United States|CA|Mountain View|-122.085|37.4229|Google|Google
+21|22|74.125.21.100|37.276 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+22|1|192.168.0.1|1.522 ms|||||||
+22|2|174.111.102.224|893.709 ms|United States|NC|High Point|-80.0053|35.9557|Time Warner Cable|Time Warner Cable
+22|3|24.25.62.48|14.902 ms|United States|NY|New York|-73.9597|40.7903|Time Warner Cable|Time Warner Cable
+22|4|24.93.64.184|28.175 ms|United States|NC|Charlotte|-80.8431|35.2271|Time Warner Cable|Time Warner Cable
+22|5|24.93.67.200|14.998 ms|United States|NC|Charlotte|-80.8439|35.2277|Time Warner Cable|Time Warner Cable
+22|6|66.109.6.80|23.432 ms|United States|GA|Forest Park|-84.3691|33.6221|Time Warner Cable|Time Warner Cable
+22|7|216.50.79.33|30.179 ms|United States|VA|Newport News|-76.5892|37.1254|XO Communications|XO Communications
+22|8|216.50.79.66|26.169 ms|United States|VA|Newport News|-76.5892|37.1254|XO Communications|XO Communications
+22|9|216.239.62.139|15.288 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+22|10|216.58.215.46|27.113 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+22|11|216.239.62.139|21.092 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+22|12|216.239.50.93|20.842 ms|United States|CA|Mountain View|-122.085|37.4229|Google|Google
+22|13|216.239.50.97|23.754 ms|United States|CA|Mountain View|-122.085|37.4229|Google|Google
+22|14|216.239.49.181|19.088 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+22|15|216.239.48.6|27.414 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+22|16|216.239.48.2|31.498 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+22|17|216.239.40.118|29.494 ms|United States|FL|Sarasota|-82.356|27.2379|Google|Google
+22|18|216.239.40.130|31.241 ms|United States|FL|Sarasota|-82.356|27.2379|Google|Google
+22|19|216.239.40.118|32.111 ms|United States|FL|Sarasota|-82.356|27.2379|Google|Google
+22|20|216.239.56.164|30.440 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+22|21|64.233.175.12|82.729 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+22|22|74.125.21.100|30.545 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+23|1|192.168.0.1|2.224 ms|||||||
+23|2|174.111.102.224|164.252 ms|United States|NC|High Point|-80.0053|35.9557|Time Warner Cable|Time Warner Cable
+23|3|24.25.62.48|21.185 ms|United States|NY|New York|-73.9597|40.7903|Time Warner Cable|Time Warner Cable
+23|4|24.93.67.200|18.087 ms|United States|NC|Charlotte|-80.8439|35.2277|Time Warner Cable|Time Warner Cable
+23|5|24.93.64.184|35.416 ms|United States|NC|Charlotte|-80.8431|35.2271|Time Warner Cable|Time Warner Cable
+23|6|66.109.6.80|26.580 ms|United States|GA|Forest Park|-84.3691|33.6221|Time Warner Cable|Time Warner Cable
+23|7|216.50.79.33|20.308 ms|United States|VA|Newport News|-76.5892|37.1254|XO Communications|XO Communications
+23|8|216.50.79.66|17.046 ms|United States|VA|Newport News|-76.5892|37.1254|XO Communications|XO Communications
+23|9|216.58.215.46|18.261 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+23|10|216.239.62.139|25.723 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+23|11|216.58.215.46|16.269 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+23|12|209.85.240.63|21.622 ms|United States|CA|Mountain View|-122.085|37.4229|Google|Google
+23|13|216.239.50.93|23.320 ms|United States|CA|Mountain View|-122.085|37.4229|Google|Google
+23|14|209.85.240.63|25.656 ms|United States|CA|Mountain View|-122.085|37.4229|Google|Google
+23|15|216.239.48.31|23.750 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+23|16|216.239.48.9|26.780 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+23|17|216.239.48.31|29.551 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+23|18|216.239.40.130|34.347 ms|United States|FL|Sarasota|-82.356|27.2379|Google|Google
+23|19|216.239.40.132|29.067 ms|United States|FL|Sarasota|-82.356|27.2379|Google|Google
+23|20|216.239.40.138|26.167 ms|United States|FL|Sarasota|-82.356|27.2379|Google|Google
+23|21|209.85.248.53|30.141 ms|United States|CA|Mountain View|-122.085|37.4229|Google|Google
+23|22|216.239.56.164|31.557 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+23|23|74.125.21.100|24.370 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+24|1|192.168.0.1|8.086 ms|||||||
+24|2|174.111.102.224|29.919 ms|United States|NC|High Point|-80.0053|35.9557|Time Warner Cable|Time Warner Cable
+24|3|24.25.62.48|12.102 ms|United States|NY|New York|-73.9597|40.7903|Time Warner Cable|Time Warner Cable
+24|4|24.93.67.200|10.800 ms|United States|NC|Charlotte|-80.8439|35.2277|Time Warner Cable|Time Warner Cable
+24|5|24.93.64.184|19.449 ms|United States|NC|Charlotte|-80.8431|35.2271|Time Warner Cable|Time Warner Cable
+24|6|66.109.6.80|27.877 ms|United States|GA|Forest Park|-84.3691|33.6221|Time Warner Cable|Time Warner Cable
+24|7|216.50.79.33|15.275 ms|United States|VA|Newport News|-76.5892|37.1254|XO Communications|XO Communications
+24|8|216.50.79.66|20.207 ms|United States|VA|Newport News|-76.5892|37.1254|XO Communications|XO Communications
+24|9|216.58.215.46|15.746 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+24|10|216.239.62.139|21.836 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+24|11|216.239.49.181|22.643 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+24|12|216.239.48.101|22.723 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+24|13|216.239.50.93|48.307 ms|United States|CA|Mountain View|-122.085|37.4229|Google|Google
+24|14|216.239.48.31|61.695 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+24|15|216.239.48.2|28.253 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+24|16|216.239.40.118|28.056 ms|United States|FL|Sarasota|-82.356|27.2379|Google|Google
+24|17|216.239.40.132|25.732 ms|United States|FL|Sarasota|-82.356|27.2379|Google|Google
+24|18|216.239.40.138|28.239 ms|United States|FL|Sarasota|-82.356|27.2379|Google|Google
+24|19|216.239.56.164|32.286 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+24|20|74.125.21.100|33.362 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+25|1|192.168.0.1|1.553 ms|||||||
+25|2|174.111.102.224|117.702 ms|United States|NC|High Point|-80.0053|35.9557|Time Warner Cable|Time Warner Cable
+25|3|24.25.62.48|123.500 ms|United States|NY|New York|-73.9597|40.7903|Time Warner Cable|Time Warner Cable
+25|4|24.93.67.200|121.850 ms|United States|NC|Charlotte|-80.8439|35.2277|Time Warner Cable|Time Warner Cable
+25|5|24.93.64.184|127.614 ms|United States|NC|Charlotte|-80.8431|35.2271|Time Warner Cable|Time Warner Cable
+25|6|66.109.6.80|147.996 ms|United States|GA|Forest Park|-84.3691|33.6221|Time Warner Cable|Time Warner Cable
+25|7|216.50.79.33|18.663 ms|United States|VA|Newport News|-76.5892|37.1254|XO Communications|XO Communications
+25|8|216.50.79.66|17.533 ms|United States|VA|Newport News|-76.5892|37.1254|XO Communications|XO Communications
+25|9|216.58.215.46|32.590 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+25|10|216.239.62.139|20.154 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+25|11|216.58.215.46|20.864 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+25|12|216.239.49.181|18.553 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+25|13|216.239.50.93|25.568 ms|United States|CA|Mountain View|-122.085|37.4229|Google|Google
+25|14|209.85.240.63|145.193 ms|United States|CA|Mountain View|-122.085|37.4229|Google|Google
+25|15|216.239.48.6|41.642 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+25|16|216.239.48.2|34.114 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+25|17|216.239.40.118|51.099 ms|United States|FL|Sarasota|-82.356|27.2379|Google|Google
+25|18|216.239.40.130|44.452 ms|United States|FL|Sarasota|-82.356|27.2379|Google|Google
+25|19|216.239.40.138|26.987 ms|United States|FL|Sarasota|-82.356|27.2379|Google|Google
+25|20|209.85.254.107|47.907 ms|United States|CA|Mountain View|-122.085|37.4229|Google|Google
+25|21|216.239.56.164|59.062 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+25|22|209.85.253.3|86.762 ms|United States|CA|Mountain View|-122.085|37.4229|Google|Google
+25|23|74.125.21.100|147.647 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+26|1|192.168.0.1|3.289 ms|||||||
+26|2|174.111.102.224|144.168 ms|United States|NC|High Point|-80.0053|35.9557|Time Warner Cable|Time Warner Cable
+26|3|24.25.62.48|16.708 ms|United States|NY|New York|-73.9597|40.7903|Time Warner Cable|Time Warner Cable
+26|4|24.93.67.200|19.917 ms|United States|NC|Charlotte|-80.8439|35.2277|Time Warner Cable|Time Warner Cable
+26|5|24.93.64.184|18.356 ms|United States|NC|Charlotte|-80.8431|35.2271|Time Warner Cable|Time Warner Cable
+26|6|66.109.6.80|28.755 ms|United States|GA|Forest Park|-84.3691|33.6221|Time Warner Cable|Time Warner Cable
+26|7|216.50.79.33|137.510 ms|United States|VA|Newport News|-76.5892|37.1254|XO Communications|XO Communications
+26|8|216.50.79.66|24.966 ms|United States|VA|Newport News|-76.5892|37.1254|XO Communications|XO Communications
+26|9|216.58.215.46|24.865 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+26|10|216.239.62.139|123.473 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+26|11|216.239.49.197|127.032 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+26|12|216.239.50.97|131.599 ms|United States|CA|Mountain View|-122.085|37.4229|Google|Google
+26|13|216.239.50.93|131.971 ms|United States|CA|Mountain View|-122.085|37.4229|Google|Google
+26|14|216.239.48.6|143.294 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+26|15|216.239.48.2|138.914 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+26|16|216.239.40.130|145.448 ms|United States|FL|Sarasota|-82.356|27.2379|Google|Google
+26|17|216.239.40.132|150.054 ms|United States|FL|Sarasota|-82.356|27.2379|Google|Google
+26|18|216.239.40.138|145.044 ms|United States|FL|Sarasota|-82.356|27.2379|Google|Google
+26|19|209.85.254.107|147.176 ms|United States|CA|Mountain View|-122.085|37.4229|Google|Google
+26|20|209.85.253.3|148.170 ms|United States|CA|Mountain View|-122.085|37.4229|Google|Google
+26|21|209.85.254.107|56.931 ms|United States|CA|Mountain View|-122.085|37.4229|Google|Google
+26|22|74.125.21.100|131.927 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+27|1|192.168.0.1|3.026 ms|||||||
+27|2|174.111.102.224|417.642 ms|United States|NC|High Point|-80.0053|35.9557|Time Warner Cable|Time Warner Cable
+27|3|24.25.62.48|118.059 ms|United States|NY|New York|-73.9597|40.7903|Time Warner Cable|Time Warner Cable
+27|4|24.93.67.200|134.224 ms|United States|NC|Charlotte|-80.8439|35.2277|Time Warner Cable|Time Warner Cable
+27|5|24.93.64.184|137.069 ms|United States|NC|Charlotte|-80.8431|35.2271|Time Warner Cable|Time Warner Cable
+27|6|66.109.6.80|140.987 ms|United States|GA|Forest Park|-84.3691|33.6221|Time Warner Cable|Time Warner Cable
+27|7|216.50.79.33|140.190 ms|United States|VA|Newport News|-76.5892|37.1254|XO Communications|XO Communications
+27|8|216.50.79.66|44.927 ms|United States|VA|Newport News|-76.5892|37.1254|XO Communications|XO Communications
+27|9|216.58.215.46|22.144 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+27|10|216.239.62.139|21.172 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+27|11|216.58.215.46|21.668 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+27|12|108.170.235.157|17.816 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+27|13|216.239.48.95|129.505 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+27|14|216.239.50.97|129.739 ms|United States|CA|Mountain View|-122.085|37.4229|Google|Google
+27|15|216.239.48.31|138.919 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+27|16|216.239.48.2|141.368 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+27|17|216.239.48.9|143.162 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+27|18|216.239.40.130|146.972 ms|United States|FL|Sarasota|-82.356|27.2379|Google|Google
+27|19|216.239.40.118|148.387 ms|United States|FL|Sarasota|-82.356|27.2379|Google|Google
+27|20|216.239.40.130|153.812 ms|United States|FL|Sarasota|-82.356|27.2379|Google|Google
+27|21|216.239.56.164|31.019 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+27|22|64.233.175.12|29.552 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+27|23|74.125.21.100|122.066 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+28|1|192.168.0.1|4.471 ms|||||||
+28|2|174.111.102.224|109.748 ms|United States|NC|High Point|-80.0053|35.9557|Time Warner Cable|Time Warner Cable
+28|3|24.25.62.48|105.518 ms|United States|NY|New York|-73.9597|40.7903|Time Warner Cable|Time Warner Cable
+28|4|24.93.67.200|115.286 ms|United States|NC|Charlotte|-80.8439|35.2277|Time Warner Cable|Time Warner Cable
+28|5|24.93.64.184|123.352 ms|United States|NC|Charlotte|-80.8431|35.2271|Time Warner Cable|Time Warner Cable
+28|6|66.109.6.80|130.223 ms|United States|GA|Forest Park|-84.3691|33.6221|Time Warner Cable|Time Warner Cable
+28|7|216.50.79.33|128.117 ms|United States|VA|Newport News|-76.5892|37.1254|XO Communications|XO Communications
+28|8|216.50.79.66|132.824 ms|United States|VA|Newport News|-76.5892|37.1254|XO Communications|XO Communications
+28|9|216.58.215.46|137.608 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+28|10|216.239.62.139|122.307 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+28|11|216.58.215.46|119.240 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+28|12|216.239.50.93|118.306 ms|United States|CA|Mountain View|-122.085|37.4229|Google|Google
+28|13|216.239.50.97|122.055 ms|United States|CA|Mountain View|-122.085|37.4229|Google|Google
+28|14|209.85.240.63|123.795 ms|United States|CA|Mountain View|-122.085|37.4229|Google|Google
+28|15|216.239.48.6|167.304 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+28|16|216.239.48.9|136.231 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+28|17|216.239.48.31|143.310 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+28|18|216.239.40.138|148.002 ms|United States|FL|Sarasota|-82.356|27.2379|Google|Google
+28|19|216.239.40.132|147.110 ms|United States|FL|Sarasota|-82.356|27.2379|Google|Google
+28|20|216.239.40.118|141.697 ms|United States|FL|Sarasota|-82.356|27.2379|Google|Google
+28|21|64.233.175.12|143.117 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+28|22|209.85.142.153|147.182 ms|United States|CA|Mountain View|-122.085|37.4229|Google|Google
+28|23|74.125.21.100|126.107 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+29|1|192.168.0.1|2.177 ms|||||||
+29|2|174.111.102.224|136.105 ms|United States|NC|High Point|-80.0053|35.9557|Time Warner Cable|Time Warner Cable
+29|3|24.25.62.48|126.669 ms|United States|NY|New York|-73.9597|40.7903|Time Warner Cable|Time Warner Cable
+29|4|24.93.67.200|138.058 ms|United States|NC|Charlotte|-80.8439|35.2277|Time Warner Cable|Time Warner Cable
+29|5|24.93.64.184|40.071 ms|United States|NC|Charlotte|-80.8431|35.2271|Time Warner Cable|Time Warner Cable
+29|6|66.109.6.80|36.327 ms|United States|GA|Forest Park|-84.3691|33.6221|Time Warner Cable|Time Warner Cable
+29|7|216.50.79.33|20.152 ms|United States|VA|Newport News|-76.5892|37.1254|XO Communications|XO Communications
+29|8|216.50.79.66|19.147 ms|United States|VA|Newport News|-76.5892|37.1254|XO Communications|XO Communications
+29|9|216.239.62.139|24.081 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+29|10|216.58.215.46|29.448 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+29|11|216.239.62.139|20.368 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+29|12|216.239.48.95|24.650 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+29|13|216.239.50.97|36.922 ms|United States|CA|Mountain View|-122.085|37.4229|Google|Google
+29|14|216.239.49.181|51.345 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+29|15|216.239.48.31|116.210 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+29|16|216.239.48.2|146.679 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+29|17|216.239.40.118|130.307 ms|United States|FL|Sarasota|-82.356|27.2379|Google|Google
+29|18|216.239.40.138|133.829 ms|United States|FL|Sarasota|-82.356|27.2379|Google|Google
+29|19|216.239.40.118|138.955 ms|United States|FL|Sarasota|-82.356|27.2379|Google|Google
+29|20|209.85.254.107|134.417 ms|United States|CA|Mountain View|-122.085|37.4229|Google|Google
+29|21|209.85.142.153|145.030 ms|United States|CA|Mountain View|-122.085|37.4229|Google|Google
+29|22|216.239.56.164|135.574 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+29|23|74.125.21.100|29.268 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+30|1|192.168.0.1|1.759 ms|||||||
+30|2|174.111.102.224|122.284 ms|United States|NC|High Point|-80.0053|35.9557|Time Warner Cable|Time Warner Cable
+30|3|24.25.62.48|123.225 ms|United States|NY|New York|-73.9597|40.7903|Time Warner Cable|Time Warner Cable
+30|4|24.93.67.200|128.013 ms|United States|NC|Charlotte|-80.8439|35.2277|Time Warner Cable|Time Warner Cable
+30|5|24.93.64.184|128.958 ms|United States|NC|Charlotte|-80.8431|35.2271|Time Warner Cable|Time Warner Cable
+30|6|66.109.6.80|139.656 ms|United States|GA|Forest Park|-84.3691|33.6221|Time Warner Cable|Time Warner Cable
+30|7|216.50.79.33|142.468 ms|United States|VA|Newport News|-76.5892|37.1254|XO Communications|XO Communications
+30|8|216.50.79.66|35.694 ms|United States|VA|Newport News|-76.5892|37.1254|XO Communications|XO Communications
+30|9|216.58.215.46|23.005 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+30|10|216.239.62.139|126.996 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+30|11|216.239.50.97|123.493 ms|United States|CA|Mountain View|-122.085|37.4229|Google|Google
+30|12|216.239.49.181|119.361 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+30|13|216.239.48.101|128.472 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+30|14|216.239.48.31|142.353 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+30|15|216.239.48.2|137.692 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+30|16|216.239.40.130|152.341 ms|United States|FL|Sarasota|-82.356|27.2379|Google|Google
+30|17|216.239.40.132|148.151 ms|United States|FL|Sarasota|-82.356|27.2379|Google|Google
+30|18|216.239.40.118|153.662 ms|United States|FL|Sarasota|-82.356|27.2379|Google|Google
+30|19|209.85.142.153|144.204 ms|United States|CA|Mountain View|-122.085|37.4229|Google|Google
+30|20|74.125.21.100|144.537 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+31|1|192.168.0.1|2.357 ms|||||||
+31|2|174.111.102.224|395.630 ms|United States|NC|High Point|-80.0053|35.9557|Time Warner Cable|Time Warner Cable
+31|3|24.25.62.48|104.379 ms|United States|NY|New York|-73.9597|40.7903|Time Warner Cable|Time Warner Cable
+31|4|24.93.64.184|109.110 ms|United States|NC|Charlotte|-80.8431|35.2271|Time Warner Cable|Time Warner Cable
+31|5|24.93.67.200|120.999 ms|United States|NC|Charlotte|-80.8439|35.2277|Time Warner Cable|Time Warner Cable
+31|6|66.109.6.80|118.967 ms|United States|GA|Forest Park|-84.3691|33.6221|Time Warner Cable|Time Warner Cable
+31|7|216.50.79.33|129.466 ms|United States|VA|Newport News|-76.5892|37.1254|XO Communications|XO Communications
+31|8|216.50.79.66|122.736 ms|United States|VA|Newport News|-76.5892|37.1254|XO Communications|XO Communications
+31|9|216.239.62.139|132.443 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+31|10|216.58.215.46|130.147 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+31|11|216.239.48.101|23.770 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+31|12|216.239.48.95|20.058 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+31|13|216.239.49.181|46.755 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+31|14|216.239.48.9|39.145 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+31|15|216.239.40.138|31.547 ms|United States|FL|Sarasota|-82.356|27.2379|Google|Google
+31|16|216.239.40.130|53.548 ms|United States|FL|Sarasota|-82.356|27.2379|Google|Google
+31|17|108.170.232.70|29.011 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+31|18|209.85.241.71|25.652 ms|United States|CA|Mountain View|-122.085|37.4229|Google|Google
+31|19|216.58.218.14|29.448 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+32|1|192.168.0.1|10.000 ms|||||||
+32|2|174.111.102.224|34.563 ms|United States|NC|High Point|-80.0053|35.9557|Time Warner Cable|Time Warner Cable
+32|3|24.25.62.48|14.090 ms|United States|NY|New York|-73.9597|40.7903|Time Warner Cable|Time Warner Cable
+32|4|24.93.64.184|31.241 ms|United States|NC|Charlotte|-80.8431|35.2271|Time Warner Cable|Time Warner Cable
+32|5|24.93.67.200|15.150 ms|United States|NC|Charlotte|-80.8439|35.2277|Time Warner Cable|Time Warner Cable
+32|6|66.109.6.80|23.680 ms|United States|GA|Forest Park|-84.3691|33.6221|Time Warner Cable|Time Warner Cable
+32|7|216.50.79.33|15.498 ms|United States|VA|Newport News|-76.5892|37.1254|XO Communications|XO Communications
+32|8|216.50.79.66|18.173 ms|United States|VA|Newport News|-76.5892|37.1254|XO Communications|XO Communications
+32|9|216.58.215.46|16.558 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+32|10|216.239.62.139|18.503 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+32|11|216.58.215.46|22.790 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+32|12|216.239.48.95|25.406 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+32|13|216.239.49.181|24.290 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+32|14|216.239.48.6|59.447 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+32|15|216.239.48.9|31.650 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+32|16|216.239.40.138|25.052 ms|United States|FL|Sarasota|-82.356|27.2379|Google|Google
+32|17|216.239.40.130|38.604 ms|United States|FL|Sarasota|-82.356|27.2379|Google|Google
+32|18|209.85.142.139|26.927 ms|United States|CA|Mountain View|-122.085|37.4229|Google|Google
+32|19|209.85.241.71|24.008 ms|United States|CA|Mountain View|-122.085|37.4229|Google|Google
+32|20|216.58.218.14|29.607 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+33|1|192.168.0.1|1.884 ms|||||||
+33|2|174.111.102.224|129.413 ms|United States|NC|High Point|-80.0053|35.9557|Time Warner Cable|Time Warner Cable
+33|3|24.25.62.48|27.246 ms|United States|NY|New York|-73.9597|40.7903|Time Warner Cable|Time Warner Cable
+33|4|24.93.67.200|13.902 ms|United States|NC|Charlotte|-80.8439|35.2277|Time Warner Cable|Time Warner Cable
+33|5|24.93.64.184|12.789 ms|United States|NC|Charlotte|-80.8431|35.2271|Time Warner Cable|Time Warner Cable
+33|6|66.109.6.80|28.541 ms|United States|GA|Forest Park|-84.3691|33.6221|Time Warner Cable|Time Warner Cable
+33|7|216.50.79.33|26.560 ms|United States|VA|Newport News|-76.5892|37.1254|XO Communications|XO Communications
+33|8|216.50.79.66|18.313 ms|United States|VA|Newport News|-76.5892|37.1254|XO Communications|XO Communications
+33|9|216.239.62.139|41.641 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+33|10|216.58.215.46|16.201 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+33|11|216.239.48.101|172.492 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+33|12|216.239.49.181|97.836 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+33|13|216.239.48.101|21.412 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+33|14|216.239.48.9|25.503 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+33|15|216.239.40.138|29.696 ms|United States|FL|Sarasota|-82.356|27.2379|Google|Google
+33|16|216.239.40.130|43.751 ms|United States|FL|Sarasota|-82.356|27.2379|Google|Google
+33|17|216.239.40.138|27.837 ms|United States|FL|Sarasota|-82.356|27.2379|Google|Google
+33|18|108.170.232.70|28.406 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+33|19|209.85.142.139|26.096 ms|United States|CA|Mountain View|-122.085|37.4229|Google|Google
+33|20|209.85.241.71|33.486 ms|United States|CA|Mountain View|-122.085|37.4229|Google|Google
+33|21|216.58.218.14|29.212 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+34|1|192.168.0.1|1.263 ms|||||||
+34|2|174.111.102.224|28.260 ms|United States|NC|High Point|-80.0053|35.9557|Time Warner Cable|Time Warner Cable
+34|3|24.25.62.48|20.718 ms|United States|NY|New York|-73.9597|40.7903|Time Warner Cable|Time Warner Cable
+34|4|24.93.64.184|17.226 ms|United States|NC|Charlotte|-80.8431|35.2271|Time Warner Cable|Time Warner Cable
+34|5|24.93.67.200|18.902 ms|United States|NC|Charlotte|-80.8439|35.2277|Time Warner Cable|Time Warner Cable
+34|6|66.109.6.80|22.355 ms|United States|GA|Forest Park|-84.3691|33.6221|Time Warner Cable|Time Warner Cable
+34|7|216.50.79.33|20.431 ms|United States|VA|Newport News|-76.5892|37.1254|XO Communications|XO Communications
+34|8|216.50.79.66|20.092 ms|United States|VA|Newport News|-76.5892|37.1254|XO Communications|XO Communications
+34|9|216.239.62.139|21.646 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+34|10|216.58.215.46|30.070 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+34|11|216.239.48.95|18.817 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+34|12|216.239.48.9|31.461 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+34|13|216.239.40.138|27.870 ms|United States|FL|Sarasota|-82.356|27.2379|Google|Google
+34|14|216.239.40.130|38.819 ms|United States|FL|Sarasota|-82.356|27.2379|Google|Google
+34|15|209.85.142.139|32.675 ms|United States|CA|Mountain View|-122.085|37.4229|Google|Google
+34|16|209.85.241.71|31.110 ms|United States|CA|Mountain View|-122.085|37.4229|Google|Google
+34|17|216.58.218.14|27.994 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+35|1|192.168.0.1|29.305 ms|||||||
+35|2|174.111.102.224|30.491 ms|United States|NC|High Point|-80.0053|35.9557|Time Warner Cable|Time Warner Cable
+35|3|24.25.62.48|17.804 ms|United States|NY|New York|-73.9597|40.7903|Time Warner Cable|Time Warner Cable
+35|4|24.93.64.184|23.037 ms|United States|NC|Charlotte|-80.8431|35.2271|Time Warner Cable|Time Warner Cable
+35|5|24.93.67.200|12.451 ms|United States|NC|Charlotte|-80.8439|35.2277|Time Warner Cable|Time Warner Cable
+35|6|66.109.6.80|48.880 ms|United States|GA|Forest Park|-84.3691|33.6221|Time Warner Cable|Time Warner Cable
+35|7|216.50.79.33|22.931 ms|United States|VA|Newport News|-76.5892|37.1254|XO Communications|XO Communications
+35|8|216.50.79.66|22.116 ms|United States|VA|Newport News|-76.5892|37.1254|XO Communications|XO Communications
+35|9|216.239.62.139|39.897 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+35|10|216.58.215.46|18.933 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+35|11|216.239.48.95|22.048 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+35|12|216.239.48.101|19.069 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+35|13|216.239.48.9|30.067 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+35|14|216.239.48.6|44.298 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+35|15|216.239.40.138|30.863 ms|United States|FL|Sarasota|-82.356|27.2379|Google|Google
+35|16|216.239.40.130|25.661 ms|United States|FL|Sarasota|-82.356|27.2379|Google|Google
+35|17|209.85.142.139|30.342 ms|United States|CA|Mountain View|-122.085|37.4229|Google|Google
+35|18|209.85.241.71|36.590 ms|United States|CA|Mountain View|-122.085|37.4229|Google|Google
+35|19|216.58.218.14|26.824 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+36|1|192.168.0.1|3.683 ms|||||||
+36|2|174.111.102.224|24.765 ms|United States|NC|High Point|-80.0053|35.9557|Time Warner Cable|Time Warner Cable
+36|3|24.25.62.48|10.228 ms|United States|NY|New York|-73.9597|40.7903|Time Warner Cable|Time Warner Cable
+36|4|24.93.64.184|15.969 ms|United States|NC|Charlotte|-80.8431|35.2271|Time Warner Cable|Time Warner Cable
+36|5|24.93.67.200|22.259 ms|United States|NC|Charlotte|-80.8439|35.2277|Time Warner Cable|Time Warner Cable
+36|6|66.109.6.80|20.746 ms|United States|GA|Forest Park|-84.3691|33.6221|Time Warner Cable|Time Warner Cable
+36|7|216.50.79.33|24.222 ms|United States|VA|Newport News|-76.5892|37.1254|XO Communications|XO Communications
+36|8|216.50.79.66|19.935 ms|United States|VA|Newport News|-76.5892|37.1254|XO Communications|XO Communications
+36|9|216.239.62.139|18.291 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+36|10|216.58.215.46|25.478 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+36|11|216.239.62.139|23.994 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+36|12|216.239.49.181|40.868 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+36|13|216.239.48.95|18.563 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+36|14|216.239.48.9|28.610 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+36|15|216.239.48.6|27.616 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+36|16|216.239.40.130|64.987 ms|United States|FL|Sarasota|-82.356|27.2379|Google|Google
+36|17|216.239.40.138|29.563 ms|United States|FL|Sarasota|-82.356|27.2379|Google|Google
+36|18|108.170.232.70|43.601 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+36|19|209.85.142.139|30.654 ms|United States|CA|Mountain View|-122.085|37.4229|Google|Google
+36|20|209.85.241.71|26.847 ms|United States|CA|Mountain View|-122.085|37.4229|Google|Google
+36|21|216.58.218.14|27.299 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+37|1|192.168.0.1|1.060 ms|||||||
+37|2|174.111.102.224|28.137 ms|United States|NC|High Point|-80.0053|35.9557|Time Warner Cable|Time Warner Cable
+37|3|24.25.62.48|13.588 ms|United States|NY|New York|-73.9597|40.7903|Time Warner Cable|Time Warner Cable
+37|4|24.93.67.200|11.872 ms|United States|NC|Charlotte|-80.8439|35.2277|Time Warner Cable|Time Warner Cable
+37|5|24.93.64.184|33.198 ms|United States|NC|Charlotte|-80.8431|35.2271|Time Warner Cable|Time Warner Cable
+37|6|66.109.6.80|26.577 ms|United States|GA|Forest Park|-84.3691|33.6221|Time Warner Cable|Time Warner Cable
+37|7|216.50.79.33|41.576 ms|United States|VA|Newport News|-76.5892|37.1254|XO Communications|XO Communications
+37|8|216.50.79.66|22.427 ms|United States|VA|Newport News|-76.5892|37.1254|XO Communications|XO Communications
+37|9|216.239.62.139|27.043 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+37|10|216.58.215.46|24.124 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+37|11|216.239.48.95|20.101 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+37|12|216.239.48.9|29.183 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+37|13|216.239.48.6|30.137 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+37|14|216.239.48.9|32.215 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+37|15|216.239.40.138|34.004 ms|United States|FL|Sarasota|-82.356|27.2379|Google|Google
+37|16|216.239.40.130|33.356 ms|United States|FL|Sarasota|-82.356|27.2379|Google|Google
+37|17|209.85.142.139|33.465 ms|United States|CA|Mountain View|-122.085|37.4229|Google|Google
+37|18|209.85.241.71|30.383 ms|United States|CA|Mountain View|-122.085|37.4229|Google|Google
+37|19|216.58.218.14|124.394 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+38|1|192.168.0.1|1.050 ms|||||||
+38|2|174.111.102.224|123.853 ms|United States|NC|High Point|-80.0053|35.9557|Time Warner Cable|Time Warner Cable
+38|3|24.25.62.48|123.941 ms|United States|NY|New York|-73.9597|40.7903|Time Warner Cable|Time Warner Cable
+38|4|24.93.67.200|59.543 ms|United States|NC|Charlotte|-80.8439|35.2277|Time Warner Cable|Time Warner Cable
+38|5|24.93.64.184|18.436 ms|United States|NC|Charlotte|-80.8431|35.2271|Time Warner Cable|Time Warner Cable
+38|6|66.109.6.80|17.465 ms|United States|GA|Forest Park|-84.3691|33.6221|Time Warner Cable|Time Warner Cable
+38|7|216.50.79.33|20.451 ms|United States|VA|Newport News|-76.5892|37.1254|XO Communications|XO Communications
+38|8|216.50.79.66|19.084 ms|United States|VA|Newport News|-76.5892|37.1254|XO Communications|XO Communications
+38|9|216.58.215.46|21.276 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+38|10|216.239.62.139|116.907 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+38|11|216.239.48.95|108.420 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+38|12|216.239.49.181|33.608 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+38|13|216.239.48.95|23.725 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+38|14|216.239.48.9|27.581 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+38|15|216.239.40.138|29.313 ms|United States|FL|Sarasota|-82.356|27.2379|Google|Google
+38|16|209.85.142.139|25.201 ms|United States|CA|Mountain View|-122.085|37.4229|Google|Google
+38|17|108.170.232.70|26.842 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+38|18|209.85.241.71|34.233 ms|United States|CA|Mountain View|-122.085|37.4229|Google|Google
+38|19|216.58.218.14|30.080 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+39|1|192.168.0.1|2.047 ms|||||||
+39|2|174.111.102.226|187.343 ms|United States|NC|High Point|-80.0053|35.9557|Time Warner Cable|Time Warner Cable
+39|3|24.25.62.50|127.610 ms|United States|NY|New York|-73.9597|40.7903|Time Warner Cable|Time Warner Cable
+39|4|24.93.64.186|106.160 ms|United States|NC|Charlotte|-80.8431|35.2271|Time Warner Cable|Time Warner Cable
+39|5|24.93.67.202|16.869 ms|United States|NC|Charlotte|-80.8439|35.2277|Time Warner Cable|Time Warner Cable
+39|6|24.93.64.186|17.167 ms|United States|NC|Charlotte|-80.8431|35.2271|Time Warner Cable|Time Warner Cable
+39|7|66.109.6.82|23.765 ms|United States|GA|Forest Park|-84.3691|33.6221|Time Warner Cable|Time Warner Cable
+39|8|205.197.180.41|18.573 ms|United States|IL|Chicago|-87.6441|41.8825|XO Communications|XO Communications
+39|9|205.197.180.54|21.232 ms|United States|IL|Chicago|-87.6441|41.8825|XO Communications|XO Communications
+39|10|216.239.51.53|30.557 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+39|11|216.239.51.47|22.858 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+39|12|108.170.232.71|26.231 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+39|13|216.239.51.245|49.881 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+39|14|108.170.232.71|28.696 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+39|15|209.85.143.193|22.355 ms|United States|CA|Mountain View|-122.085|37.4229|Google|Google
+39|16|209.85.143.197|25.929 ms|United States|CA|Mountain View|-122.085|37.4229|Google|Google
+39|17|64.233.185.101|25.967 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+40|1|192.168.0.1|1.077 ms|||||||
+40|2|174.111.102.226|33.808 ms|United States|NC|High Point|-80.0053|35.9557|Time Warner Cable|Time Warner Cable
+40|3|24.25.62.50|15.330 ms|United States|NY|New York|-73.9597|40.7903|Time Warner Cable|Time Warner Cable
+40|4|24.93.67.202|23.795 ms|United States|NC|Charlotte|-80.8439|35.2277|Time Warner Cable|Time Warner Cable
+40|5|24.93.64.186|22.217 ms|United States|NC|Charlotte|-80.8431|35.2271|Time Warner Cable|Time Warner Cable
+40|6|24.93.67.202|21.052 ms|United States|NC|Charlotte|-80.8439|35.2277|Time Warner Cable|Time Warner Cable
+40|7|66.109.6.82|21.948 ms|United States|GA|Forest Park|-84.3691|33.6221|Time Warner Cable|Time Warner Cable
+40|8|205.197.180.41|38.370 ms|United States|IL|Chicago|-87.6441|41.8825|XO Communications|XO Communications
+40|9|205.197.180.54|19.704 ms|United States|IL|Chicago|-87.6441|41.8825|XO Communications|XO Communications
+40|10|216.239.51.53|25.688 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+40|11|216.239.51.47|25.187 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+40|12|66.249.94.20|15.892 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+40|13|209.85.244.218|23.740 ms|United States|CA|Mountain View|-122.085|37.4229|Google|Google
+40|14|209.85.254.105|23.212 ms|United States|CA|Mountain View|-122.085|37.4229|Google|Google
+40|15|209.85.143.193|20.360 ms|United States|CA|Mountain View|-122.085|37.4229|Google|Google
+40|16|64.233.174.133|18.690 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+40|17|173.194.219.139|22.903 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+41|1|192.168.0.1|1.321 ms|||||||
+41|2|174.111.102.224|1102.663 ms|United States|NC|High Point|-80.0053|35.9557|Time Warner Cable|Time Warner Cable
+41|3|24.25.62.48|30.551 ms|United States|NY|New York|-73.9597|40.7903|Time Warner Cable|Time Warner Cable
+41|4|24.93.67.200|10.385 ms|United States|NC|Charlotte|-80.8439|35.2277|Time Warner Cable|Time Warner Cable
+41|5|24.93.64.184|14.955 ms|United States|NC|Charlotte|-80.8431|35.2271|Time Warner Cable|Time Warner Cable
+41|6|66.109.6.80|19.218 ms|United States|GA|Forest Park|-84.3691|33.6221|Time Warner Cable|Time Warner Cable
+41|7|216.50.79.33|18.225 ms|United States|VA|Newport News|-76.5892|37.1254|XO Communications|XO Communications
+41|8|216.50.79.66|35.244 ms|United States|VA|Newport News|-76.5892|37.1254|XO Communications|XO Communications
+41|9|216.239.62.139|19.830 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+41|10|216.58.215.46|22.626 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+41|11|216.239.50.97|24.395 ms|United States|CA|Mountain View|-122.085|37.4229|Google|Google
+41|12|216.239.49.197|25.329 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+41|13|216.239.48.9|28.807 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+41|14|216.239.48.2|42.384 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+41|15|216.239.40.118|30.302 ms|United States|FL|Sarasota|-82.356|27.2379|Google|Google
+41|16|216.239.40.132|32.171 ms|United States|FL|Sarasota|-82.356|27.2379|Google|Google
+41|17|216.239.40.138|24.438 ms|United States|FL|Sarasota|-82.356|27.2379|Google|Google
+41|18|209.85.243.254|27.904 ms|United States|CA|Mountain View|-122.085|37.4229|Google|Google
+41|19|209.85.143.197|38.239 ms|United States|CA|Mountain View|-122.085|37.4229|Google|Google
+41|20|209.85.243.254|29.296 ms|United States|CA|Mountain View|-122.085|37.4229|Google|Google
+41|21|64.233.185.100|30.068 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+42|1|192.168.0.1|1.715 ms|||||||
+42|2|174.111.102.226|21.719 ms|United States|NC|High Point|-80.0053|35.9557|Time Warner Cable|Time Warner Cable
+42|3|24.25.62.50|25.776 ms|United States|NY|New York|-73.9597|40.7903|Time Warner Cable|Time Warner Cable
+42|4|24.93.64.186|40.789 ms|United States|NC|Charlotte|-80.8431|35.2271|Time Warner Cable|Time Warner Cable
+42|5|24.93.67.202|20.693 ms|United States|NC|Charlotte|-80.8439|35.2277|Time Warner Cable|Time Warner Cable
+42|6|66.109.6.82|29.845 ms|United States|GA|Forest Park|-84.3691|33.6221|Time Warner Cable|Time Warner Cable
+42|7|205.197.180.41|20.105 ms|United States|IL|Chicago|-87.6441|41.8825|XO Communications|XO Communications
+42|8|205.197.180.54|23.949 ms|United States|IL|Chicago|-87.6441|41.8825|XO Communications|XO Communications
+42|9|216.239.51.53|38.486 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+42|10|64.233.175.94|19.573 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+42|11|216.58.193.142|27.918 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+43|1|192.168.0.1|1.815 ms|||||||
+43|2|174.111.102.226|30.553 ms|United States|NC|High Point|-80.0053|35.9557|Time Warner Cable|Time Warner Cable
+43|3|24.25.62.50|19.483 ms|United States|NY|New York|-73.9597|40.7903|Time Warner Cable|Time Warner Cable
+43|4|24.93.64.186|25.028 ms|United States|NC|Charlotte|-80.8431|35.2271|Time Warner Cable|Time Warner Cable
+43|5|24.93.67.202|22.919 ms|United States|NC|Charlotte|-80.8439|35.2277|Time Warner Cable|Time Warner Cable
+43|6|66.109.6.82|24.634 ms|United States|GA|Forest Park|-84.3691|33.6221|Time Warner Cable|Time Warner Cable
+43|7|205.197.180.41|19.918 ms|United States|IL|Chicago|-87.6441|41.8825|XO Communications|XO Communications
+43|8|205.197.180.54|23.149 ms|United States|IL|Chicago|-87.6441|41.8825|XO Communications|XO Communications
+43|9|216.239.51.53|20.381 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+43|10|64.233.175.94|24.167 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+43|11|216.58.193.142|26.500 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+44|1|192.168.0.1|1.375 ms|||||||
+44|2|174.111.102.226|212.353 ms|United States|NC|High Point|-80.0053|35.9557|Time Warner Cable|Time Warner Cable
+44|3|24.25.62.50|12.849 ms|United States|NY|New York|-73.9597|40.7903|Time Warner Cable|Time Warner Cable
+44|4|24.93.64.186|35.973 ms|United States|NC|Charlotte|-80.8431|35.2271|Time Warner Cable|Time Warner Cable
+44|5|24.93.67.202|20.206 ms|United States|NC|Charlotte|-80.8439|35.2277|Time Warner Cable|Time Warner Cable
+44|6|66.109.6.82|25.096 ms|United States|GA|Forest Park|-84.3691|33.6221|Time Warner Cable|Time Warner Cable
+44|7|205.197.180.41|19.141 ms|United States|IL|Chicago|-87.6441|41.8825|XO Communications|XO Communications
+44|8|205.197.180.54|21.353 ms|United States|IL|Chicago|-87.6441|41.8825|XO Communications|XO Communications
+44|9|216.239.51.53|19.542 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+44|10|64.233.175.94|23.760 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+44|11|216.58.193.142|25.413 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+45|1|192.168.0.1|1.119 ms|||||||
+45|2|174.111.102.226|96.943 ms|United States|NC|High Point|-80.0053|35.9557|Time Warner Cable|Time Warner Cable
+45|3|24.25.62.50|11.582 ms|United States|NY|New York|-73.9597|40.7903|Time Warner Cable|Time Warner Cable
+45|4|24.93.64.186|14.074 ms|United States|NC|Charlotte|-80.8431|35.2271|Time Warner Cable|Time Warner Cable
+45|5|66.109.6.82|40.625 ms|United States|GA|Forest Park|-84.3691|33.6221|Time Warner Cable|Time Warner Cable
+45|6|205.197.180.41|23.976 ms|United States|IL|Chicago|-87.6441|41.8825|XO Communications|XO Communications
+45|7|205.197.180.54|21.964 ms|United States|IL|Chicago|-87.6441|41.8825|XO Communications|XO Communications
+45|8|216.239.51.53|24.630 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+45|9|64.233.175.94|23.697 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+45|10|216.58.193.142|21.741 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+46|1|192.168.0.1|6.648 ms|||||||
+46|2|174.111.102.226|31.085 ms|United States|NC|High Point|-80.0053|35.9557|Time Warner Cable|Time Warner Cable
+46|3|24.25.62.50|12.395 ms|United States|NY|New York|-73.9597|40.7903|Time Warner Cable|Time Warner Cable
+46|4|24.93.67.202|20.267 ms|United States|NC|Charlotte|-80.8439|35.2277|Time Warner Cable|Time Warner Cable
+46|5|24.93.64.186|25.388 ms|United States|NC|Charlotte|-80.8431|35.2271|Time Warner Cable|Time Warner Cable
+46|6|66.109.6.82|27.633 ms|United States|GA|Forest Park|-84.3691|33.6221|Time Warner Cable|Time Warner Cable
+46|7|205.197.180.41|20.259 ms|United States|IL|Chicago|-87.6441|41.8825|XO Communications|XO Communications
+46|8|205.197.180.54|29.157 ms|United States|IL|Chicago|-87.6441|41.8825|XO Communications|XO Communications
+46|9|216.239.51.53|23.963 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+46|10|64.233.175.94|25.916 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+46|11|216.58.193.142|22.148 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+47|1|192.168.0.1|2.541 ms|||||||
+47|2|174.111.102.226|979.901 ms|United States|NC|High Point|-80.0053|35.9557|Time Warner Cable|Time Warner Cable
+47|3|24.25.62.50|12.818 ms|United States|NY|New York|-73.9597|40.7903|Time Warner Cable|Time Warner Cable
+47|4|24.93.67.202|22.214 ms|United States|NC|Charlotte|-80.8439|35.2277|Time Warner Cable|Time Warner Cable
+47|5|24.93.64.186|19.947 ms|United States|NC|Charlotte|-80.8431|35.2271|Time Warner Cable|Time Warner Cable
+47|6|66.109.6.82|30.577 ms|United States|GA|Forest Park|-84.3691|33.6221|Time Warner Cable|Time Warner Cable
+47|7|205.197.180.41|21.922 ms|United States|IL|Chicago|-87.6441|41.8825|XO Communications|XO Communications
+47|8|205.197.180.54|23.522 ms|United States|IL|Chicago|-87.6441|41.8825|XO Communications|XO Communications
+47|9|216.239.51.53|22.125 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+47|10|64.233.175.94|21.606 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+47|11|216.58.193.142|24.986 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+48|1|192.168.0.1|1.151 ms|||||||
+48|2|174.111.102.226|33.740 ms|United States|NC|High Point|-80.0053|35.9557|Time Warner Cable|Time Warner Cable
+48|3|24.25.62.50|37.489 ms|United States|NY|New York|-73.9597|40.7903|Time Warner Cable|Time Warner Cable
+48|4|24.93.67.202|17.831 ms|United States|NC|Charlotte|-80.8439|35.2277|Time Warner Cable|Time Warner Cable
+48|5|24.93.64.186|22.712 ms|United States|NC|Charlotte|-80.8431|35.2271|Time Warner Cable|Time Warner Cable
+48|6|66.109.6.82|23.304 ms|United States|GA|Forest Park|-84.3691|33.6221|Time Warner Cable|Time Warner Cable
+48|7|205.197.180.41|37.396 ms|United States|IL|Chicago|-87.6441|41.8825|XO Communications|XO Communications
+48|8|205.197.180.54|21.835 ms|United States|IL|Chicago|-87.6441|41.8825|XO Communications|XO Communications
+48|9|216.239.51.53|28.044 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+48|10|64.233.175.94|21.656 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+48|11|216.58.193.142|25.099 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+49|1|192.168.0.1|1.394 ms|||||||
+49|2|174.111.102.226|132.721 ms|United States|NC|High Point|-80.0053|35.9557|Time Warner Cable|Time Warner Cable
+49|3|24.25.62.50|107.672 ms|United States|NY|New York|-73.9597|40.7903|Time Warner Cable|Time Warner Cable
+49|4|24.93.64.186|114.790 ms|United States|NC|Charlotte|-80.8431|35.2271|Time Warner Cable|Time Warner Cable
+49|5|24.93.67.202|120.445 ms|United States|NC|Charlotte|-80.8439|35.2277|Time Warner Cable|Time Warner Cable
+49|6|66.109.6.82|131.170 ms|United States|GA|Forest Park|-84.3691|33.6221|Time Warner Cable|Time Warner Cable
+49|7|205.197.180.41|133.733 ms|United States|IL|Chicago|-87.6441|41.8825|XO Communications|XO Communications
+49|8|205.197.180.54|30.293 ms|United States|IL|Chicago|-87.6441|41.8825|XO Communications|XO Communications
+49|9|216.239.51.53|21.793 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+49|10|64.233.175.94|20.844 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+49|11|216.58.193.142|19.406 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+50|1|192.168.0.1|1.055 ms|||||||
+50|2|174.111.102.226|20.796 ms|United States|NC|High Point|-80.0053|35.9557|Time Warner Cable|Time Warner Cable
+50|3|24.25.62.50|16.569 ms|United States|NY|New York|-73.9597|40.7903|Time Warner Cable|Time Warner Cable
+50|4|24.93.67.202|21.468 ms|United States|NC|Charlotte|-80.8439|35.2277|Time Warner Cable|Time Warner Cable
+50|5|24.93.64.186|14.397 ms|United States|NC|Charlotte|-80.8431|35.2271|Time Warner Cable|Time Warner Cable
+50|6|66.109.6.82|29.644 ms|United States|GA|Forest Park|-84.3691|33.6221|Time Warner Cable|Time Warner Cable
+50|7|205.197.180.41|21.688 ms|United States|IL|Chicago|-87.6441|41.8825|XO Communications|XO Communications
+50|8|205.197.180.54|26.364 ms|United States|IL|Chicago|-87.6441|41.8825|XO Communications|XO Communications
+50|9|216.239.51.53|23.162 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+50|10|64.233.175.94|22.843 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+50|11|216.58.193.142|20.276 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+51|1|192.168.0.1|0.945 ms|||||||
+51|2|174.111.102.226|116.358 ms|United States|NC|High Point|-80.0053|35.9557|Time Warner Cable|Time Warner Cable
+51|3|24.25.62.50|109.361 ms|United States|NY|New York|-73.9597|40.7903|Time Warner Cable|Time Warner Cable
+51|4|24.93.67.202|129.801 ms|United States|NC|Charlotte|-80.8439|35.2277|Time Warner Cable|Time Warner Cable
+51|5|24.93.64.186|133.164 ms|United States|NC|Charlotte|-80.8431|35.2271|Time Warner Cable|Time Warner Cable
+51|6|66.109.6.82|141.971 ms|United States|GA|Forest Park|-84.3691|33.6221|Time Warner Cable|Time Warner Cable
+51|7|205.197.180.41|136.613 ms|United States|IL|Chicago|-87.6441|41.8825|XO Communications|XO Communications
+51|8|205.197.180.54|137.032 ms|United States|IL|Chicago|-87.6441|41.8825|XO Communications|XO Communications
+51|9|216.239.51.53|38.578 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+51|10|64.233.175.94|24.333 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+51|11|216.58.193.142|20.658 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+52|1|192.168.0.1|1.011 ms|||||||
+52|2|174.111.102.226|36.179 ms|United States|NC|High Point|-80.0053|35.9557|Time Warner Cable|Time Warner Cable
+52|3|24.25.62.50|11.787 ms|United States|NY|New York|-73.9597|40.7903|Time Warner Cable|Time Warner Cable
+52|4|24.93.67.202|15.619 ms|United States|NC|Charlotte|-80.8439|35.2277|Time Warner Cable|Time Warner Cable
+52|5|24.93.64.186|135.329 ms|United States|NC|Charlotte|-80.8431|35.2271|Time Warner Cable|Time Warner Cable
+52|6|66.109.6.82|148.253 ms|United States|GA|Forest Park|-84.3691|33.6221|Time Warner Cable|Time Warner Cable
+52|7|205.197.180.41|40.201 ms|United States|IL|Chicago|-87.6441|41.8825|XO Communications|XO Communications
+52|8|205.197.180.54|19.448 ms|United States|IL|Chicago|-87.6441|41.8825|XO Communications|XO Communications
+52|9|216.239.51.53|29.829 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+52|10|64.233.175.94|22.338 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+52|11|216.58.193.142|62.893 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+53|1|192.168.0.1|1.104 ms|||||||
+53|2|174.111.102.226|34.418 ms|United States|NC|High Point|-80.0053|35.9557|Time Warner Cable|Time Warner Cable
+53|3|24.25.62.50|53.219 ms|United States|NY|New York|-73.9597|40.7903|Time Warner Cable|Time Warner Cable
+53|4|24.93.64.186|131.192 ms|United States|NC|Charlotte|-80.8431|35.2271|Time Warner Cable|Time Warner Cable
+53|5|24.93.67.202|143.870 ms|United States|NC|Charlotte|-80.8439|35.2277|Time Warner Cable|Time Warner Cable
+53|6|66.109.6.82|141.873 ms|United States|GA|Forest Park|-84.3691|33.6221|Time Warner Cable|Time Warner Cable
+53|7|205.197.180.41|21.452 ms|United States|IL|Chicago|-87.6441|41.8825|XO Communications|XO Communications
+53|8|205.197.180.54|23.597 ms|United States|IL|Chicago|-87.6441|41.8825|XO Communications|XO Communications
+53|9|216.239.51.53|25.918 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+53|10|64.233.175.94|82.017 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+53|11|216.58.193.142|64.201 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+54|1|192.168.0.1|1.061 ms|||||||
+54|2|174.111.102.226|672.717 ms|United States|NC|High Point|-80.0053|35.9557|Time Warner Cable|Time Warner Cable
+54|3|24.25.62.50|34.630 ms|United States|NY|New York|-73.9597|40.7903|Time Warner Cable|Time Warner Cable
+54|4|24.93.64.186|26.227 ms|United States|NC|Charlotte|-80.8431|35.2271|Time Warner Cable|Time Warner Cable
+54|5|24.93.67.202|23.998 ms|United States|NC|Charlotte|-80.8439|35.2277|Time Warner Cable|Time Warner Cable
+54|6|66.109.6.82|33.697 ms|United States|GA|Forest Park|-84.3691|33.6221|Time Warner Cable|Time Warner Cable
+54|7|205.197.180.41|29.571 ms|United States|IL|Chicago|-87.6441|41.8825|XO Communications|XO Communications
+54|8|205.197.180.54|132.411 ms|United States|IL|Chicago|-87.6441|41.8825|XO Communications|XO Communications
+54|9|216.239.51.53|18.656 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+54|10|64.233.175.94|39.027 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+54|11|216.58.193.142|26.369 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+55|1|192.168.0.1|2.636 ms|||||||
+55|2|174.111.102.226|11.298 ms|United States|NC|High Point|-80.0053|35.9557|Time Warner Cable|Time Warner Cable
+55|3|24.25.62.50|15.753 ms|United States|NY|New York|-73.9597|40.7903|Time Warner Cable|Time Warner Cable
+55|4|24.93.64.186|19.212 ms|United States|NC|Charlotte|-80.8431|35.2271|Time Warner Cable|Time Warner Cable
+55|5|24.93.67.202|23.283 ms|United States|NC|Charlotte|-80.8439|35.2277|Time Warner Cable|Time Warner Cable
+55|6|66.109.6.82|43.447 ms|United States|GA|Forest Park|-84.3691|33.6221|Time Warner Cable|Time Warner Cable
+55|7|205.197.180.41|19.918 ms|United States|IL|Chicago|-87.6441|41.8825|XO Communications|XO Communications
+55|8|205.197.180.54|21.260 ms|United States|IL|Chicago|-87.6441|41.8825|XO Communications|XO Communications
+55|9|216.239.51.53|24.202 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+55|10|64.233.175.94|25.085 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+55|11|216.58.193.142|23.538 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+56|1|192.168.0.1|1.742 ms|||||||
+56|2|174.111.102.226|141.209 ms|United States|NC|High Point|-80.0053|35.9557|Time Warner Cable|Time Warner Cable
+56|3|24.25.62.50|15.238 ms|United States|NY|New York|-73.9597|40.7903|Time Warner Cable|Time Warner Cable
+56|4|24.93.64.186|22.662 ms|United States|NC|Charlotte|-80.8431|35.2271|Time Warner Cable|Time Warner Cable
+56|5|24.93.67.202|36.290 ms|United States|NC|Charlotte|-80.8439|35.2277|Time Warner Cable|Time Warner Cable
+56|6|66.109.6.82|33.463 ms|United States|GA|Forest Park|-84.3691|33.6221|Time Warner Cable|Time Warner Cable
+56|7|205.197.180.41|26.256 ms|United States|IL|Chicago|-87.6441|41.8825|XO Communications|XO Communications
+56|8|205.197.180.54|39.679 ms|United States|IL|Chicago|-87.6441|41.8825|XO Communications|XO Communications
+56|9|216.239.51.53|18.677 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+56|10|64.233.175.94|22.665 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+56|11|216.58.193.142|26.386 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+57|1|192.168.0.1|9.644 ms|||||||
+57|2|174.111.102.226|31.003 ms|United States|NC|High Point|-80.0053|35.9557|Time Warner Cable|Time Warner Cable
+57|3|24.25.62.50|21.427 ms|United States|NY|New York|-73.9597|40.7903|Time Warner Cable|Time Warner Cable
+57|4|24.93.64.186|19.118 ms|United States|NC|Charlotte|-80.8431|35.2271|Time Warner Cable|Time Warner Cable
+57|5|24.93.67.202|19.834 ms|United States|NC|Charlotte|-80.8439|35.2277|Time Warner Cable|Time Warner Cable
+57|6|24.93.64.186|20.083 ms|United States|NC|Charlotte|-80.8431|35.2271|Time Warner Cable|Time Warner Cable
+57|7|66.109.6.82|28.692 ms|United States|GA|Forest Park|-84.3691|33.6221|Time Warner Cable|Time Warner Cable
+57|8|205.197.180.41|33.795 ms|United States|IL|Chicago|-87.6441|41.8825|XO Communications|XO Communications
+57|9|205.197.180.54|25.258 ms|United States|IL|Chicago|-87.6441|41.8825|XO Communications|XO Communications
+57|10|216.239.51.53|23.287 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+57|11|64.233.175.94|33.579 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+57|12|216.58.193.142|19.553 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+58|1|192.168.0.1|4.542 ms|||||||
+58|2|174.111.102.226|31.808 ms|United States|NC|High Point|-80.0053|35.9557|Time Warner Cable|Time Warner Cable
+58|3|24.25.62.50|84.319 ms|United States|NY|New York|-73.9597|40.7903|Time Warner Cable|Time Warner Cable
+58|4|24.93.64.186|127.062 ms|United States|NC|Charlotte|-80.8431|35.2271|Time Warner Cable|Time Warner Cable
+58|5|24.93.67.202|54.844 ms|United States|NC|Charlotte|-80.8439|35.2277|Time Warner Cable|Time Warner Cable
+58|6|24.93.64.186|27.094 ms|United States|NC|Charlotte|-80.8431|35.2271|Time Warner Cable|Time Warner Cable
+58|7|66.109.6.82|29.619 ms|United States|GA|Forest Park|-84.3691|33.6221|Time Warner Cable|Time Warner Cable
+58|8|205.197.180.41|19.676 ms|United States|IL|Chicago|-87.6441|41.8825|XO Communications|XO Communications
+58|9|205.197.180.54|19.706 ms|United States|IL|Chicago|-87.6441|41.8825|XO Communications|XO Communications
+58|10|216.239.51.53|41.815 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+58|11|64.233.175.94|26.671 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+58|12|216.58.193.142|24.010 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+59|1|192.168.0.1|0.999 ms|||||||
+59|2|174.111.102.224|374.803 ms|United States|NC|High Point|-80.0053|35.9557|Time Warner Cable|Time Warner Cable
+59|3|24.25.62.48|16.741 ms|United States|NY|New York|-73.9597|40.7903|Time Warner Cable|Time Warner Cable
+59|4|24.93.67.200|31.266 ms|United States|NC|Charlotte|-80.8439|35.2277|Time Warner Cable|Time Warner Cable
+59|5|24.93.64.184|15.465 ms|United States|NC|Charlotte|-80.8431|35.2271|Time Warner Cable|Time Warner Cable
+59|6|66.109.6.80|31.843 ms|United States|GA|Forest Park|-84.3691|33.6221|Time Warner Cable|Time Warner Cable
+59|7|216.50.79.33|27.675 ms|United States|VA|Newport News|-76.5892|37.1254|XO Communications|XO Communications
+59|8|216.50.79.66|17.589 ms|United States|VA|Newport News|-76.5892|37.1254|XO Communications|XO Communications
+59|9|216.58.215.46|16.640 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+59|10|216.239.49.181|52.715 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+59|11|216.239.48.9|29.362 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+59|12|216.239.40.138|29.958 ms|United States|FL|Sarasota|-82.356|27.2379|Google|Google
+59|13|216.239.40.130|56.974 ms|United States|FL|Sarasota|-82.356|27.2379|Google|Google
+59|14|209.85.142.139|33.908 ms|United States|CA|Mountain View|-122.085|37.4229|Google|Google
+59|15|108.170.232.70|29.164 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+59|16|209.85.142.139|27.124 ms|United States|CA|Mountain View|-122.085|37.4229|Google|Google
+59|17|209.85.241.71|32.842 ms|United States|CA|Mountain View|-122.085|37.4229|Google|Google
+59|18|216.58.218.14|28.867 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+60|1|192.168.0.1|2.741 ms|||||||
+60|2|174.111.102.224|35.122 ms|United States|NC|High Point|-80.0053|35.9557|Time Warner Cable|Time Warner Cable
+60|3|24.25.62.48|10.613 ms|United States|NY|New York|-73.9597|40.7903|Time Warner Cable|Time Warner Cable
+60|4|24.93.64.184|23.259 ms|United States|NC|Charlotte|-80.8431|35.2271|Time Warner Cable|Time Warner Cable
+60|5|24.93.67.200|25.222 ms|United States|NC|Charlotte|-80.8439|35.2277|Time Warner Cable|Time Warner Cable
+60|6|66.109.6.80|21.864 ms|United States|GA|Forest Park|-84.3691|33.6221|Time Warner Cable|Time Warner Cable
+60|7|216.50.79.33|17.029 ms|United States|VA|Newport News|-76.5892|37.1254|XO Communications|XO Communications
+60|8|216.50.79.66|20.162 ms|United States|VA|Newport News|-76.5892|37.1254|XO Communications|XO Communications
+60|9|216.239.62.139|14.066 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+60|10|216.58.215.46|19.408 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+60|11|216.239.50.93|20.438 ms|United States|CA|Mountain View|-122.085|37.4229|Google|Google
+60|12|216.239.49.181|20.389 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+60|13|216.239.48.2|30.320 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+60|14|216.239.48.31|23.804 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+60|15|216.239.48.6|28.356 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+60|16|216.239.40.130|56.076 ms|United States|FL|Sarasota|-82.356|27.2379|Google|Google
+60|17|216.239.40.138|27.274 ms|United States|FL|Sarasota|-82.356|27.2379|Google|Google
+60|18|216.239.56.164|33.302 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+60|19|209.85.253.3|24.551 ms|United States|CA|Mountain View|-122.085|37.4229|Google|Google
+60|20|216.239.56.164|31.095 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+60|21|74.125.21.100|27.768 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+61|1|192.168.0.1|1.110 ms|||||||
+61|2|174.111.102.224|27.561 ms|United States|NC|High Point|-80.0053|35.9557|Time Warner Cable|Time Warner Cable
+61|3|24.25.62.48|13.155 ms|United States|NY|New York|-73.9597|40.7903|Time Warner Cable|Time Warner Cable
+61|4|24.93.64.184|33.008 ms|United States|NC|Charlotte|-80.8431|35.2271|Time Warner Cable|Time Warner Cable
+61|5|24.93.67.200|15.634 ms|United States|NC|Charlotte|-80.8439|35.2277|Time Warner Cable|Time Warner Cable
+61|6|66.109.6.80|28.554 ms|United States|GA|Forest Park|-84.3691|33.6221|Time Warner Cable|Time Warner Cable
+61|7|216.50.79.33|29.504 ms|United States|VA|Newport News|-76.5892|37.1254|XO Communications|XO Communications
+61|8|216.50.79.66|19.901 ms|United States|VA|Newport News|-76.5892|37.1254|XO Communications|XO Communications
+61|9|216.58.215.46|40.981 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+61|10|216.239.48.101|17.541 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+61|11|108.170.235.157|41.492 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+61|12|216.239.48.2|31.653 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+61|13|216.239.48.31|32.267 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+61|14|216.239.40.132|29.696 ms|United States|FL|Sarasota|-82.356|27.2379|Google|Google
+61|15|216.239.40.130|27.952 ms|United States|FL|Sarasota|-82.356|27.2379|Google|Google
+61|16|216.239.56.164|29.692 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+61|17|64.233.175.12|25.780 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+61|18|216.239.56.164|32.952 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+61|19|74.125.21.100|67.975 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+62|1|192.168.0.1|22.466 ms|||||||
+62|2|174.111.102.224|953.817 ms|United States|NC|High Point|-80.0053|35.9557|Time Warner Cable|Time Warner Cable
+62|3|24.25.62.48|14.728 ms|United States|NY|New York|-73.9597|40.7903|Time Warner Cable|Time Warner Cable
+62|4|24.93.64.184|18.500 ms|United States|NC|Charlotte|-80.8431|35.2271|Time Warner Cable|Time Warner Cable
+62|5|24.93.67.200|23.881 ms|United States|NC|Charlotte|-80.8439|35.2277|Time Warner Cable|Time Warner Cable
+62|6|66.109.6.80|26.569 ms|United States|GA|Forest Park|-84.3691|33.6221|Time Warner Cable|Time Warner Cable
+62|7|216.50.79.33|26.335 ms|United States|VA|Newport News|-76.5892|37.1254|XO Communications|XO Communications
+62|8|216.50.79.66|21.963 ms|United States|VA|Newport News|-76.5892|37.1254|XO Communications|XO Communications
+62|9|216.239.62.139|18.173 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+62|10|216.58.215.46|145.605 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+62|11|216.239.49.181|80.161 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+62|12|209.85.240.63|23.119 ms|United States|CA|Mountain View|-122.085|37.4229|Google|Google
+62|13|216.239.50.97|18.964 ms|United States|CA|Mountain View|-122.085|37.4229|Google|Google
+62|14|216.239.48.6|61.221 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+62|15|216.239.48.31|28.126 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+62|16|216.239.40.138|31.998 ms|United States|FL|Sarasota|-82.356|27.2379|Google|Google
+62|17|216.239.40.130|141.740 ms|United States|FL|Sarasota|-82.356|27.2379|Google|Google
+62|18|216.239.40.132|138.808 ms|United States|FL|Sarasota|-82.356|27.2379|Google|Google
+62|19|64.233.175.12|156.684 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+62|20|216.239.56.166|148.314 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+62|21|64.233.175.12|26.645 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+62|22|74.125.21.100|28.777 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+63|1|192.168.0.1|4.272 ms|||||||
+63|2|174.111.102.224|25.282 ms|United States|NC|High Point|-80.0053|35.9557|Time Warner Cable|Time Warner Cable
+63|3|24.25.62.48|17.285 ms|United States|NY|New York|-73.9597|40.7903|Time Warner Cable|Time Warner Cable
+63|4|24.93.67.200|12.341 ms|United States|NC|Charlotte|-80.8439|35.2277|Time Warner Cable|Time Warner Cable
+63|5|24.93.64.184|17.848 ms|United States|NC|Charlotte|-80.8431|35.2271|Time Warner Cable|Time Warner Cable
+63|6|66.109.6.80|28.342 ms|United States|GA|Forest Park|-84.3691|33.6221|Time Warner Cable|Time Warner Cable
+63|7|216.50.79.33|21.079 ms|United States|VA|Newport News|-76.5892|37.1254|XO Communications|XO Communications
+63|8|216.50.79.66|23.678 ms|United States|VA|Newport News|-76.5892|37.1254|XO Communications|XO Communications
+63|9|216.239.62.139|18.512 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+63|10|216.58.215.46|22.367 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+63|11|216.239.50.97|20.406 ms|United States|CA|Mountain View|-122.085|37.4229|Google|Google
+63|12|216.239.49.181|16.111 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+63|13|216.239.50.93|19.951 ms|United States|CA|Mountain View|-122.085|37.4229|Google|Google
+63|14|216.239.48.2|35.430 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+63|15|216.239.48.31|28.809 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+63|16|216.239.48.6|28.118 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+63|17|216.239.40.138|31.058 ms|United States|FL|Sarasota|-82.356|27.2379|Google|Google
+63|18|216.239.40.130|42.542 ms|United States|FL|Sarasota|-82.356|27.2379|Google|Google
+63|19|216.239.40.132|32.586 ms|United States|FL|Sarasota|-82.356|27.2379|Google|Google
+63|20|216.239.56.164|26.850 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+63|21|74.125.21.100|30.993 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+64|1|192.168.0.1|3.796 ms|||||||
+64|2|174.111.102.224|67.242 ms|United States|NC|High Point|-80.0053|35.9557|Time Warner Cable|Time Warner Cable
+64|3|24.25.62.48|51.453 ms|United States|NY|New York|-73.9597|40.7903|Time Warner Cable|Time Warner Cable
+64|4|24.93.67.200|66.342 ms|United States|NC|Charlotte|-80.8439|35.2277|Time Warner Cable|Time Warner Cable
+64|5|24.93.64.184|17.576 ms|United States|NC|Charlotte|-80.8431|35.2271|Time Warner Cable|Time Warner Cable
+64|6|66.109.6.80|71.232 ms|United States|GA|Forest Park|-84.3691|33.6221|Time Warner Cable|Time Warner Cable
+64|7|216.50.79.33|16.789 ms|United States|VA|Newport News|-76.5892|37.1254|XO Communications|XO Communications
+64|8|216.50.79.66|22.643 ms|United States|VA|Newport News|-76.5892|37.1254|XO Communications|XO Communications
+64|9|216.58.215.46|22.382 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+64|10|216.239.62.139|26.677 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+64|11|216.58.215.46|35.728 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+64|12|209.85.240.63|29.398 ms|United States|CA|Mountain View|-122.085|37.4229|Google|Google
+64|13|216.239.50.93|24.549 ms|United States|CA|Mountain View|-122.085|37.4229|Google|Google
+64|14|216.239.48.6|33.288 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+64|15|216.239.48.2|45.427 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+64|16|216.239.40.132|56.011 ms|United States|FL|Sarasota|-82.356|27.2379|Google|Google
+64|17|216.239.40.130|34.241 ms|United States|FL|Sarasota|-82.356|27.2379|Google|Google
+64|18|216.239.40.118|35.873 ms|United States|FL|Sarasota|-82.356|27.2379|Google|Google
+64|19|209.85.253.3|28.078 ms|United States|CA|Mountain View|-122.085|37.4229|Google|Google
+64|20|64.233.175.12|28.654 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+64|21|209.85.254.107|28.535 ms|United States|CA|Mountain View|-122.085|37.4229|Google|Google
+64|22|74.125.21.100|30.358 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+65|1|192.168.0.1|1.016 ms|||||||
+65|2|174.111.102.224|139.990 ms|United States|NC|High Point|-80.0053|35.9557|Time Warner Cable|Time Warner Cable
+65|3|24.25.62.48|12.197 ms|United States|NY|New York|-73.9597|40.7903|Time Warner Cable|Time Warner Cable
+65|4|24.93.67.200|15.534 ms|United States|NC|Charlotte|-80.8439|35.2277|Time Warner Cable|Time Warner Cable
+65|5|24.93.64.184|17.496 ms|United States|NC|Charlotte|-80.8431|35.2271|Time Warner Cable|Time Warner Cable
+65|6|66.109.6.80|26.156 ms|United States|GA|Forest Park|-84.3691|33.6221|Time Warner Cable|Time Warner Cable
+65|7|216.50.79.33|26.564 ms|United States|VA|Newport News|-76.5892|37.1254|XO Communications|XO Communications
+65|8|216.50.79.66|29.995 ms|United States|VA|Newport News|-76.5892|37.1254|XO Communications|XO Communications
+65|9|216.58.215.46|18.749 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+65|10|216.239.62.139|19.490 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+65|11|216.58.215.46|26.168 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+65|12|209.85.240.63|27.836 ms|United States|CA|Mountain View|-122.085|37.4229|Google|Google
+65|13|216.239.50.97|20.258 ms|United States|CA|Mountain View|-122.085|37.4229|Google|Google
+65|14|216.239.48.31|32.173 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+65|15|216.239.48.6|151.904 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+65|16|216.239.48.9|28.149 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+65|17|216.239.40.130|32.685 ms|United States|FL|Sarasota|-82.356|27.2379|Google|Google
+65|18|216.239.40.132|28.662 ms|United States|FL|Sarasota|-82.356|27.2379|Google|Google
+65|19|216.239.40.138|42.197 ms|United States|FL|Sarasota|-82.356|27.2379|Google|Google
+65|20|209.85.254.107|36.261 ms|United States|CA|Mountain View|-122.085|37.4229|Google|Google
+65|21|216.239.56.166|26.229 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+65|22|209.85.142.153|31.580 ms|United States|CA|Mountain View|-122.085|37.4229|Google|Google
+65|23|74.125.21.100|45.916 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+66|1|192.168.0.1|1.202 ms|||||||
+66|2|174.111.102.224|45.440 ms|United States|NC|High Point|-80.0053|35.9557|Time Warner Cable|Time Warner Cable
+66|3|24.25.62.48|24.757 ms|United States|NY|New York|-73.9597|40.7903|Time Warner Cable|Time Warner Cable
+66|4|24.93.64.184|14.023 ms|United States|NC|Charlotte|-80.8431|35.2271|Time Warner Cable|Time Warner Cable
+66|5|24.93.67.200|20.337 ms|United States|NC|Charlotte|-80.8439|35.2277|Time Warner Cable|Time Warner Cable
+66|6|66.109.6.80|23.307 ms|United States|GA|Forest Park|-84.3691|33.6221|Time Warner Cable|Time Warner Cable
+66|7|216.50.79.33|21.190 ms|United States|VA|Newport News|-76.5892|37.1254|XO Communications|XO Communications
+66|8|216.50.79.66|23.052 ms|United States|VA|Newport News|-76.5892|37.1254|XO Communications|XO Communications
+66|9|216.239.62.139|27.433 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+66|10|216.58.215.46|27.111 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+66|11|216.239.49.181|26.593 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+66|12|216.239.48.9|27.056 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+66|13|216.239.48.6|30.220 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+66|14|216.239.48.9|46.171 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+66|15|216.239.40.138|20.769 ms|United States|FL|Sarasota|-82.356|27.2379|Google|Google
+66|16|216.239.40.130|28.585 ms|United States|FL|Sarasota|-82.356|27.2379|Google|Google
+66|17|216.239.40.138|29.857 ms|United States|FL|Sarasota|-82.356|27.2379|Google|Google
+66|18|209.85.142.139|33.342 ms|United States|CA|Mountain View|-122.085|37.4229|Google|Google
+66|19|209.85.241.71|40.308 ms|United States|CA|Mountain View|-122.085|37.4229|Google|Google
+66|20|216.58.218.14|30.419 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+67|1|192.168.0.1|1.821 ms|||||||
+67|2|174.111.102.224|68.072 ms|United States|NC|High Point|-80.0053|35.9557|Time Warner Cable|Time Warner Cable
+67|3|24.25.62.48|91.834 ms|United States|NY|New York|-73.9597|40.7903|Time Warner Cable|Time Warner Cable
+67|4|24.93.64.184|113.621 ms|United States|NC|Charlotte|-80.8431|35.2271|Time Warner Cable|Time Warner Cable
+67|5|24.93.67.200|11.972 ms|United States|NC|Charlotte|-80.8439|35.2277|Time Warner Cable|Time Warner Cable
+67|6|66.109.6.80|18.985 ms|United States|GA|Forest Park|-84.3691|33.6221|Time Warner Cable|Time Warner Cable
+67|7|216.50.79.33|20.331 ms|United States|VA|Newport News|-76.5892|37.1254|XO Communications|XO Communications
+67|8|216.50.79.66|69.214 ms|United States|VA|Newport News|-76.5892|37.1254|XO Communications|XO Communications
+67|9|216.58.215.46|24.065 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+67|10|216.239.62.139|20.828 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+67|11|216.239.48.101|18.940 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+67|12|216.239.48.95|19.930 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+67|13|216.239.48.9|27.273 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+67|14|216.239.48.6|33.961 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+67|15|216.239.48.9|31.006 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+67|16|216.239.40.138|28.442 ms|United States|FL|Sarasota|-82.356|27.2379|Google|Google
+67|17|209.85.142.139|33.663 ms|United States|CA|Mountain View|-122.085|37.4229|Google|Google
+67|18|108.170.232.70|25.641 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+67|19|209.85.241.71|29.446 ms|United States|CA|Mountain View|-122.085|37.4229|Google|Google
+67|20|216.58.218.14|26.534 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+68|1|192.168.0.1|2.873 ms|||||||
+68|2|174.111.102.224|137.046 ms|United States|NC|High Point|-80.0053|35.9557|Time Warner Cable|Time Warner Cable
+68|3|24.25.62.48|13.690 ms|United States|NY|New York|-73.9597|40.7903|Time Warner Cable|Time Warner Cable
+68|4|24.93.64.184|18.123 ms|United States|NC|Charlotte|-80.8431|35.2271|Time Warner Cable|Time Warner Cable
+68|5|24.93.67.200|12.960 ms|United States|NC|Charlotte|-80.8439|35.2277|Time Warner Cable|Time Warner Cable
+68|6|66.109.6.80|22.501 ms|United States|GA|Forest Park|-84.3691|33.6221|Time Warner Cable|Time Warner Cable
+68|7|216.50.79.33|18.008 ms|United States|VA|Newport News|-76.5892|37.1254|XO Communications|XO Communications
+68|8|216.50.79.66|21.534 ms|United States|VA|Newport News|-76.5892|37.1254|XO Communications|XO Communications
+68|9|216.239.62.139|18.514 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+68|10|216.58.215.46|17.854 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+68|11|216.239.62.139|23.056 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+68|12|216.239.48.95|24.692 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+68|13|216.239.48.9|30.961 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+68|14|216.239.40.138|44.529 ms|United States|FL|Sarasota|-82.356|27.2379|Google|Google
+68|15|216.239.40.130|27.333 ms|United States|FL|Sarasota|-82.356|27.2379|Google|Google
+68|16|209.85.142.139|26.361 ms|United States|CA|Mountain View|-122.085|37.4229|Google|Google
+68|17|108.170.232.70|25.137 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+68|18|209.85.241.71|25.314 ms|United States|CA|Mountain View|-122.085|37.4229|Google|Google
+68|19|216.58.218.14|64.781 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+69|1|192.168.0.1|1.230 ms|||||||
+69|2|174.111.102.224|893.481 ms|United States|NC|High Point|-80.0053|35.9557|Time Warner Cable|Time Warner Cable
+69|3|24.25.62.48|17.836 ms|United States|NY|New York|-73.9597|40.7903|Time Warner Cable|Time Warner Cable
+69|4|24.93.64.184|16.823 ms|United States|NC|Charlotte|-80.8431|35.2271|Time Warner Cable|Time Warner Cable
+69|5|24.93.67.200|21.227 ms|United States|NC|Charlotte|-80.8439|35.2277|Time Warner Cable|Time Warner Cable
+69|6|66.109.6.80|27.160 ms|United States|GA|Forest Park|-84.3691|33.6221|Time Warner Cable|Time Warner Cable
+69|7|216.50.79.33|25.195 ms|United States|VA|Newport News|-76.5892|37.1254|XO Communications|XO Communications
+69|8|216.50.79.66|22.479 ms|United States|VA|Newport News|-76.5892|37.1254|XO Communications|XO Communications
+69|9|216.58.215.46|25.310 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+69|10|216.239.62.139|22.289 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+69|11|216.239.49.181|52.942 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+69|12|216.239.48.101|22.292 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+69|13|216.239.48.9|46.386 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+69|14|216.239.48.6|27.403 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+69|15|216.239.40.138|25.613 ms|United States|FL|Sarasota|-82.356|27.2379|Google|Google
+69|16|216.239.40.130|29.223 ms|United States|FL|Sarasota|-82.356|27.2379|Google|Google
+69|17|209.85.142.139|28.362 ms|United States|CA|Mountain View|-122.085|37.4229|Google|Google
+69|18|108.170.232.70|57.048 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+69|19|209.85.241.71|30.592 ms|United States|CA|Mountain View|-122.085|37.4229|Google|Google
+69|20|216.58.218.14|27.964 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+70|1|192.168.0.1|2.687 ms|||||||
+70|2|174.111.102.224|37.854 ms|United States|NC|High Point|-80.0053|35.9557|Time Warner Cable|Time Warner Cable
+70|3|24.25.62.48|28.402 ms|United States|NY|New York|-73.9597|40.7903|Time Warner Cable|Time Warner Cable
+70|4|24.93.64.184|11.349 ms|United States|NC|Charlotte|-80.8431|35.2271|Time Warner Cable|Time Warner Cable
+70|5|24.93.67.200|23.040 ms|United States|NC|Charlotte|-80.8439|35.2277|Time Warner Cable|Time Warner Cable
+70|6|66.109.6.80|29.740 ms|United States|GA|Forest Park|-84.3691|33.6221|Time Warner Cable|Time Warner Cable
+70|7|216.50.79.33|38.392 ms|United States|VA|Newport News|-76.5892|37.1254|XO Communications|XO Communications
+70|8|216.50.79.66|22.382 ms|United States|VA|Newport News|-76.5892|37.1254|XO Communications|XO Communications
+70|9|216.58.215.46|20.991 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+70|10|216.239.49.181|18.514 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+70|11|216.239.48.9|25.898 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+70|12|216.239.48.6|32.160 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+70|13|216.239.40.130|25.996 ms|United States|FL|Sarasota|-82.356|27.2379|Google|Google
+70|14|216.239.40.138|28.965 ms|United States|FL|Sarasota|-82.356|27.2379|Google|Google
+70|15|108.170.232.70|27.072 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+70|16|209.85.142.139|28.100 ms|United States|CA|Mountain View|-122.085|37.4229|Google|Google
+70|17|108.170.232.70|30.564 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+70|18|209.85.241.71|27.993 ms|United States|CA|Mountain View|-122.085|37.4229|Google|Google
+70|19|216.58.218.14|30.532 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+71|1|192.168.0.1|3.420 ms|||||||
+71|2|174.111.102.224|123.787 ms|United States|NC|High Point|-80.0053|35.9557|Time Warner Cable|Time Warner Cable
+71|3|24.25.62.48|15.966 ms|United States|NY|New York|-73.9597|40.7903|Time Warner Cable|Time Warner Cable
+71|4|24.93.64.184|15.712 ms|United States|NC|Charlotte|-80.8431|35.2271|Time Warner Cable|Time Warner Cable
+71|5|24.93.67.200|20.810 ms|United States|NC|Charlotte|-80.8439|35.2277|Time Warner Cable|Time Warner Cable
+71|6|66.109.6.80|25.811 ms|United States|GA|Forest Park|-84.3691|33.6221|Time Warner Cable|Time Warner Cable
+71|7|216.50.79.33|21.063 ms|United States|VA|Newport News|-76.5892|37.1254|XO Communications|XO Communications
+71|8|216.50.79.66|28.284 ms|United States|VA|Newport News|-76.5892|37.1254|XO Communications|XO Communications
+71|9|216.58.215.46|19.184 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+71|10|216.239.62.139|44.606 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+71|11|216.239.48.95|19.939 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+71|12|216.239.48.101|147.978 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+71|13|216.239.49.181|19.489 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+71|14|216.239.48.6|66.309 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+71|15|216.239.48.9|31.715 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+71|16|216.239.40.138|31.583 ms|United States|FL|Sarasota|-82.356|27.2379|Google|Google
+71|17|216.239.40.130|41.531 ms|United States|FL|Sarasota|-82.356|27.2379|Google|Google
+71|18|216.239.40.138|56.897 ms|United States|FL|Sarasota|-82.356|27.2379|Google|Google
+71|19|209.85.142.139|30.435 ms|United States|CA|Mountain View|-122.085|37.4229|Google|Google
+71|20|209.85.241.71|28.493 ms|United States|CA|Mountain View|-122.085|37.4229|Google|Google
+71|21|216.58.218.14|41.428 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+72|1|192.168.0.1|3.361 ms|||||||
+72|2|174.111.102.224|132.068 ms|United States|NC|High Point|-80.0053|35.9557|Time Warner Cable|Time Warner Cable
+72|3|24.25.62.48|12.745 ms|United States|NY|New York|-73.9597|40.7903|Time Warner Cable|Time Warner Cable
+72|4|24.93.64.184|13.246 ms|United States|NC|Charlotte|-80.8431|35.2271|Time Warner Cable|Time Warner Cable
+72|5|24.93.67.200|20.860 ms|United States|NC|Charlotte|-80.8439|35.2277|Time Warner Cable|Time Warner Cable
+72|6|66.109.6.80|19.435 ms|United States|GA|Forest Park|-84.3691|33.6221|Time Warner Cable|Time Warner Cable
+72|7|216.50.79.33|24.908 ms|United States|VA|Newport News|-76.5892|37.1254|XO Communications|XO Communications
+72|8|216.50.79.66|19.418 ms|United States|VA|Newport News|-76.5892|37.1254|XO Communications|XO Communications
+72|9|216.239.62.139|19.222 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+72|10|216.239.48.95|19.426 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+72|11|216.239.49.181|18.271 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+72|12|216.239.48.95|28.292 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+72|13|216.239.48.9|27.567 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+72|14|216.239.48.6|31.961 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+72|15|216.239.40.138|30.905 ms|United States|FL|Sarasota|-82.356|27.2379|Google|Google
+72|16|209.85.142.139|25.930 ms|United States|CA|Mountain View|-122.085|37.4229|Google|Google
+72|17|209.85.241.71|154.924 ms|United States|CA|Mountain View|-122.085|37.4229|Google|Google
+72|18|216.58.218.14|106.640 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+73|1|192.168.0.1|1.363 ms|||||||
+73|2|174.111.102.226|575.960 ms|United States|NC|High Point|-80.0053|35.9557|Time Warner Cable|Time Warner Cable
+73|3|24.25.62.50|34.548 ms|United States|NY|New York|-73.9597|40.7903|Time Warner Cable|Time Warner Cable
+73|4|24.93.64.186|78.676 ms|United States|NC|Charlotte|-80.8431|35.2271|Time Warner Cable|Time Warner Cable
+73|5|66.109.6.82|26.238 ms|United States|GA|Forest Park|-84.3691|33.6221|Time Warner Cable|Time Warner Cable
+73|6|205.197.180.41|25.860 ms|United States|IL|Chicago|-87.6441|41.8825|XO Communications|XO Communications
+73|7|205.197.180.54|20.659 ms|United States|IL|Chicago|-87.6441|41.8825|XO Communications|XO Communications
+73|8|216.239.51.53|22.630 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+73|9|66.249.94.20|20.900 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+73|10|209.85.142.153|23.938 ms|United States|CA|Mountain View|-122.085|37.4229|Google|Google
+73|11|209.85.142.149|26.133 ms|United States|CA|Mountain View|-122.085|37.4229|Google|Google
+73|12|74.125.21.139|25.352 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+74|1|192.168.0.1|1.071 ms|||||||
+74|2|174.111.102.226|81.436 ms|United States|NC|High Point|-80.0053|35.9557|Time Warner Cable|Time Warner Cable
+74|3|24.25.62.50|16.913 ms|United States|NY|New York|-73.9597|40.7903|Time Warner Cable|Time Warner Cable
+74|4|24.93.64.186|20.711 ms|United States|NC|Charlotte|-80.8431|35.2271|Time Warner Cable|Time Warner Cable
+74|5|24.93.67.202|45.572 ms|United States|NC|Charlotte|-80.8439|35.2277|Time Warner Cable|Time Warner Cable
+74|6|24.93.64.186|20.618 ms|United States|NC|Charlotte|-80.8431|35.2271|Time Warner Cable|Time Warner Cable
+74|7|66.109.6.82|28.669 ms|United States|GA|Forest Park|-84.3691|33.6221|Time Warner Cable|Time Warner Cable
+74|8|205.197.180.41|22.650 ms|United States|IL|Chicago|-87.6441|41.8825|XO Communications|XO Communications
+74|9|205.197.180.54|40.710 ms|United States|IL|Chicago|-87.6441|41.8825|XO Communications|XO Communications
+74|10|216.239.51.47|24.738 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+74|11|216.239.51.53|23.572 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+74|12|209.85.244.218|66.261 ms|United States|CA|Mountain View|-122.085|37.4229|Google|Google
+74|13|108.170.232.71|29.429 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+74|14|216.239.51.245|59.701 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+74|15|209.85.143.193|26.744 ms|United States|CA|Mountain View|-122.085|37.4229|Google|Google
+74|16|209.85.143.197|19.838 ms|United States|CA|Mountain View|-122.085|37.4229|Google|Google
+74|17|209.85.254.105|26.671 ms|United States|CA|Mountain View|-122.085|37.4229|Google|Google
+74|18|64.233.185.113|27.226 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+75|1|192.168.0.1|21.193 ms|||||||
+75|2|174.111.102.226|48.517 ms|United States|NC|High Point|-80.0053|35.9557|Time Warner Cable|Time Warner Cable
+75|3|24.25.62.50|12.187 ms|United States|NY|New York|-73.9597|40.7903|Time Warner Cable|Time Warner Cable
+75|4|24.93.67.202|20.910 ms|United States|NC|Charlotte|-80.8439|35.2277|Time Warner Cable|Time Warner Cable
+75|5|24.93.64.186|27.935 ms|United States|NC|Charlotte|-80.8431|35.2271|Time Warner Cable|Time Warner Cable
+75|6|24.93.67.202|84.571 ms|United States|NC|Charlotte|-80.8439|35.2277|Time Warner Cable|Time Warner Cable
+75|7|66.109.6.82|37.408 ms|United States|GA|Forest Park|-84.3691|33.6221|Time Warner Cable|Time Warner Cable
+75|8|205.197.180.41|21.168 ms|United States|IL|Chicago|-87.6441|41.8825|XO Communications|XO Communications
+75|9|205.197.180.54|23.899 ms|United States|IL|Chicago|-87.6441|41.8825|XO Communications|XO Communications
+75|10|216.239.51.53|21.191 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+75|11|216.239.51.47|21.143 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+75|12|209.85.142.140|23.151 ms|United States|CA|Mountain View|-122.085|37.4229|Google|Google
+75|13|209.85.247.150|27.927 ms|United States|CA|Mountain View|-122.085|37.4229|Google|Google
+75|14|66.249.94.20|26.380 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+75|15|209.85.143.201|74.961 ms|United States|CA|Mountain View|-122.085|37.4229|Google|Google
+75|16|209.85.254.105|125.780 ms|United States|CA|Mountain View|-122.085|37.4229|Google|Google
+75|17|209.85.243.254|127.719 ms|United States|CA|Mountain View|-122.085|37.4229|Google|Google
+75|18|64.233.185.101|29.183 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+76|1|192.168.0.1|3.893 ms|||||||
+76|2|174.111.102.226|35.649 ms|United States|NC|High Point|-80.0053|35.9557|Time Warner Cable|Time Warner Cable
+76|3|24.25.62.50|22.175 ms|United States|NY|New York|-73.9597|40.7903|Time Warner Cable|Time Warner Cable
+76|4|24.93.67.202|16.126 ms|United States|NC|Charlotte|-80.8439|35.2277|Time Warner Cable|Time Warner Cable
+76|5|24.93.64.186|23.541 ms|United States|NC|Charlotte|-80.8431|35.2271|Time Warner Cable|Time Warner Cable
+76|6|24.93.67.202|21.118 ms|United States|NC|Charlotte|-80.8439|35.2277|Time Warner Cable|Time Warner Cable
+76|7|66.109.6.82|32.689 ms|United States|GA|Forest Park|-84.3691|33.6221|Time Warner Cable|Time Warner Cable
+76|8|205.197.180.41|21.152 ms|United States|IL|Chicago|-87.6441|41.8825|XO Communications|XO Communications
+76|9|205.197.180.54|20.440 ms|United States|IL|Chicago|-87.6441|41.8825|XO Communications|XO Communications
+76|10|216.239.51.47|24.980 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+76|11|66.249.94.20|30.085 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+76|12|209.85.244.218|28.242 ms|United States|CA|Mountain View|-122.085|37.4229|Google|Google
+76|13|209.85.247.150|23.972 ms|United States|CA|Mountain View|-122.085|37.4229|Google|Google
+76|14|209.85.143.193|20.874 ms|United States|CA|Mountain View|-122.085|37.4229|Google|Google
+76|15|209.85.243.254|35.421 ms|United States|CA|Mountain View|-122.085|37.4229|Google|Google
+76|16|209.85.254.105|22.343 ms|United States|CA|Mountain View|-122.085|37.4229|Google|Google
+76|17|64.233.185.101|20.761 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+77|1|192.168.0.1|1.957 ms|||||||
+77|2|174.111.102.224|267.820 ms|United States|NC|High Point|-80.0053|35.9557|Time Warner Cable|Time Warner Cable
+77|3|24.25.62.48|16.954 ms|United States|NY|New York|-73.9597|40.7903|Time Warner Cable|Time Warner Cable
+77|4|24.93.64.184|21.233 ms|United States|NC|Charlotte|-80.8431|35.2271|Time Warner Cable|Time Warner Cable
+77|5|24.93.67.200|15.931 ms|United States|NC|Charlotte|-80.8439|35.2277|Time Warner Cable|Time Warner Cable
+77|6|66.109.6.80|27.172 ms|United States|GA|Forest Park|-84.3691|33.6221|Time Warner Cable|Time Warner Cable
+77|7|216.50.79.33|19.931 ms|United States|VA|Newport News|-76.5892|37.1254|XO Communications|XO Communications
+77|8|216.50.79.66|18.559 ms|United States|VA|Newport News|-76.5892|37.1254|XO Communications|XO Communications
+77|9|216.239.62.139|20.828 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+77|10|216.58.215.46|20.521 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+77|11|216.239.48.101|25.084 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+77|12|216.239.49.181|22.819 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+77|13|216.239.48.101|31.129 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+77|14|216.239.48.6|56.961 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+77|15|216.239.48.9|28.127 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+77|16|216.239.40.138|30.485 ms|United States|FL|Sarasota|-82.356|27.2379|Google|Google
+77|17|216.239.40.130|34.093 ms|United States|FL|Sarasota|-82.356|27.2379|Google|Google
+77|18|216.239.40.138|31.989 ms|United States|FL|Sarasota|-82.356|27.2379|Google|Google
+77|19|209.85.142.139|24.736 ms|United States|CA|Mountain View|-122.085|37.4229|Google|Google
+77|20|209.85.241.71|25.846 ms|United States|CA|Mountain View|-122.085|37.4229|Google|Google
+77|21|216.58.218.14|60.551 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+78|1|192.168.0.1|4.677 ms|||||||
+78|2|174.111.102.224|77.677 ms|United States|NC|High Point|-80.0053|35.9557|Time Warner Cable|Time Warner Cable
+78|3|24.25.62.48|27.665 ms|United States|NY|New York|-73.9597|40.7903|Time Warner Cable|Time Warner Cable
+78|4|24.93.67.200|18.231 ms|United States|NC|Charlotte|-80.8439|35.2277|Time Warner Cable|Time Warner Cable
+78|5|24.93.64.184|17.824 ms|United States|NC|Charlotte|-80.8431|35.2271|Time Warner Cable|Time Warner Cable
+78|6|66.109.6.80|22.308 ms|United States|GA|Forest Park|-84.3691|33.6221|Time Warner Cable|Time Warner Cable
+78|7|216.50.79.33|21.957 ms|United States|VA|Newport News|-76.5892|37.1254|XO Communications|XO Communications
+78|8|216.50.79.66|19.476 ms|United States|VA|Newport News|-76.5892|37.1254|XO Communications|XO Communications
+78|9|216.58.215.46|31.214 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+78|10|216.239.62.139|18.281 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+78|11|216.239.48.95|27.680 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+78|12|216.239.49.181|24.147 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+78|13|216.239.48.9|34.518 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+78|14|216.239.48.6|38.406 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+78|15|216.239.40.138|35.489 ms|United States|FL|Sarasota|-82.356|27.2379|Google|Google
+78|16|216.239.40.130|38.682 ms|United States|FL|Sarasota|-82.356|27.2379|Google|Google
+78|17|209.85.142.139|121.165 ms|United States|CA|Mountain View|-122.085|37.4229|Google|Google
+78|18|108.170.232.70|87.911 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+78|19|209.85.241.71|29.884 ms|United States|CA|Mountain View|-122.085|37.4229|Google|Google
+78|20|216.58.218.14|28.377 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+79|1|192.168.0.1|1.070 ms|||||||
+79|2|174.111.102.224|958.149 ms|United States|NC|High Point|-80.0053|35.9557|Time Warner Cable|Time Warner Cable
+79|3|24.25.62.48|12.975 ms|United States|NY|New York|-73.9597|40.7903|Time Warner Cable|Time Warner Cable
+79|4|24.93.67.200|12.674 ms|United States|NC|Charlotte|-80.8439|35.2277|Time Warner Cable|Time Warner Cable
+79|5|24.93.64.184|17.307 ms|United States|NC|Charlotte|-80.8431|35.2271|Time Warner Cable|Time Warner Cable
+79|6|66.109.6.80|29.285 ms|United States|GA|Forest Park|-84.3691|33.6221|Time Warner Cable|Time Warner Cable
+79|7|216.50.79.33|17.506 ms|United States|VA|Newport News|-76.5892|37.1254|XO Communications|XO Communications
+79|8|216.50.79.66|15.659 ms|United States|VA|Newport News|-76.5892|37.1254|XO Communications|XO Communications
+79|9|216.58.215.46|25.581 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+79|10|216.239.62.139|27.103 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+79|11|216.239.48.101|20.547 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+79|12|216.239.48.95|20.915 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+79|13|216.239.48.9|25.305 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+79|14|216.239.48.6|25.131 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+79|15|216.239.48.9|34.422 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+79|16|216.239.40.138|44.819 ms|United States|FL|Sarasota|-82.356|27.2379|Google|Google
+79|17|216.239.40.130|27.508 ms|United States|FL|Sarasota|-82.356|27.2379|Google|Google
+79|18|216.239.40.138|32.182 ms|United States|FL|Sarasota|-82.356|27.2379|Google|Google
+79|19|209.85.142.139|28.877 ms|United States|CA|Mountain View|-122.085|37.4229|Google|Google
+79|20|108.170.232.70|25.767 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+79|21|209.85.241.71|28.900 ms|United States|CA|Mountain View|-122.085|37.4229|Google|Google
+79|22|216.58.218.14|30.948 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+80|1|192.168.0.1|1.109 ms|||||||
+80|2|174.111.102.224|30.950 ms|United States|NC|High Point|-80.0053|35.9557|Time Warner Cable|Time Warner Cable
+80|3|24.25.62.48|16.743 ms|United States|NY|New York|-73.9597|40.7903|Time Warner Cable|Time Warner Cable
+80|4|24.93.67.200|29.941 ms|United States|NC|Charlotte|-80.8439|35.2277|Time Warner Cable|Time Warner Cable
+80|5|24.93.64.184|18.322 ms|United States|NC|Charlotte|-80.8431|35.2271|Time Warner Cable|Time Warner Cable
+80|6|66.109.6.80|22.112 ms|United States|GA|Forest Park|-84.3691|33.6221|Time Warner Cable|Time Warner Cable
+80|7|216.50.79.33|18.794 ms|United States|VA|Newport News|-76.5892|37.1254|XO Communications|XO Communications
+80|8|216.50.79.66|20.234 ms|United States|VA|Newport News|-76.5892|37.1254|XO Communications|XO Communications
+80|9|216.58.215.46|24.184 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+80|10|216.239.49.181|26.610 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+80|11|216.239.48.101|21.498 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+80|12|216.239.48.9|29.160 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+80|13|216.239.48.6|24.493 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+80|14|216.239.40.138|26.747 ms|United States|FL|Sarasota|-82.356|27.2379|Google|Google
+80|15|209.85.142.139|25.982 ms|United States|CA|Mountain View|-122.085|37.4229|Google|Google
+80|16|108.170.232.70|32.016 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+80|17|209.85.142.139|33.113 ms|United States|CA|Mountain View|-122.085|37.4229|Google|Google
+80|18|209.85.241.71|32.478 ms|United States|CA|Mountain View|-122.085|37.4229|Google|Google
+80|19|216.58.218.14|28.042 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+81|1|192.168.0.1|4.154 ms|||||||
+81|2|174.111.102.224|508.854 ms|United States|NC|High Point|-80.0053|35.9557|Time Warner Cable|Time Warner Cable
+81|3|24.25.62.48|15.455 ms|United States|NY|New York|-73.9597|40.7903|Time Warner Cable|Time Warner Cable
+81|4|24.93.64.184|15.006 ms|United States|NC|Charlotte|-80.8431|35.2271|Time Warner Cable|Time Warner Cable
+81|5|24.93.67.200|15.487 ms|United States|NC|Charlotte|-80.8439|35.2277|Time Warner Cable|Time Warner Cable
+81|6|66.109.6.80|45.573 ms|United States|GA|Forest Park|-84.3691|33.6221|Time Warner Cable|Time Warner Cable
+81|7|216.50.79.33|23.030 ms|United States|VA|Newport News|-76.5892|37.1254|XO Communications|XO Communications
+81|8|216.50.79.66|19.935 ms|United States|VA|Newport News|-76.5892|37.1254|XO Communications|XO Communications
+81|9|216.58.215.46|16.008 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+81|10|216.239.62.139|24.470 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+81|11|216.239.48.101|18.273 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+81|12|216.239.48.95|31.449 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+81|13|216.239.48.9|30.300 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+81|14|216.239.48.6|27.491 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+81|15|216.239.40.138|28.938 ms|United States|FL|Sarasota|-82.356|27.2379|Google|Google
+81|16|209.85.142.139|36.868 ms|United States|CA|Mountain View|-122.085|37.4229|Google|Google
+81|17|209.85.241.71|26.276 ms|United States|CA|Mountain View|-122.085|37.4229|Google|Google
+81|18|216.58.218.14|27.979 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+82|1|192.168.0.1|1.101 ms|||||||
+82|2|174.111.102.224|24.103 ms|United States|NC|High Point|-80.0053|35.9557|Time Warner Cable|Time Warner Cable
+82|3|24.25.62.48|14.620 ms|United States|NY|New York|-73.9597|40.7903|Time Warner Cable|Time Warner Cable
+82|4|24.93.64.184|8.007 ms|United States|NC|Charlotte|-80.8431|35.2271|Time Warner Cable|Time Warner Cable
+82|5|24.93.67.200|23.734 ms|United States|NC|Charlotte|-80.8439|35.2277|Time Warner Cable|Time Warner Cable
+82|6|66.109.6.80|22.634 ms|United States|GA|Forest Park|-84.3691|33.6221|Time Warner Cable|Time Warner Cable
+82|7|216.50.79.33|21.534 ms|United States|VA|Newport News|-76.5892|37.1254|XO Communications|XO Communications
+82|8|216.50.79.66|22.720 ms|United States|VA|Newport News|-76.5892|37.1254|XO Communications|XO Communications
+82|9|216.58.215.46|20.251 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+82|10|216.239.62.139|24.370 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+82|11|216.58.215.46|21.218 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+82|12|216.239.48.95|22.324 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+82|13|216.239.48.101|32.885 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+82|14|216.239.48.6|29.958 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+82|15|216.239.48.9|30.604 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+82|16|216.239.40.138|26.903 ms|United States|FL|Sarasota|-82.356|27.2379|Google|Google
+82|17|209.85.142.139|30.231 ms|United States|CA|Mountain View|-122.085|37.4229|Google|Google
+82|18|209.85.241.71|35.044 ms|United States|CA|Mountain View|-122.085|37.4229|Google|Google
+82|19|216.58.218.14|30.915 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+83|1|192.168.0.1|5.982 ms|||||||
+83|2|174.111.102.226|24.548 ms|United States|NC|High Point|-80.0053|35.9557|Time Warner Cable|Time Warner Cable
+83|3|24.25.62.50|13.571 ms|United States|NY|New York|-73.9597|40.7903|Time Warner Cable|Time Warner Cable
+83|4|24.93.67.202|59.545 ms|United States|NC|Charlotte|-80.8439|35.2277|Time Warner Cable|Time Warner Cable
+83|5|24.93.64.186|18.301 ms|United States|NC|Charlotte|-80.8431|35.2271|Time Warner Cable|Time Warner Cable
+83|6|24.93.67.202|15.968 ms|United States|NC|Charlotte|-80.8439|35.2277|Time Warner Cable|Time Warner Cable
+83|7|66.109.6.82|28.691 ms|United States|GA|Forest Park|-84.3691|33.6221|Time Warner Cable|Time Warner Cable
+83|8|205.197.180.41|19.700 ms|United States|IL|Chicago|-87.6441|41.8825|XO Communications|XO Communications
+83|9|205.197.180.54|17.780 ms|United States|IL|Chicago|-87.6441|41.8825|XO Communications|XO Communications
+83|10|216.239.51.53|30.720 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+83|11|216.239.51.47|23.884 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+83|12|216.239.51.243|26.719 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+83|13|66.249.94.20|22.137 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+83|14|209.85.244.218|27.514 ms|United States|CA|Mountain View|-122.085|37.4229|Google|Google
+83|15|64.233.175.12|24.114 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+83|16|209.85.248.53|19.830 ms|United States|CA|Mountain View|-122.085|37.4229|Google|Google
+83|17|74.125.21.101|19.309 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+84|1|192.168.0.1|1.017 ms|||||||
+84|2|174.111.102.226|15.210 ms|United States|NC|High Point|-80.0053|35.9557|Time Warner Cable|Time Warner Cable
+84|3|24.25.62.50|12.449 ms|United States|NY|New York|-73.9597|40.7903|Time Warner Cable|Time Warner Cable
+84|4|24.93.64.186|19.218 ms|United States|NC|Charlotte|-80.8431|35.2271|Time Warner Cable|Time Warner Cable
+84|5|24.93.67.202|21.621 ms|United States|NC|Charlotte|-80.8439|35.2277|Time Warner Cable|Time Warner Cable
+84|6|24.93.64.186|19.838 ms|United States|NC|Charlotte|-80.8431|35.2271|Time Warner Cable|Time Warner Cable
+84|7|66.109.6.82|25.234 ms|United States|GA|Forest Park|-84.3691|33.6221|Time Warner Cable|Time Warner Cable
+84|8|205.197.180.41|17.873 ms|United States|IL|Chicago|-87.6441|41.8825|XO Communications|XO Communications
+84|9|205.197.180.54|20.585 ms|United States|IL|Chicago|-87.6441|41.8825|XO Communications|XO Communications
+84|10|216.239.51.53|30.832 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+84|11|209.85.142.140|22.021 ms|United States|CA|Mountain View|-122.085|37.4229|Google|Google
+84|12|209.85.142.138|27.667 ms|United States|CA|Mountain View|-122.085|37.4229|Google|Google
+84|13|216.239.51.243|23.421 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+84|14|216.239.56.164|19.760 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+84|15|209.85.253.3|28.154 ms|United States|CA|Mountain View|-122.085|37.4229|Google|Google
+84|16|209.85.254.107|20.531 ms|United States|CA|Mountain View|-122.085|37.4229|Google|Google
+84|17|74.125.21.101|25.401 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+85|1|192.168.0.1|2.318 ms|||||||
+85|2|174.111.102.226|45.591 ms|United States|NC|High Point|-80.0053|35.9557|Time Warner Cable|Time Warner Cable
+85|3|24.25.62.50|15.764 ms|United States|NY|New York|-73.9597|40.7903|Time Warner Cable|Time Warner Cable
+85|4|24.93.64.186|21.073 ms|United States|NC|Charlotte|-80.8431|35.2271|Time Warner Cable|Time Warner Cable
+85|5|24.93.67.202|24.365 ms|United States|NC|Charlotte|-80.8439|35.2277|Time Warner Cable|Time Warner Cable
+85|6|24.93.64.186|17.847 ms|United States|NC|Charlotte|-80.8431|35.2271|Time Warner Cable|Time Warner Cable
+85|7|66.109.6.82|26.524 ms|United States|GA|Forest Park|-84.3691|33.6221|Time Warner Cable|Time Warner Cable
+85|8|205.197.180.41|19.925 ms|United States|IL|Chicago|-87.6441|41.8825|XO Communications|XO Communications
+85|9|205.197.180.54|20.720 ms|United States|IL|Chicago|-87.6441|41.8825|XO Communications|XO Communications
+85|10|216.239.51.53|21.646 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+85|11|216.239.51.47|18.181 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+85|12|216.239.51.53|23.976 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+85|13|209.85.142.138|28.081 ms|United States|CA|Mountain View|-122.085|37.4229|Google|Google
+85|14|66.249.94.20|35.379 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+85|15|209.85.247.150|27.264 ms|United States|CA|Mountain View|-122.085|37.4229|Google|Google
+85|16|209.85.142.149|21.277 ms|United States|CA|Mountain View|-122.085|37.4229|Google|Google
+85|17|209.85.142.153|26.492 ms|United States|CA|Mountain View|-122.085|37.4229|Google|Google
+85|18|64.233.175.12|25.180 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+85|19|74.125.21.101|37.359 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+86|1|192.168.0.1|1.116 ms|||||||
+86|2|174.111.102.226|18.401 ms|United States|NC|High Point|-80.0053|35.9557|Time Warner Cable|Time Warner Cable
+86|3|24.25.62.50|12.572 ms|United States|NY|New York|-73.9597|40.7903|Time Warner Cable|Time Warner Cable
+86|4|24.93.67.202|16.373 ms|United States|NC|Charlotte|-80.8439|35.2277|Time Warner Cable|Time Warner Cable
+86|5|24.93.64.186|17.805 ms|United States|NC|Charlotte|-80.8431|35.2271|Time Warner Cable|Time Warner Cable
+86|6|24.93.67.202|23.020 ms|United States|NC|Charlotte|-80.8439|35.2277|Time Warner Cable|Time Warner Cable
+86|7|66.109.6.82|27.027 ms|United States|GA|Forest Park|-84.3691|33.6221|Time Warner Cable|Time Warner Cable
+86|8|205.197.180.41|26.321 ms|United States|IL|Chicago|-87.6441|41.8825|XO Communications|XO Communications
+86|9|205.197.180.54|20.374 ms|United States|IL|Chicago|-87.6441|41.8825|XO Communications|XO Communications
+86|10|216.239.51.47|30.944 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+86|11|216.239.51.53|22.836 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+86|12|66.249.94.20|57.717 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+86|13|216.239.51.243|24.118 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+86|14|209.85.142.153|24.987 ms|United States|CA|Mountain View|-122.085|37.4229|Google|Google
+86|15|216.239.56.164|21.162 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+86|16|209.85.248.53|22.259 ms|United States|CA|Mountain View|-122.085|37.4229|Google|Google
+86|17|74.125.21.101|23.664 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+87|1|192.168.0.1|1.090 ms|||||||
+87|2|174.111.102.226|28.752 ms|United States|NC|High Point|-80.0053|35.9557|Time Warner Cable|Time Warner Cable
+87|3|24.25.62.50|23.169 ms|United States|NY|New York|-73.9597|40.7903|Time Warner Cable|Time Warner Cable
+87|4|24.93.67.202|20.355 ms|United States|NC|Charlotte|-80.8439|35.2277|Time Warner Cable|Time Warner Cable
+87|5|24.93.64.186|19.397 ms|United States|NC|Charlotte|-80.8431|35.2271|Time Warner Cable|Time Warner Cable
+87|6|24.93.67.202|21.947 ms|United States|NC|Charlotte|-80.8439|35.2277|Time Warner Cable|Time Warner Cable
+87|7|66.109.6.82|26.179 ms|United States|GA|Forest Park|-84.3691|33.6221|Time Warner Cable|Time Warner Cable
+87|8|205.197.180.41|23.497 ms|United States|IL|Chicago|-87.6441|41.8825|XO Communications|XO Communications
+87|9|205.197.180.54|36.805 ms|United States|IL|Chicago|-87.6441|41.8825|XO Communications|XO Communications
+87|10|216.239.51.53|30.144 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+87|11|216.239.51.47|38.172 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+87|12|216.239.51.53|26.875 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+87|13|216.239.51.243|23.830 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+87|14|209.85.142.140|20.984 ms|United States|CA|Mountain View|-122.085|37.4229|Google|Google
+87|15|66.249.94.20|29.974 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+87|16|216.239.56.166|21.412 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+87|17|209.85.254.107|25.261 ms|United States|CA|Mountain View|-122.085|37.4229|Google|Google
+87|18|64.233.175.12|23.712 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+87|19|74.125.21.101|20.672 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+88|1|192.168.0.1|2.115 ms|||||||
+88|2|174.111.102.226|647.539 ms|United States|NC|High Point|-80.0053|35.9557|Time Warner Cable|Time Warner Cable
+88|3|24.25.62.50|14.133 ms|United States|NY|New York|-73.9597|40.7903|Time Warner Cable|Time Warner Cable
+88|4|24.93.67.202|16.247 ms|United States|NC|Charlotte|-80.8439|35.2277|Time Warner Cable|Time Warner Cable
+88|5|24.93.64.186|28.667 ms|United States|NC|Charlotte|-80.8431|35.2271|Time Warner Cable|Time Warner Cable
+88|6|24.93.67.202|27.375 ms|United States|NC|Charlotte|-80.8439|35.2277|Time Warner Cable|Time Warner Cable
+88|7|66.109.6.82|35.640 ms|United States|GA|Forest Park|-84.3691|33.6221|Time Warner Cable|Time Warner Cable
+88|8|205.197.180.41|18.502 ms|United States|IL|Chicago|-87.6441|41.8825|XO Communications|XO Communications
+88|9|205.197.180.54|26.590 ms|United States|IL|Chicago|-87.6441|41.8825|XO Communications|XO Communications
+88|10|216.239.51.47|22.340 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+88|11|216.239.51.53|25.945 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+88|12|209.85.142.140|20.221 ms|United States|CA|Mountain View|-122.085|37.4229|Google|Google
+88|13|66.249.94.20|22.270 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+88|14|216.239.51.243|19.816 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+88|15|209.85.248.53|23.362 ms|United States|CA|Mountain View|-122.085|37.4229|Google|Google
+88|16|64.233.175.12|23.793 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+88|17|216.239.56.166|24.235 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+88|18|74.125.21.101|26.672 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+89|1|192.168.0.1|1.230 ms|||||||
+89|2|174.111.102.226|149.357 ms|United States|NC|High Point|-80.0053|35.9557|Time Warner Cable|Time Warner Cable
+89|3|24.25.62.50|12.607 ms|United States|NY|New York|-73.9597|40.7903|Time Warner Cable|Time Warner Cable
+89|4|24.93.67.202|15.972 ms|United States|NC|Charlotte|-80.8439|35.2277|Time Warner Cable|Time Warner Cable
+89|5|24.93.64.186|28.856 ms|United States|NC|Charlotte|-80.8431|35.2271|Time Warner Cable|Time Warner Cable
+89|6|66.109.6.82|30.335 ms|United States|GA|Forest Park|-84.3691|33.6221|Time Warner Cable|Time Warner Cable
+89|7|205.197.180.41|19.047 ms|United States|IL|Chicago|-87.6441|41.8825|XO Communications|XO Communications
+89|8|205.197.180.54|28.998 ms|United States|IL|Chicago|-87.6441|41.8825|XO Communications|XO Communications
+89|9|216.239.51.53|20.445 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+89|10|216.239.51.47|24.066 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+89|11|216.239.51.53|23.390 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+89|12|216.239.51.245|23.173 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+89|13|209.85.247.150|24.492 ms|United States|CA|Mountain View|-122.085|37.4229|Google|Google
+89|14|66.249.94.20|22.714 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+89|15|209.85.243.254|27.209 ms|United States|CA|Mountain View|-122.085|37.4229|Google|Google
+89|16|209.85.143.193|36.437 ms|United States|CA|Mountain View|-122.085|37.4229|Google|Google
+89|17|209.85.143.197|24.968 ms|United States|CA|Mountain View|-122.085|37.4229|Google|Google
+89|18|74.125.196.102|25.785 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+90|1|192.168.0.1|2.095 ms|||||||
+90|2|174.111.102.226|43.194 ms|United States|NC|High Point|-80.0053|35.9557|Time Warner Cable|Time Warner Cable
+90|3|24.25.62.50|12.321 ms|United States|NY|New York|-73.9597|40.7903|Time Warner Cable|Time Warner Cable
+90|4|24.93.64.186|23.248 ms|United States|NC|Charlotte|-80.8431|35.2271|Time Warner Cable|Time Warner Cable
+90|5|66.109.6.82|27.669 ms|United States|GA|Forest Park|-84.3691|33.6221|Time Warner Cable|Time Warner Cable
+90|6|205.197.180.41|26.985 ms|United States|IL|Chicago|-87.6441|41.8825|XO Communications|XO Communications
+90|7|205.197.180.54|20.456 ms|United States|IL|Chicago|-87.6441|41.8825|XO Communications|XO Communications
+90|8|216.239.51.47|20.813 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+90|9|216.239.51.53|22.770 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+90|10|216.239.51.47|19.019 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+90|11|209.85.142.138|27.757 ms|United States|CA|Mountain View|-122.085|37.4229|Google|Google
+90|12|108.170.232.71|62.608 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+90|13|209.85.143.193|23.370 ms|United States|CA|Mountain View|-122.085|37.4229|Google|Google
+90|14|209.85.142.157|28.013 ms|United States|CA|Mountain View|-122.085|37.4229|Google|Google
+90|15|173.194.219.113|26.254 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+91|1|192.168.0.1|2.572 ms|||||||
+91|2|174.111.102.226|31.579 ms|United States|NC|High Point|-80.0053|35.9557|Time Warner Cable|Time Warner Cable
+91|3|24.25.62.50|11.594 ms|United States|NY|New York|-73.9597|40.7903|Time Warner Cable|Time Warner Cable
+91|4|24.93.67.202|20.233 ms|United States|NC|Charlotte|-80.8439|35.2277|Time Warner Cable|Time Warner Cable
+91|5|24.93.64.186|18.919 ms|United States|NC|Charlotte|-80.8431|35.2271|Time Warner Cable|Time Warner Cable
+91|6|66.109.6.82|30.615 ms|United States|GA|Forest Park|-84.3691|33.6221|Time Warner Cable|Time Warner Cable
+91|7|205.197.180.41|25.753 ms|United States|IL|Chicago|-87.6441|41.8825|XO Communications|XO Communications
+91|8|205.197.180.54|19.326 ms|United States|IL|Chicago|-87.6441|41.8825|XO Communications|XO Communications
+91|9|216.239.51.53|22.293 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+91|10|216.239.51.47|20.315 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+91|11|209.85.244.218|25.716 ms|United States|CA|Mountain View|-122.085|37.4229|Google|Google
+91|12|216.239.51.243|20.626 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+91|13|216.239.56.164|25.829 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+91|14|209.85.248.53|22.142 ms|United States|CA|Mountain View|-122.085|37.4229|Google|Google
+91|15|74.125.21.113|24.729 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+92|1|192.168.0.1|12.012 ms|||||||
+92|2|174.111.102.226|21.843 ms|United States|NC|High Point|-80.0053|35.9557|Time Warner Cable|Time Warner Cable
+92|3|24.25.62.50|11.709 ms|United States|NY|New York|-73.9597|40.7903|Time Warner Cable|Time Warner Cable
+92|4|24.93.67.202|19.236 ms|United States|NC|Charlotte|-80.8439|35.2277|Time Warner Cable|Time Warner Cable
+92|5|24.93.64.186|24.223 ms|United States|NC|Charlotte|-80.8431|35.2271|Time Warner Cable|Time Warner Cable
+92|6|66.109.6.82|23.504 ms|United States|GA|Forest Park|-84.3691|33.6221|Time Warner Cable|Time Warner Cable
+92|7|205.197.180.41|25.076 ms|United States|IL|Chicago|-87.6441|41.8825|XO Communications|XO Communications
+92|8|205.197.180.54|23.477 ms|United States|IL|Chicago|-87.6441|41.8825|XO Communications|XO Communications
+92|9|216.239.51.47|23.286 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+92|10|216.239.51.53|26.611 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+92|11|209.85.247.150|43.756 ms|United States|CA|Mountain View|-122.085|37.4229|Google|Google
+92|12|209.85.142.138|21.479 ms|United States|CA|Mountain View|-122.085|37.4229|Google|Google
+92|13|209.85.254.107|25.590 ms|United States|CA|Mountain View|-122.085|37.4229|Google|Google
+92|14|209.85.253.3|24.469 ms|United States|CA|Mountain View|-122.085|37.4229|Google|Google
+92|15|74.125.21.113|24.139 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+93|1|192.168.0.1|1.111 ms|||||||
+93|2|174.111.102.226|147.047 ms|United States|NC|High Point|-80.0053|35.9557|Time Warner Cable|Time Warner Cable
+93|3|24.25.62.50|7.499 ms|United States|NY|New York|-73.9597|40.7903|Time Warner Cable|Time Warner Cable
+93|4|24.93.64.186|18.936 ms|United States|NC|Charlotte|-80.8431|35.2271|Time Warner Cable|Time Warner Cable
+93|5|24.93.67.202|22.946 ms|United States|NC|Charlotte|-80.8439|35.2277|Time Warner Cable|Time Warner Cable
+93|6|24.93.64.186|22.531 ms|United States|NC|Charlotte|-80.8431|35.2271|Time Warner Cable|Time Warner Cable
+93|7|66.109.6.82|22.451 ms|United States|GA|Forest Park|-84.3691|33.6221|Time Warner Cable|Time Warner Cable
+93|8|205.197.180.41|25.057 ms|United States|IL|Chicago|-87.6441|41.8825|XO Communications|XO Communications
+93|9|205.197.180.54|32.326 ms|United States|IL|Chicago|-87.6441|41.8825|XO Communications|XO Communications
+93|10|216.239.51.53|19.333 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+93|11|64.233.175.94|19.064 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+93|12|216.58.193.142|25.298 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+94|1|192.168.0.1|1.292 ms|||||||
+94|2|174.111.102.226|32.845 ms|United States|NC|High Point|-80.0053|35.9557|Time Warner Cable|Time Warner Cable
+94|3|24.25.62.50|12.455 ms|United States|NY|New York|-73.9597|40.7903|Time Warner Cable|Time Warner Cable
+94|4|24.93.64.186|19.585 ms|United States|NC|Charlotte|-80.8431|35.2271|Time Warner Cable|Time Warner Cable
+94|5|24.93.67.202|24.716 ms|United States|NC|Charlotte|-80.8439|35.2277|Time Warner Cable|Time Warner Cable
+94|6|24.93.64.186|19.140 ms|United States|NC|Charlotte|-80.8431|35.2271|Time Warner Cable|Time Warner Cable
+94|7|66.109.6.82|23.276 ms|United States|GA|Forest Park|-84.3691|33.6221|Time Warner Cable|Time Warner Cable
+94|8|205.197.180.41|23.079 ms|United States|IL|Chicago|-87.6441|41.8825|XO Communications|XO Communications
+94|9|205.197.180.54|18.966 ms|United States|IL|Chicago|-87.6441|41.8825|XO Communications|XO Communications
+94|10|216.239.51.53|24.456 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+94|11|64.233.175.94|26.814 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+94|12|216.58.193.142|23.710 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+95|1|192.168.0.1|5.749 ms|||||||
+95|2|174.111.102.226|644.329 ms|United States|NC|High Point|-80.0053|35.9557|Time Warner Cable|Time Warner Cable
+95|3|24.25.62.50|8.662 ms|United States|NY|New York|-73.9597|40.7903|Time Warner Cable|Time Warner Cable
+95|4|24.93.64.186|24.012 ms|United States|NC|Charlotte|-80.8431|35.2271|Time Warner Cable|Time Warner Cable
+95|5|24.93.67.202|21.152 ms|United States|NC|Charlotte|-80.8439|35.2277|Time Warner Cable|Time Warner Cable
+95|6|66.109.6.82|36.140 ms|United States|GA|Forest Park|-84.3691|33.6221|Time Warner Cable|Time Warner Cable
+95|7|205.197.180.41|21.181 ms|United States|IL|Chicago|-87.6441|41.8825|XO Communications|XO Communications
+95|8|205.197.180.54|24.380 ms|United States|IL|Chicago|-87.6441|41.8825|XO Communications|XO Communications
+95|9|216.239.51.53|39.705 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+95|10|64.233.175.94|19.385 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+95|11|216.58.193.142|24.964 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+96|1|192.168.0.1|1.082 ms|||||||
+96|2|174.111.102.226|61.498 ms|United States|NC|High Point|-80.0053|35.9557|Time Warner Cable|Time Warner Cable
+96|3|24.25.62.50|12.659 ms|United States|NY|New York|-73.9597|40.7903|Time Warner Cable|Time Warner Cable
+96|4|24.93.64.186|26.312 ms|United States|NC|Charlotte|-80.8431|35.2271|Time Warner Cable|Time Warner Cable
+96|5|24.93.67.202|26.715 ms|United States|NC|Charlotte|-80.8439|35.2277|Time Warner Cable|Time Warner Cable
+96|6|66.109.6.82|29.174 ms|United States|GA|Forest Park|-84.3691|33.6221|Time Warner Cable|Time Warner Cable
+96|7|205.197.180.41|21.477 ms|United States|IL|Chicago|-87.6441|41.8825|XO Communications|XO Communications
+96|8|205.197.180.54|44.131 ms|United States|IL|Chicago|-87.6441|41.8825|XO Communications|XO Communications
+96|9|216.239.51.53|49.438 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+96|10|64.233.175.94|34.139 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+96|11|216.58.193.142|50.557 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+97|1|192.168.0.1|1.090 ms|||||||
+97|2|174.111.102.226|90.154 ms|United States|NC|High Point|-80.0053|35.9557|Time Warner Cable|Time Warner Cable
+97|3|24.25.62.50|83.183 ms|United States|NY|New York|-73.9597|40.7903|Time Warner Cable|Time Warner Cable
+97|4|24.93.64.186|85.976 ms|United States|NC|Charlotte|-80.8431|35.2271|Time Warner Cable|Time Warner Cable
+97|5|24.93.67.202|90.831 ms|United States|NC|Charlotte|-80.8439|35.2277|Time Warner Cable|Time Warner Cable
+97|6|66.109.6.82|90.424 ms|United States|GA|Forest Park|-84.3691|33.6221|Time Warner Cable|Time Warner Cable
+97|7|205.197.180.41|97.087 ms|United States|IL|Chicago|-87.6441|41.8825|XO Communications|XO Communications
+97|8|205.197.180.54|96.441 ms|United States|IL|Chicago|-87.6441|41.8825|XO Communications|XO Communications
+97|9|216.239.51.53|90.188 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+97|10|64.233.175.94|94.848 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+97|11|216.58.193.142|90.557 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+98|1|192.168.0.1|3.195 ms|||||||
+98|2|174.111.102.226|38.605 ms|United States|NC|High Point|-80.0053|35.9557|Time Warner Cable|Time Warner Cable
+98|3|24.25.62.50|32.173 ms|United States|NY|New York|-73.9597|40.7903|Time Warner Cable|Time Warner Cable
+98|4|24.93.67.202|21.533 ms|United States|NC|Charlotte|-80.8439|35.2277|Time Warner Cable|Time Warner Cable
+98|5|24.93.64.186|18.260 ms|United States|NC|Charlotte|-80.8431|35.2271|Time Warner Cable|Time Warner Cable
+98|6|66.109.6.82|27.243 ms|United States|GA|Forest Park|-84.3691|33.6221|Time Warner Cable|Time Warner Cable
+98|7|205.197.180.41|26.771 ms|United States|IL|Chicago|-87.6441|41.8825|XO Communications|XO Communications
+98|8|205.197.180.54|20.221 ms|United States|IL|Chicago|-87.6441|41.8825|XO Communications|XO Communications
+98|9|216.239.51.53|22.872 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+98|10|64.233.175.94|26.692 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+98|11|216.58.193.142|22.722 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+99|1|192.168.0.1|1.040 ms|||||||
+99|2|174.111.102.226|30.732 ms|United States|NC|High Point|-80.0053|35.9557|Time Warner Cable|Time Warner Cable
+99|3|24.25.62.50|11.102 ms|United States|NY|New York|-73.9597|40.7903|Time Warner Cable|Time Warner Cable
+99|4|24.93.64.186|17.972 ms|United States|NC|Charlotte|-80.8431|35.2271|Time Warner Cable|Time Warner Cable
+99|5|24.93.67.202|18.965 ms|United States|NC|Charlotte|-80.8439|35.2277|Time Warner Cable|Time Warner Cable
+99|6|66.109.6.82|30.123 ms|United States|GA|Forest Park|-84.3691|33.6221|Time Warner Cable|Time Warner Cable
+99|7|205.197.180.41|18.202 ms|United States|IL|Chicago|-87.6441|41.8825|XO Communications|XO Communications
+99|8|205.197.180.54|20.325 ms|United States|IL|Chicago|-87.6441|41.8825|XO Communications|XO Communications
+99|9|216.239.51.53|19.909 ms|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
+99|10|64.233.175.94|19.246 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+99|11|216.58.193.142|39.725 ms|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
