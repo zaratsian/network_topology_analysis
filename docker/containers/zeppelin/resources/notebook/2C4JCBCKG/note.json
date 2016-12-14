@@ -1,0 +1,344 @@
+{
+  "paragraphs": [
+    {
+      "title": "Code Setup",
+      "text": "%spark\nimport java.sql.Connection\nimport java.sql.DriverManager\nimport org.apache.spark.sql.types._\nimport org.apache.spark.sql.Row\n\nval thinUrl \u003d \"jdbc:phoenix:thin:url\u003dhttp://phoenix.dev:8765;serialization\u003dPROTOBUF\"\nval connection \u003d DriverManager.getConnection(thinUrl)\n\n//Helper for turning JDBC query results into a DataSet\nval queryToDS \u003d (conn: Connection, query: String) \u003d\u003e {\n    val rs \u003d conn.createStatement().executeQuery(query)\n    val rsmd \u003d rs.getMetaData()\n    \n    //Build a schema object\n    var schemaString \u003d rsmd.getColumnName(1)\n    for ( i \u003c- 2 to rsmd.getColumnCount() ){\n        schemaString \u003d schemaString + \" \" + rsmd.getColumnName(i)\n    }\n    val fields \u003d schemaString.split(\" \")\n      .map(fieldName \u003d\u003e StructField(fieldName, StringType, nullable \u003d true))\n    val schema \u003d StructType(fields)\n    \n    //Convert resultset into DataFrame row by row\n    var rows \u003d Array[Row]()\n    while (rs.next()){\n      //Convert fields of each result set row into an array of Strings\n      val fields \u003d schemaString.split(\" \")\n      var row \u003d Array[String]()\n      for ( i \u003c- 0 to fields.size-1 ){\n        val fieldVal \u003d if (rs.getString(fields(i)) \u003d\u003d null) \"\" else rs.getString(fields(i)).trim\n        row \u003d row :+ fieldVal\n      }\n      rows \u003d rows :+ Row(row:_*)\n    }\n    spark.createDataFrame(sc.parallelize(rows), schema)\n}",
+      "dateUpdated": "Nov 28, 2016 4:39:22 AM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/scala",
+        "title": true,
+        "editorHide": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1480307935218_-656702832",
+      "id": "20161128-043855_50680643",
+      "dateCreated": "Nov 28, 2016 4:38:55 AM",
+      "status": "READY",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "title": "Page Setup",
+      "text": "%angular\n\u003c!-- Avoid constantly editing JS and list the Angular vars you want exposed in an HTML attribute: --\u003e\n\u003cdiv id\u003d\"dummy\" vars\u003d\"id,parents,children\"\u003e\u003c/div\u003e\n\u003cscript type\u003d\"text/javascript\"\u003e\n  //Given an element in the note \u0026 list of values to fetch from Spark\n  //window.angularVars.myVal will be current value of backend Spark val of same name\n  function hoist(element){\n    var varNames \u003d element.attr(\u0027vars\u0027).split(\u0027,\u0027);\n    window.angularVars \u003d {};\n    var scope \u003d angular.element(element.parent(\u0027.ng-scope\u0027)).scope().compiledScope;\n    $.each(varNames, function(i, v){\n      window[v+\u0027-watcher\u0027] \u003d scope.$watch(v, function(newVal, oldVal){\n        window.angularVars[v] \u003d newVal;\n      });\n    });\n  }\n  hoist($(\u0027#dummy\u0027));\n\u003c/script\u003e",
+      "dateUpdated": "Nov 28, 2016 4:39:24 AM",
+      "config": {
+        "tableHide": true,
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/scala",
+        "editorHide": true,
+        "title": true,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1480307208214_-2087052579",
+      "id": "20161114-012441_1232424357",
+      "result": {
+        "code": "SUCCESS",
+        "type": "ANGULAR",
+        "msg": "\u003c!-- Avoid constantly editing JS and list the Angular vars you want exposed in an HTML attribute: --\u003e\n\u003cdiv id\u003d\"dummy\" vars\u003d\"id,parents,children\"\u003e\u003c/div\u003e\n\u003cscript type\u003d\"text/javascript\"\u003e\n  //Given an element in the note \u0026 list of values to fetch from Spark\n  //window.angularVars.myVal will be current value of backend Spark val of same name\n  function hoist(element){\n    var varNames \u003d element.attr(\u0027vars\u0027).split(\u0027,\u0027);\n    window.angularVars \u003d {};\n    var scope \u003d angular.element(element.parent(\u0027.ng-scope\u0027)).scope().compiledScope;\n    $.each(varNames, function(i, v){\n      window[v+\u0027-watcher\u0027] \u003d scope.$watch(v, function(newVal, oldVal){\n        window.angularVars[v] \u003d newVal;\n      });\n    });\n  }\n  hoist($(\u0027#dummy\u0027));\n\u003c/script\u003e"
+      },
+      "dateCreated": "Nov 28, 2016 4:26:48 AM",
+      "status": "READY",
+      "errorMessage": "",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%jdbc(phoenix)\n\nselect id, device_type, latitude, longitude, house_id, mer_flag from CX_LOOKUP where MER_FLAG \u003d 1 limit 10",
+      "dateUpdated": "Nov 28, 2016 4:27:35 AM",
+      "config": {
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/scala",
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [
+            {
+              "name": "ID",
+              "index": 0.0,
+              "aggr": "sum"
+            }
+          ],
+          "values": [
+            {
+              "name": "DEVICE_TYPE",
+              "index": 1.0,
+              "aggr": "sum"
+            }
+          ],
+          "groups": [],
+          "scatter": {
+            "xAxis": {
+              "name": "ID",
+              "index": 0.0,
+              "aggr": "sum"
+            },
+            "yAxis": {
+              "name": "DEVICE_TYPE",
+              "index": 1.0,
+              "aggr": "sum"
+            }
+          }
+        },
+        "enabled": true,
+        "editorHide": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1480307208218_-2088591575",
+      "id": "20161116-161710_2002953802",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TABLE",
+        "msg": "ID\tDEVICE_TYPE\tLATITUDE\tLONGITUDE\tHOUSE_ID\tMER_FLAG\n474710726\taddress\t36.84347572\t-76.33219713\t2150150589\t1.0\n474710727\ttap\t36.84299321\t-76.33191305\tnull\t1.0\n474710728\taddress\t36.84287846\t-76.33190902\t2151188203\t1.0\n474710745\ttap\t36.84363237\t-76.33139656\tnull\t1.0\n474710747\taddress\t36.84370068\t-76.33157338\t2150145836\t1.0\n474710748\taddress\t36.8436232\t-76.33157087\t2150205044\t1.0\n"
+      },
+      "dateCreated": "Nov 28, 2016 4:26:48 AM",
+      "status": "READY",
+      "errorMessage": "",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "title": "Pick a POI",
+      "text": "%spark\nval query \u003d \"select id, device_type, gnis_id, latitude, longitude, house_id, node_numyer, node_path, mer_flag from cx_lookup\"\nval id \u003d z.input(\"id\")\nval t1 \u003d java.lang.System.currentTimeMillis()\nval deviceDS \u003d queryToDS(connection, \"select node_path from cx_lookup where id \u003d\u0027\"+id+\"\u0027\").collect()(0)\nval nodePath \u003d \"\u0027\"+id+\"\u0027,\" + deviceDS(0).asInstanceOf[String].split(\"\\\\|\").map(x \u003d\u003e \"\u0027\" + x + \"\u0027\").mkString(\",\")\nval upstreamQuery \u003d query + \" where id in (\" + nodePath + \")\"\nval upstreamDS \u003d queryToDS(connection, upstreamQuery)\nval upstreamDevices \u003d upstreamDS.collect\nprintln(\"Got \" + upstreamDevices.size.toString + \" parent devices in \" + (java.lang.System.currentTimeMillis() - t1).toString + \" ms\")\n\nval downstreamQuery \u003d query + \" where upstream_device_id in (\u0027\"+id+\"\u0027)\"\n\n//Collect all children\nval t2 \u003d java.lang.System.currentTimeMillis()\nvar childIDs \u003d Array[String]()\nvar children \u003d queryToDS(connection, downstreamQuery).collect\nwhile (children.size \u003e 0){\n  val tmpIDs \u003d children.map(x \u003d\u003e x(0).asInstanceOf[String])\n  childIDs \u003d childIDs ++ tmpIDs\n  val tmpQuery \u003d query + \" where upstream_device_id in (\"+ tmpIDs.map(x \u003d\u003e \"\u0027\"+x+\"\u0027\").mkString(\",\") +\")\"\n  println(\"Found \" + tmpIDs.size.toString + \" child ids: \" + tmpIDs.mkString(\",\"))\n  children \u003d queryToDS(connection, tmpQuery).collect\n}\nprintln(\"Got \" + childIDs.size.toString + \" children in \" + (java.lang.System.currentTimeMillis() - t2).toString + \" ms\")\nif (childIDs.size \u003d\u003d 0) childIDs \u003d childIDs :+ \"\"\nval childDevices \u003d queryToDS(connection, query + \" where id in (\" + childIDs.map(x \u003d\u003e \"\u0027\"+x+\"\u0027\").mkString(\",\")+ \")\").collect\n\nz.angularBind(\"parents\", upstreamDevices)\nz.angularBind(\"children\", childDevices)\nz.angularBind(\"id\", id)\nz.run(\"20161112-195716_1056217064\")",
+      "dateUpdated": "Nov 28, 2016 4:36:58 AM",
+      "config": {
+        "tableHide": false,
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/scala",
+        "editorHide": true,
+        "title": true,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true
+      },
+      "settings": {
+        "params": {
+          "hse_id": "2150101573",
+          "id": "474710721",
+          "test": ""
+        },
+        "forms": {
+          "id": {
+            "name": "id",
+            "displayName": "id",
+            "type": "input",
+            "defaultValue": "",
+            "hidden": false
+          }
+        }
+      },
+      "jobName": "paragraph_1480307208219_-2088976323",
+      "id": "20161114-012542_639886975",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TEXT",
+        "msg": "\nquery: String \u003d select id, device_type, gnis_id, latitude, longitude, house_id, node_numyer, node_path, mer_flag from cx_lookup\n\nid: Object \u003d 474710721\n\nt1: Long \u003d 1479319301938\n\ndeviceDS: org.apache.spark.sql.Row \u003d [474710720|474710719|474710715|474710712|474710711|474710666|474710658|474710653|474710652|474710651|474710637|474710636|474710542|474710541|474710535|474710528|474710527|474710526|474710518|474710517|474710516|474710515|474710514|474709683]\n\nnodePath: String \u003d \u0027474710721\u0027,\u0027474710720\u0027,\u0027474710719\u0027,\u0027474710715\u0027,\u0027474710712\u0027,\u0027474710711\u0027,\u0027474710666\u0027,\u0027474710658\u0027,\u0027474710653\u0027,\u0027474710652\u0027,\u0027474710651\u0027,\u0027474710637\u0027,\u0027474710636\u0027,\u0027474710542\u0027,\u0027474710541\u0027,\u0027474710535\u0027,\u0027474710528\u0027,\u0027474710527\u0027,\u0027474710526\u0027,\u0027474710518\u0027,\u0027474710517\u0027,\u0027474710516\u0027,\u0027474710515\u0027,\u0027474710514\u0027,\u0027474709683\u0027\n\nupstreamQuery: String \u003d select id, device_type, gnis_id, latitude, longitude, house_id, node_numyer, node_path, mer_flag from cx_lookup where id in (\u0027474710721\u0027,\u0027474710720\u0027,\u0027474710719\u0027,\u0027474710715\u0027,\u0027474710712\u0027,\u0027474710711\u0027,\u0027474710666\u0027,\u0027474710658\u0027,\u0027474710653\u0027,\u0027474710652\u0027,\u0027474710651\u0027,\u0027474710637\u0027,\u0027474710636\u0027,\u0027474710542\u0027,\u0027474710541\u0027,\u0027474710535\u0027,\u0027474710528\u0027,\u0027474710527\u0027,\u0027474710526\u0027,\u0027474710518\u0027,\u0027474710517\u0027,\u0027474710516\u0027,\u0027474710515\u0027,\u0027474710514\u0027,\u0027474709683\u0027)\n\nupstreamDS: org.apache.spark.sql.DataFrame \u003d [ID: string, DEVICE_TYPE: string ... 7 more fields]\nupstreamDevices: Array[org.apache.spark.sql.Row] \u003d Array([474709683,optical_node,2114798368,36.84834353,-76.33655271,,895PM075,,], [474710514,power_block,2116615389,36.85028458,-76.33317897,,895PM075,474709683,], [474710515,amplifier,2114798801,36.85028458,-76.33317897,,895PM075,474710514|474709683,], [474710516,internal_coupler,750922302,36.85028458,-76.33317897,,895PM075,474710515|474710514|474709683,], [474710517,tap,2115872134,36.84996066,-76.3331543,,895PM075,474710516|474710515|474710514|474709683,], [474710518,tap,2115872167,36.84971788,-76.3331366,,895PM075,474710517|474710516|474710515|474710514|474709683,], [474710526,tap,2115872256,36.8495014,-76.33312079,,895PM075,474710518|474710517|474710516|474710515|474710514|474709683,], [474710527,amplifier,2115872289,36.84922963,-76.3...Got 25 parent devices in 1711 ms\n\ndownstreamQuery: String \u003d select id, device_type, gnis_id, latitude, longitude, house_id, node_numyer, node_path, mer_flag from cx_lookup where upstream_device_id in (\u0027474710721\u0027)\n\nt2: Long \u003d 1479319303805\n\nchildIDs: Array[String] \u003d Array()\nchildren: Array[org.apache.spark.sql.Row] \u003d Array([474710723,address,2117647077,36.84321851,-76.33216996,2150254481,895PM075,474710721|474710720|474710719|474710715|474710712|474710711|474710666|474710658|474710653|474710652|474710651|474710637|474710636|474710542|474710541|474710535|474710528|474710527|474710526|474710518|474710517|474710516|474710515|474710514|474709683,0.0], [474710724,address,2117647099,36.84329118,-76.33218034,2150254385,895PM075,474710721|474710720|474710719|474710715|474710712|474710711|474710666|474710658|474710653|474710652|474710651|474710637|474710636|474710542|474710541|474710535|474710528|474710527|474710526|474710518|474710517|474710516|474710515|474710514|474709683,0.0], [474710725,address,2117647113,36.84336795,-76.33218407,2150102257,895PM075,474710721|...Found 4 child ids: 474710723,474710724,474710725,474710726\nGot 4 children in 2401 ms\nchildDevices: Array[org.apache.spark.sql.Row] \u003d Array([474710723,address,2117647077,36.84321851,-76.33216996,2150254481,895PM075,474710721|474710720|474710719|474710715|474710712|474710711|474710666|474710658|474710653|474710652|474710651|474710637|474710636|474710542|474710541|474710535|474710528|474710527|474710526|474710518|474710517|474710516|474710515|474710514|474709683,0.0], [474710724,address,2117647099,36.84329118,-76.33218034,2150254385,895PM075,474710721|474710720|474710719|474710715|474710712|474710711|474710666|474710658|474710653|474710652|474710651|474710637|474710636|474710542|474710541|474710535|474710528|474710527|474710526|474710518|474710517|474710516|474710515|474710514|474709683,0.0], [474710725,address,2117647113,36.84336795,-76.33218407,2150102257,895PM075,474710..."
+      },
+      "dateCreated": "Nov 28, 2016 4:26:48 AM",
+      "status": "READY",
+      "errorMessage": "",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%angular\n\u003cdiv id\u003d\"map\" style\u003d\"height:500px;width:100%;\"\u003e\u003c/div\u003e\n\u003cscript type\u003d\"text/javascript\"\u003e\nfunction circle(pos, color, info, map){\n  var circle \u003d new google.maps.Circle({\n      strokeColor: color,\n      strokeOpacity: 0.8,\n      strokeWeight: 2,\n      fillColor: color,\n      fillOpacity: 0.35,\n      map: map,\n      center: pos,\n      radius: 6.5\n  });\n  var info \u003d new google.maps.InfoWindow({content: info});\n  circle.addListener(\u0027click\u0027, function(){\n    info.open(map, circle);\n    info.setPosition(circle.getCenter());\n  });\n}\n\nfunction line(coords, dashed, map){\n  var lineConf \u003d {\n    path: coords,\n    geodesic: true,\n    strokeColor: \u0027#000000\u0027,\n    strokeOpacity: 1.0,\n    strokeWeight: 1\n  };\n  if (dashed) lineConf.icons \u003d [{\n    icon: { path: \u0027M 0,-1 0,1\u0027, strokeOpacity: 1, scale: 3 },\n    offset: \u00270\u0027,\n    repeat: \u002720px\u0027\n  }];\n  var path \u003d new google.maps.Polyline(lineConf);\n  path.setMap(map);\n}\n\nfunction initMap() {\n  var id \u003d window.angularVars.id;\n  var children \u003d window.angularVars.children;\n  var parents \u003d window.angularVars.parents;\n  var POIs \u003d {};\n  \n  var USA \u003d {lat: 39.8282, lng: -98.5795};\n  var map \u003d new google.maps.Map(document.getElementById(\u0027map\u0027), {zoom: 17, center: USA });\n  \n  //******\n  //Draw circles for each parent POI\n  //******\n  $.each(parents, function(i, v){\n    POIs[v.values[0]] \u003d v.values;\n    //Create marker for each POI\n    var pos \u003d {lat: parseFloat(v.values[3]), lng: parseFloat(v.values[4]) };\n    var color \u003d (v.values[8] \u003d\u003d \u00271.0\u0027) ? \u0027#FF0000\u0027 : \u0027#008000\u0027;\n    var info \u003d \u0027\u003cb\u003eID\u003c/b\u003e: \u0027 + v.values[0] + \u0027\u003cp\u003e\u003cb\u003eGNIS ID:\u003c/b\u003e \u0027 + v.values[2] + \u0027\u003cp\u003e\u0027 + v.values[1];\n    console.log(\u0027Drawing parent \u0027 + v.values[1] + \u0027: \u0027 + v.values[0] + \u0027 \u0027 + JSON.stringify(pos) + \u0027 \u0027 + v.values[3] + \u0027,\u0027 + v.values[4]);\n    circle(pos, color, info, map);\n  });\n  \n  //Draw route lines from selected POI to node\n  var POI \u003d POIs[id];\n  var start \u003d {lat: parseFloat(POI[3]), lng: parseFloat(POI[4])};\n  var coords \u003d [start];\n  $.each(POI[7].split(\u0027|\u0027), function(i, v){\n    if (v \u003d\u003d \u0027\u0027) return false;\n    nextPOI \u003d POIs[v]\n    coords.push({lat: parseFloat(nextPOI[3]), lng: parseFloat(nextPOI[4])});\n  });\n  line(coords, true, map);\n  map.setCenter(start);\n  \n  //*******\n  //Draw circles for each child and route-lines from children to the selected POI\n  //*******\n  \n  //Put all child POIs into the POI dict\n  $.each(children, function(i, v){ POIs[v.values[0]] \u003d v.values; POIs[v.values[0]].push(false); });\n  var lines \u003d 0;\n  $.each(children, function(i, v){\n    var POI \u003d POIs[v.values[0]];\n    var pos \u003d {lat: parseFloat(POI[3]), lng: parseFloat(POI[4])};\n    var coords \u003d [pos];\n    var color \u003d (POI[8] \u003d\u003d \u00271.0\u0027) ? \u0027#FF0000\u0027 : \u0027#008000\u0027;\n    var info \u003d \u0027\u003cb\u003eID\u003c/b\u003e: \u0027 + v.values[0] + \u0027\u003cp\u003e\u003cb\u003eGNIS ID:\u003c/b\u003e \u0027 + v.values[2] + \u0027\u003cp\u003e\u0027 + v.values[1];\n      \n    //console.log(\u0027Drawing child \u0027 + POI[1] +\u0027: \u0027 + POI[0] + \u0027 \u0027 + JSON.stringify(pos) + \u0027 \u0027 + POI[3] + \u0027,\u0027 + POI[4]);\n    circle(pos, color, info, map);\n    \n    //Draw coords to selected ID\n    if (lines++ \u003c 300){\n      var IDs \u003d v.values[7].split(\u0027|\u0027);\n      IDs \u003d IDs.slice(0, IDs.indexOf(id)+1);\n      $.each(IDs, function(j, k){\n        var tmpPOI \u003d POIs[k];\n        //If this POI has already been drawn, exit loop\n        if (POI[9] \u003d\u003d true) return false;\n        coords.push({lat: parseFloat(tmpPOI[3]), lng: parseFloat(tmpPOI[4])});\n        POIs[k][9] \u003d true;\n      });\n      console.log(\u0027Drawing child \u0027 + POI[1] +\u0027: \u0027 + POI[0] + \u0027 \u0027 + JSON.stringify(coords));\n      line(coords, false, map);\n    }\n  });\n}\n\n//Only load GMaps once      \nif (typeof google \u003d\u003d\u003d \u0027object\u0027 \u0026\u0026 typeof google.maps \u003d\u003d\u003d \u0027object\u0027) initMap();\nelse {\n  var script \u003d document.createElement(\"script\");\n  script.type \u003d \"text/javascript\";\n  //Replace with your API key\n  //var apiKey \u003d \u0027AIzaSyAo9kHi0vp_Up_iqeUNyDOzxiaVan8CY50\u0027;\n  var apiKey \u003d \u0027AIzaSyDelWwzG32w6aDi9WsLiw2qP_JHAbQHG3A\u0027;\n  script.src \u003d \"https://maps.googleapis.com/maps/api/js?key\u003d\"+apiKey+\"\u0026callback\u003dinitMap\";\n  document.body.appendChild(script);\n}\n\u003c/script\u003e",
+      "dateUpdated": "Nov 28, 2016 4:37:03 AM",
+      "config": {
+        "lineNumbers": true,
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/scala",
+        "editorHide": true,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1480307208220_-2090900068",
+      "id": "20161112-195716_1056217064",
+      "result": {
+        "code": "SUCCESS",
+        "type": "ANGULAR",
+        "msg": "\u003cdiv id\u003d\"map\" style\u003d\"height:500px;width:100%;\"\u003e\u003c/div\u003e\n\u003cscript type\u003d\"text/javascript\"\u003e\nfunction circle(pos, color, info, map){\n  var circle \u003d new google.maps.Circle({\n      strokeColor: color,\n      strokeOpacity: 0.8,\n      strokeWeight: 2,\n      fillColor: color,\n      fillOpacity: 0.35,\n      map: map,\n      center: pos,\n      radius: 6.5\n  });\n  var info \u003d new google.maps.InfoWindow({content: info});\n  circle.addListener(\u0027click\u0027, function(){\n    info.open(map, circle);\n    info.setPosition(circle.getCenter());\n  });\n}\n\nfunction line(coords, dashed, map){\n  var lineConf \u003d {\n    path: coords,\n    geodesic: true,\n    strokeColor: \u0027#000000\u0027,\n    strokeOpacity: 1.0,\n    strokeWeight: 1\n  };\n  if (dashed) lineConf.icons \u003d [{\n    icon: { path: \u0027M 0,-1 0,1\u0027, strokeOpacity: 1, scale: 3 },\n    offset: \u00270\u0027,\n    repeat: \u002720px\u0027\n  }];\n  var path \u003d new google.maps.Polyline(lineConf);\n  path.setMap(map);\n}\n\nfunction initMap() {\n  var id \u003d window.angularVars.id;\n  var children \u003d window.angularVars.children;\n  var parents \u003d window.angularVars.parents;\n  var POIs \u003d {};\n  \n  var USA \u003d {lat: 39.8282, lng: -98.5795};\n  var map \u003d new google.maps.Map(document.getElementById(\u0027map\u0027), {zoom: 17, center: USA });\n  \n  //******\n  //Draw circles for each parent POI\n  //******\n  $.each(parents, function(i, v){\n    POIs[v.values[0]] \u003d v.values;\n    //Create marker for each POI\n    var pos \u003d {lat: parseFloat(v.values[3]), lng: parseFloat(v.values[4]) };\n    var color \u003d (v.values[8] \u003d\u003d \u00271.0\u0027) ? \u0027#FF0000\u0027 : \u0027#008000\u0027;\n    var info \u003d \u0027\u003cb\u003eID\u003c/b\u003e: \u0027 + v.values[0] + \u0027\u003cp\u003e\u003cb\u003eGNIS ID:\u003c/b\u003e \u0027 + v.values[2] + \u0027\u003cp\u003e\u0027 + v.values[1];\n    console.log(\u0027Drawing parent \u0027 + v.values[1] + \u0027: \u0027 + v.values[0] + \u0027 \u0027 + JSON.stringify(pos) + \u0027 \u0027 + v.values[3] + \u0027,\u0027 + v.values[4]);\n    circle(pos, color, info, map);\n  });\n  \n  //Draw route lines from selected POI to node\n  var POI \u003d POIs[id];\n  var start \u003d {lat: parseFloat(POI[3]), lng: parseFloat(POI[4])};\n  var coords \u003d [start];\n  $.each(POI[7].split(\u0027|\u0027), function(i, v){\n    if (v \u003d\u003d \u0027\u0027) return false;\n    nextPOI \u003d POIs[v]\n    coords.push({lat: parseFloat(nextPOI[3]), lng: parseFloat(nextPOI[4])});\n  });\n  line(coords, true, map);\n  map.setCenter(start);\n  \n  //*******\n  //Draw circles for each child and route-lines from children to the selected POI\n  //*******\n  \n  //Put all child POIs into the POI dict\n  $.each(children, function(i, v){ POIs[v.values[0]] \u003d v.values; POIs[v.values[0]].push(false); });\n  var lines \u003d 0;\n  $.each(children, function(i, v){\n    var POI \u003d POIs[v.values[0]];\n    var pos \u003d {lat: parseFloat(POI[3]), lng: parseFloat(POI[4])};\n    var coords \u003d [pos];\n    var color \u003d (POI[8] \u003d\u003d \u00271.0\u0027) ? \u0027#FF0000\u0027 : \u0027#008000\u0027;\n    var info \u003d \u0027\u003cb\u003eID\u003c/b\u003e: \u0027 + v.values[0] + \u0027\u003cp\u003e\u003cb\u003eGNIS ID:\u003c/b\u003e \u0027 + v.values[2] + \u0027\u003cp\u003e\u0027 + v.values[1];\n      \n    //console.log(\u0027Drawing child \u0027 + POI[1] +\u0027: \u0027 + POI[0] + \u0027 \u0027 + JSON.stringify(pos) + \u0027 \u0027 + POI[3] + \u0027,\u0027 + POI[4]);\n    circle(pos, color, info, map);\n    \n    //Draw coords to selected ID\n    if (lines++ \u003c 300){\n      var IDs \u003d v.values[7].split(\u0027|\u0027);\n      IDs \u003d IDs.slice(0, IDs.indexOf(id)+1);\n      $.each(IDs, function(j, k){\n        var tmpPOI \u003d POIs[k];\n        //If this POI has already been drawn, exit loop\n        if (POI[9] \u003d\u003d true) return false;\n        coords.push({lat: parseFloat(tmpPOI[3]), lng: parseFloat(tmpPOI[4])});\n        POIs[k][9] \u003d true;\n      });\n      console.log(\u0027Drawing child \u0027 + POI[1] +\u0027: \u0027 + POI[0] + \u0027 \u0027 + JSON.stringify(coords));\n      line(coords, false, map);\n    }\n  });\n}\n\n//Only load GMaps once      \nif (typeof google \u003d\u003d\u003d \u0027object\u0027 \u0026\u0026 typeof google.maps \u003d\u003d\u003d \u0027object\u0027) initMap();\nelse {\n  var script \u003d document.createElement(\"script\");\n  script.type \u003d \"text/javascript\";\n  //Replace with your API key\n  //var apiKey \u003d \u0027AIzaSyAo9kHi0vp_Up_iqeUNyDOzxiaVan8CY50\u0027;\n  var apiKey \u003d \u0027AIzaSyDelWwzG32w6aDi9WsLiw2qP_JHAbQHG3A\u0027;\n  script.src \u003d \"https://maps.googleapis.com/maps/api/js?key\u003d\"+apiKey+\"\u0026callback\u003dinitMap\";\n  document.body.appendChild(script);\n}\n\u003c/script\u003e"
+      },
+      "dateCreated": "Nov 28, 2016 4:26:48 AM",
+      "status": "READY",
+      "errorMessage": "",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%spark\nqueryToDS(connection, \"select * from cx_lookup where ID \u003d \u0027474710721\u0027\").collect",
+      "dateUpdated": "Nov 28, 2016 4:26:48 AM",
+      "config": {
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/scala",
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1480307208220_-2090900068",
+      "id": "20161114-084635_554575986",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TEXT",
+        "msg": "\nres67: Array[org.apache.spark.sql.Row] \u003d Array([474710721,tap,2116151510,36.84336701,-76.33241252,,895PM075,474710720,474710720|474710719|474710715|474710712|474710711|474710666|474710658|474710653|474710652|474710651|474710637|474710636|474710542|474710541|474710535|474710528|474710527|474710526|474710518|474710517|474710516|474710515|474710514|474709683,0.0,2])\n"
+      },
+      "dateCreated": "Nov 28, 2016 4:26:48 AM",
+      "status": "READY",
+      "errorMessage": "",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%jdbc(phoenix)\n\nselect * from cx_household_info limit 100",
+      "dateUpdated": "Nov 28, 2016 4:26:48 AM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "multiBarChart",
+          "height": 300.0,
+          "optionOpen": true,
+          "keys": [
+            {
+              "name": "NODE",
+              "index": 3.0,
+              "aggr": "sum",
+              "$$hashKey": "object:3732"
+            }
+          ],
+          "values": [
+            {
+              "name": "NODE",
+              "index": 3.0,
+              "aggr": "sum",
+              "$$hashKey": "object:3735"
+            }
+          ],
+          "groups": [],
+          "scatter": {
+            "xAxis": {
+              "name": "EQUIP_ADDR",
+              "index": 0.0,
+              "aggr": "sum"
+            },
+            "yAxis": {
+              "name": "ACCT_NBR",
+              "index": 1.0,
+              "aggr": "sum"
+            }
+          }
+        },
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1480307208220_-2090900068",
+      "id": "20161116-161656_1423932582",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TABLE",
+        "msg": "EQUIP_ADDR\tACCT_NBR\tHSE_ID\tNODE\tEQUIP_STATS_SNR_VAL\tSERL_NBR\tCM_ICFR\tRIPPLES\tUPSTRM_CHNL_BANDWIDTH\tPRE_EQ_TAP_9\tPRE_EQ_TAP_10\tINHOME_WIRING_FLAG\tMER_FLAG\n000XE59Z806X\t96909707\t2150102257\tPM075\t55.1\t05ZVN7H9NTR6\t1.5668\t0\t6.4\t-21.6184\t-36.5416\t0\t0\n9698596850\t96909907\t2150145836\tPM087\t11.1\t807667708\t0.643\t0\t6.4\t-31.9288\t-42.0112\t0\t1\n000E5XE99XD8\t85086090\t2150150589\tPM007\t11.1\t06676XJ98908\t2.0531\t0\t6.4\t-17.0982\t-25.4403\t0\t1\n0095Z6899EE9\t89658705\t2150205044\tPM007\t11.1\t78WYMV6E7898686\t0.6901\t0\t6.4\t-27.0592\t-32.0425\t0\t1\n00959Z75Y806\t96670908\t2150205045\tPM075\t35.4\t07W7GW7705M8\t1.2018\t0\t6.4\t-21.8882\t-36.0523\t0\t0\n0095Z67YF077\t97879808\t2150205048\tPM007\t38.6\t7YKYMV6ND888899\t1.2181\t0\t6.4\t-30.1787\t-36.5279\t0\t0\n000Y06X96FD8\t97669509\t2150254385\tPM007\t37.5\t05ZVN78D07L7\t1.1742\t0\t6.4\t-23.8962\t-29.0549\t0\t0\n000XE5F6095Z\t97788908\t2150254481\tPM075\t36.9\t06H7GPXSMP58\t9.7118\t0\t6.4\t-1.5529\t-1.6334\t1\t0\n00959Z6D7986\t85769706\t2151188203\tPM087\t11.1\t07W7GZH9J005\t2.0801\t1\t6.4\t-20.0304\t-30.6432\t0\t1\n"
+      },
+      "dateCreated": "Nov 28, 2016 4:26:48 AM",
+      "status": "READY",
+      "errorMessage": "",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "",
+      "dateUpdated": "Nov 28, 2016 4:26:48 AM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1480307208221_-2091284817",
+      "id": "20161116-161810_782876520",
+      "dateCreated": "Nov 28, 2016 4:26:48 AM",
+      "status": "READY",
+      "errorMessage": "",
+      "progressUpdateIntervalMs": 500
+    }
+  ],
+  "name": "Dashboard",
+  "id": "2C4JCBCKG",
+  "angularObjects": {
+    "2C35SAQUV:shared_process": [],
+    "2C1SVJQKC:shared_process": [],
+    "2BZCYSBP1:shared_process": [],
+    "2C3QWZMH9:shared_process": [],
+    "2C2VCMDMA:shared_process": [],
+    "2C2DNH7EH:shared_process": [],
+    "2C2J776HS:shared_process": [],
+    "2C24HD65R:shared_process": [],
+    "2C33UV8C1:shared_process": []
+  },
+  "config": {},
+  "info": {}
+}

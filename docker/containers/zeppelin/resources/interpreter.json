@@ -1,0 +1,363 @@
+{
+  "interpreterSettings": {
+    "2C2VCMDMA": {
+      "id": "2C2VCMDMA",
+      "name": "md",
+      "group": "md",
+      "properties": {},
+      "interpreterGroup": [
+        {
+          "class": "org.apache.zeppelin.markdown.Markdown",
+          "name": "md"
+        }
+      ],
+      "dependencies": [],
+      "option": {
+        "remote": true,
+        "perNoteSession": false,
+        "perNoteProcess": false,
+        "isExistingProcess": false
+      }
+    },
+    "2C24HD65R": {
+      "id": "2C24HD65R",
+      "name": "jdbc",
+      "group": "jdbc",
+      "properties": {
+        "default.password": "",
+        "phoenix.hbase.client.retries.number": "1",
+        "common.max_count": "1000",
+        "phoenix.driver": "org.apache.phoenix.jdbc.PhoenixDriver",
+        "default.user": "",
+        "zeppelin.interpreter.localRepo": "/zeppelin/local-repo/2C24HD65R",
+        "default.url": "jdbc:phoenix:thin:url\u003dhttp://phoenix.dev:8765",
+        "default.driver": "org.apache.phoenix.queryserver.client.Driver",
+        "phoenix.password": "",
+        "zeppelin.jdbc.concurrent.use": "true",
+        "zeppelin.jdbc.concurrent.max_connection": "10",
+        "phoenix.url": "jdbc:phoenix:phoenix.dev:2181:/hbase"
+      },
+      "interpreterGroup": [
+        {
+          "class": "org.apache.zeppelin.jdbc.JDBCInterpreter",
+          "name": "sql"
+        }
+      ],
+      "dependencies": [
+        {
+          "groupArtifactVersion": "org.apache.phoenix:phoenix-core:4.8.1-HBase-1.1",
+          "local": false
+        }
+      ],
+      "option": {
+        "remote": true,
+        "perNoteSession": false,
+        "perNoteProcess": false,
+        "isExistingProcess": false
+      }
+    },
+    "2C2J776HS": {
+      "id": "2C2J776HS",
+      "name": "sh",
+      "group": "sh",
+      "properties": {
+        "shell.command.timeout.millisecs": "60000"
+      },
+      "interpreterGroup": [
+        {
+          "class": "org.apache.zeppelin.shell.ShellInterpreter",
+          "name": "sh"
+        }
+      ],
+      "dependencies": [],
+      "option": {
+        "remote": true,
+        "perNoteSession": false,
+        "perNoteProcess": false,
+        "isExistingProcess": false
+      }
+    },
+    "2C33UV8C1": {
+      "id": "2C33UV8C1",
+      "name": "hbase",
+      "group": "hbase",
+      "properties": {
+        "zeppelin.hbase.test.mode": "false",
+        "hbase.ruby.sources": "lib/ruby",
+        "hbase.home": "/usr/lib/hbase/"
+      },
+      "interpreterGroup": [
+        {
+          "class": "org.apache.zeppelin.hbase.HbaseInterpreter",
+          "name": "hbase"
+        }
+      ],
+      "dependencies": [],
+      "option": {
+        "remote": true,
+        "perNoteSession": false,
+        "perNoteProcess": false,
+        "isExistingProcess": false
+      }
+    },
+    "2C2DNH7EH": {
+      "id": "2C2DNH7EH",
+      "name": "angular",
+      "group": "angular",
+      "properties": {
+        "zeppelin.interpreter.localRepo": "/zeppelin/local-repo/2C2DNH7EH"
+      },
+      "interpreterGroup": [
+        {
+          "class": "org.apache.zeppelin.angular.AngularInterpreter",
+          "name": "angular"
+        }
+      ],
+      "dependencies": [],
+      "option": {
+        "remote": true,
+        "perNoteSession": false,
+        "perNoteProcess": false,
+        "isExistingProcess": false
+      }
+    },
+    "2C35SAQUV": {
+      "id": "2C35SAQUV",
+      "name": "spark",
+      "group": "spark",
+      "properties": {
+        "spark.executor.memory": "",
+        "args": "",
+        "zeppelin.spark.printREPLOutput": "true",
+        "spark.cores.max": "",
+        "zeppelin.dep.additionalRemoteRepository": "spark-packages,http://dl.bintray.com/spark-packages/maven,false;",
+        "zeppelin.spark.importImplicit": "true",
+        "zeppelin.spark.sql.stacktrace": "false",
+        "zeppelin.spark.concurrentSQL": "false",
+        "zeppelin.spark.useHiveContext": "true",
+        "zeppelin.pyspark.python": "python",
+        "zeppelin.dep.localrepo": "local-repo",
+        "zeppelin.interpreter.localRepo": "/zeppelin/local-repo/2C35SAQUV",
+        "zeppelin.R.knitr": "true",
+        "zeppelin.spark.maxResult": "1000",
+        "master": "local[*]",
+        "spark.app.name": "Zeppelin",
+        "zeppelin.R.image.width": "100%",
+        "zeppelin.R.render.options": "out.format \u003d \u0027html\u0027, comment \u003d NA, echo \u003d FALSE, results \u003d \u0027asis\u0027, message \u003d F, warning \u003d F",
+        "zeppelin.R.cmd": "R"
+      },
+      "interpreterGroup": [
+        {
+          "class": "org.apache.zeppelin.spark.SparkInterpreter",
+          "name": "spark"
+        },
+        {
+          "class": "org.apache.zeppelin.spark.PySparkInterpreter",
+          "name": "pyspark"
+        },
+        {
+          "class": "org.apache.zeppelin.spark.SparkRInterpreter",
+          "name": "r"
+        },
+        {
+          "class": "org.apache.zeppelin.spark.SparkSqlInterpreter",
+          "name": "sql"
+        },
+        {
+          "class": "org.apache.zeppelin.spark.DepInterpreter",
+          "name": "dep"
+        }
+      ],
+      "dependencies": [
+        {
+          "groupArtifactVersion": "org.apache.nifi:nifi-site-to-site-client:1.0.0",
+          "local": false
+        },
+        {
+          "groupArtifactVersion": "/resources/nifi-spark-receiver-1.1.0-SNAPSHOT.jar",
+          "local": false
+        },
+        {
+          "groupArtifactVersion": "org.apache.phoenix:phoenix-queryserver-client:4.8.1-HBase-1.1",
+          "local": false
+        }
+      ],
+      "option": {
+        "remote": true,
+        "perNoteSession": false,
+        "perNoteProcess": false,
+        "isExistingProcess": false
+      }
+    },
+    "2C3QWZMH9": {
+      "id": "2C3QWZMH9",
+      "name": "python",
+      "group": "python",
+      "properties": {
+        "zeppelin.python": "python"
+      },
+      "interpreterGroup": [
+        {
+          "class": "org.apache.zeppelin.python.PythonInterpreter",
+          "name": "python"
+        }
+      ],
+      "dependencies": [],
+      "option": {
+        "remote": true,
+        "perNoteSession": false,
+        "perNoteProcess": false,
+        "isExistingProcess": false
+      }
+    },
+    "2C1SVJQKC": {
+      "id": "2C1SVJQKC",
+      "name": "file",
+      "group": "file",
+      "properties": {
+        "hdfs.maxlength": "1000",
+        "hdfs.user": "hdfs",
+        "hdfs.url": "http://localhost:50070/webhdfs/v1/"
+      },
+      "interpreterGroup": [
+        {
+          "class": "org.apache.zeppelin.file.HDFSFileInterpreter",
+          "name": "hdfs"
+        }
+      ],
+      "dependencies": [],
+      "option": {
+        "remote": true,
+        "perNoteSession": false,
+        "perNoteProcess": false,
+        "isExistingProcess": false
+      }
+    },
+    "2BZCYSBP1": {
+      "id": "2BZCYSBP1",
+      "name": "flink",
+      "group": "flink",
+      "properties": {
+        "port": "6123",
+        "host": "local"
+      },
+      "interpreterGroup": [
+        {
+          "class": "org.apache.zeppelin.flink.FlinkInterpreter",
+          "name": "flink"
+        }
+      ],
+      "dependencies": [],
+      "option": {
+        "remote": true,
+        "perNoteSession": false,
+        "perNoteProcess": false,
+        "isExistingProcess": false
+      }
+    }
+  },
+  "interpreterBindings": {
+    "2BZJ2D7KK": [
+      "2C35SAQUV",
+      "2C2VCMDMA",
+      "2C2DNH7EH",
+      "2C2J776HS",
+      "2C1SVJQKC",
+      "2BZCYSBP1",
+      "2C3QWZMH9",
+      "2C24HD65R",
+      "2C33UV8C1"
+    ],
+    "2BZN18WQS": [
+      "2C35SAQUV",
+      "2C2VCMDMA",
+      "2C2DNH7EH",
+      "2C2J776HS",
+      "2C1SVJQKC",
+      "2BZCYSBP1",
+      "2C3QWZMH9",
+      "2C24HD65R",
+      "2C33UV8C1"
+    ],
+    "2BZRYM51C": [
+      "2C35SAQUV",
+      "2C2VCMDMA",
+      "2C2DNH7EH",
+      "2C2J776HS",
+      "2C1SVJQKC",
+      "2BZCYSBP1",
+      "2C3QWZMH9",
+      "2C24HD65R",
+      "2C33UV8C1"
+    ],
+    "2C3GGB44T": [
+      "2C35SAQUV",
+      "2C2VCMDMA",
+      "2C2DNH7EH",
+      "2C2J776HS",
+      "2C1SVJQKC",
+      "2BZCYSBP1",
+      "2C3QWZMH9",
+      "2C24HD65R",
+      "2C33UV8C1"
+    ],
+    "2C3X2EVN7": [
+      "2C35SAQUV",
+      "2C2VCMDMA",
+      "2C2DNH7EH",
+      "2C2J776HS",
+      "2C1SVJQKC",
+      "2BZCYSBP1",
+      "2C3QWZMH9",
+      "2C24HD65R",
+      "2C33UV8C1"
+    ],
+    "2C16SQXBE": [
+      "2C35SAQUV",
+      "2C2VCMDMA",
+      "2C2DNH7EH",
+      "2C2J776HS",
+      "2C1SVJQKC",
+      "2BZCYSBP1",
+      "2C3QWZMH9",
+      "2C24HD65R",
+      "2C33UV8C1"
+    ]
+  },
+  "interpreterRepositories": [
+    {
+      "id": "central",
+      "type": "default",
+      "url": "http://repo1.maven.org/maven2/",
+      "releasePolicy": {
+        "enabled": true,
+        "updatePolicy": "daily",
+        "checksumPolicy": "warn"
+      },
+      "snapshotPolicy": {
+        "enabled": true,
+        "updatePolicy": "daily",
+        "checksumPolicy": "warn"
+      },
+      "mirroredRepositories": [],
+      "repositoryManager": false
+    },
+    {
+      "id": "local",
+      "type": "default",
+      "url": "file:///root/.m2/repository",
+      "releasePolicy": {
+        "enabled": true,
+        "updatePolicy": "daily",
+        "checksumPolicy": "warn"
+      },
+      "snapshotPolicy": {
+        "enabled": true,
+        "updatePolicy": "daily",
+        "checksumPolicy": "warn"
+      },
+      "mirroredRepositories": [],
+      "repositoryManager": false
+    }
+  ]
+}
