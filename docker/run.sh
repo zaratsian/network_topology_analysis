@@ -8,9 +8,9 @@ docker run -d --hostname kafka --net dev --name kafka kafka
 
 # Zeppelin and Spark
 # Usage:
-# /spark/bin/spark-submit --master local[*] --class "cxStream" --jars /phoenix-spark-4.8.1-HBase-1.1.jar target/SparkStreaming-0.0.1.jar phoenix.dev:2181 mytestgroup dztopic1 1 kafka.dev:9092
-docker cp assets/mosaic_topology_mapped.csv zeppelin:/mosaic_topology_mapped.csv
-docker cp ../SparkCx zeppelin:/SparkCx
+# /spark/bin/spark-submit --master local[*] --class "SparkNetworkAnalysis" --jars /phoenix-spark-4.8.1-HBase-1.1.jar target/SparkStreaming-0.0.1.jar phoenix.dev:2181 mytestgroup dztopic1 1 kafka.dev:9092
+docker cp ../data/traceroute_google_mapped.txt zeppelin:/traceroute_google_mapped.txt
+docker cp ../SparkNetworkAnalysis zeppelin:/SparkNetworkAnalysis
 docker cp assets/log4j.properties zeppelin:/spark/conf/log4j.properties
 docker exec zeppelin wget https://archive.apache.org/dist/maven/maven-3/3.3.9/binaries/apache-maven-3.3.9-bin.tar.gz
 docker exec zeppelin tar xvf apache-maven-3.3.9-bin.tar.gz
@@ -21,10 +21,9 @@ docker exec zeppelin wget http://central.maven.org/maven2/org/apache/phoenix/pho
 
 
 # Kafka
-docker cp assets/mosaic_data.csv kafka:/mosaic_data.csv
-docker cp assets/mosaic_data_smalltest.csv kafka:/mosaic_data_smalltest.csv
-docker cp assets/stream_kafka.py kafka:/stream_kafka.py
-docker cp assets/stream_kafka_smalltest.py kafka:/stream_kafka_smalltest.py
+docker cp ../data/traceroute_google_node_detail.txt kafka:/traceroute_google_node_detail.txt
+#docker cp ../data/traceroute_testdata.txt kafka:/traceroute_testdata.txt
+docker cp ../scripts/stream_kafka.py kafka:/stream_kafka.py
 docker exec kafka /kafka/bin/kafka-topics.sh --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic dztopic1
 docker exec kafka /kafka/bin/kafka-topics.sh --zookeeper localhost:2181 --list
 docker exec kafka curl "https://bootstrap.pypa.io/get-pip.py" -o "get-pip.py"
