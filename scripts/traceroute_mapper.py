@@ -19,7 +19,7 @@ node_details = []
 for i, event in enumerate(events):
     try:
         level     = str(event.split('|')[1].strip())
-        ip        = event.split('|')[2].strip().replace('192.168.0.1||||||||1','localhost|United States|NC|Raleigh|-78.6382|35.7796|Time Warner Cable|Time Warner Cable|1')
+        ip        = event.split('|')[2].strip()
         country   = event.split('|')[4].strip()
         region    = event.split('|')[5].strip()
         city      = event.split('|')[6].strip()
@@ -34,6 +34,10 @@ for i, event in enumerate(events):
             topology_map = topology_map + '|' + ip
         
         node_detail = ip + '|' + country + '|' + region + '|' + city + '|' + longitude + '|' + latitude + '|' + isp + '|' + org + '|' + level + '\n'
+        
+        # If localhost, then manually set my "home" ip information
+        if re.search('192.168.0.1',node_detail):
+            node_detail = 'localhost|United States|NC|Raleigh|-78.6382|35.7796|Time Warner Cable|Time Warner Cable'
         
         if node_detail not in node_details:
             node_details.append(node_detail)
