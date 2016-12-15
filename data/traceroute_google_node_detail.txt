@@ -1,5 +1,5 @@
 ip_address|country|region|city|longitude|latitude|isp|org
-192.168.0.1|||||||
+localhost|United States|NC|Raleigh|-78.6382|35.7796|Time Warner Cable|Time Warner Cable
 174.111.102.224|United States|NC|High Point|-80.0053|35.9557|Time Warner Cable|Time Warner Cable
 24.25.62.48|United States|NY|New York|-73.9597|40.7903|Time Warner Cable|Time Warner Cable
 24.93.67.200|United States|NC|Charlotte|-80.8439|35.2277|Time Warner Cable|Time Warner Cable
