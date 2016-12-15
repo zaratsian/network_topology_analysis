@@ -1,79 +1,304 @@
-ip_address|country|region|city|longitude|latitude|isp|org
-localhost|United States|NC|Raleigh|-78.6382|35.7796|Time Warner Cable|Time Warner Cable
-174.111.102.224|United States|NC|High Point|-80.0053|35.9557|Time Warner Cable|Time Warner Cable
-24.25.62.48|United States|NY|New York|-73.9597|40.7903|Time Warner Cable|Time Warner Cable
-24.93.67.200|United States|NC|Charlotte|-80.8439|35.2277|Time Warner Cable|Time Warner Cable
-24.93.64.184|United States|NC|Charlotte|-80.8431|35.2271|Time Warner Cable|Time Warner Cable
-66.109.6.80|United States|GA|Forest Park|-84.3691|33.6221|Time Warner Cable|Time Warner Cable
-216.50.79.33|United States|VA|Newport News|-76.5892|37.1254|XO Communications|XO Communications
-216.50.79.66|United States|VA|Newport News|-76.5892|37.1254|XO Communications|XO Communications
-216.239.62.139|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
-216.239.49.181|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
-216.239.50.93|United States|CA|Mountain View|-122.085|37.4229|Google|Google
-216.239.48.2|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
-216.239.48.6|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
-216.239.40.132|United States|FL|Sarasota|-82.356|27.2379|Google|Google
-216.239.40.118|United States|FL|Sarasota|-82.356|27.2379|Google|Google
-209.85.253.1|United States|CA|Mountain View|-122.085|37.4229|Google|Google
-209.85.143.197|United States|CA|Mountain View|-122.085|37.4229|Google|Google
-173.194.219.138|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
-174.111.102.226|United States|NC|High Point|-80.0053|35.9557|Time Warner Cable|Time Warner Cable
-24.25.62.50|United States|NY|New York|-73.9597|40.7903|Time Warner Cable|Time Warner Cable
-24.93.67.202|United States|NC|Charlotte|-80.8439|35.2277|Time Warner Cable|Time Warner Cable
-24.93.64.186|United States|NC|Charlotte|-80.8431|35.2271|Time Warner Cable|Time Warner Cable
-66.109.6.82|United States|GA|Forest Park|-84.3691|33.6221|Time Warner Cable|Time Warner Cable
-205.197.180.41|United States|IL|Chicago|-87.6441|41.8825|XO Communications|XO Communications
-205.197.180.54|United States|IL|Chicago|-87.6441|41.8825|XO Communications|XO Communications
-216.239.51.47|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
-216.239.51.53|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
-216.239.51.245|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
-108.170.232.71|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
-66.249.94.20|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
-209.85.143.201|United States|CA|Mountain View|-122.085|37.4229|Google|Google
-209.85.142.157|United States|CA|Mountain View|-122.085|37.4229|Google|Google
-64.233.174.133|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
-173.194.219.139|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
-216.239.51.243|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
-209.85.243.254|United States|CA|Mountain View|-122.085|37.4229|Google|Google
-209.85.247.150|United States|CA|Mountain View|-122.085|37.4229|Google|Google
-209.85.142.138|United States|CA|Mountain View|-122.085|37.4229|Google|Google
-74.125.196.100|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
-209.85.142.140|United States|CA|Mountain View|-122.085|37.4229|Google|Google
-173.194.219.113|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
-64.233.175.12|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
-209.85.248.53|United States|CA|Mountain View|-122.085|37.4229|Google|Google
-74.125.21.139|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
-209.85.142.153|United States|CA|Mountain View|-122.085|37.4229|Google|Google
-216.239.56.166|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
-216.239.56.164|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
-209.85.253.3|United States|CA|Mountain View|-122.085|37.4229|Google|Google
-216.58.215.46|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
-108.170.235.157|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
-216.239.49.197|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
-216.239.48.31|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
-216.239.40.138|United States|FL|Sarasota|-82.356|27.2379|Google|Google
-64.233.185.138|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
-216.239.40.130|United States|FL|Sarasota|-82.356|27.2379|Google|Google
-209.85.254.105|United States|CA|Mountain View|-122.085|37.4229|Google|Google
-209.85.244.218|United States|CA|Mountain View|-122.085|37.4229|Google|Google
-209.85.143.193|United States|CA|Mountain View|-122.085|37.4229|Google|Google
-74.125.196.102|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
-64.233.185.113|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
-209.85.240.63|United States|CA|Mountain View|-122.085|37.4229|Google|Google
-216.239.48.95|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
-216.239.48.9|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
-74.125.21.100|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
-216.239.50.97|United States|CA|Mountain View|-122.085|37.4229|Google|Google
-216.239.48.101|United States|LA|Sulphur|-93.4063|30.2585|Google|Google
-209.85.254.107|United States|CA|Mountain View|-122.085|37.4229|Google|Google
-108.170.232.70|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
-209.85.241.71|United States|CA|Mountain View|-122.085|37.4229|Google|Google
-216.58.218.14|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
-209.85.142.139|United States|CA|Mountain View|-122.085|37.4229|Google|Google
-64.233.185.101|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
-64.233.185.100|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
-64.233.175.94|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
-216.58.193.142|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
-209.85.142.149|United States|CA|Mountain View|-122.085|37.4229|Google|Google
-74.125.21.101|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
-74.125.21.113|United States|CA|Mountain View|-122.0574|37.4192|Google|Google
+ip_address|country|region|city|longitude|latitude|isp|org|level
+localhost|United States|NC|Raleigh|-78.6382|35.7796|Time Warner Cable|Time Warner Cable|1
+174.111.102.224|United States|NC|High Point|-80.0053|35.9557|Time Warner Cable|Time Warner Cable|2
+24.25.62.48|United States|NY|New York|-73.9597|40.7903|Time Warner Cable|Time Warner Cable|3
+24.93.67.200|United States|NC|Charlotte|-80.8439|35.2277|Time Warner Cable|Time Warner Cable|4
+24.93.64.184|United States|NC|Charlotte|-80.8431|35.2271|Time Warner Cable|Time Warner Cable|5
+66.109.6.80|United States|GA|Forest Park|-84.3691|33.6221|Time Warner Cable|Time Warner Cable|6
+216.50.79.33|United States|VA|Newport News|-76.5892|37.1254|XO Communications|XO Communications|7
+216.50.79.66|United States|VA|Newport News|-76.5892|37.1254|XO Communications|XO Communications|8
+216.239.62.139|United States|CA|Mountain View|-122.0574|37.4192|Google|Google|9
+216.239.49.181|United States|LA|Sulphur|-93.4063|30.2585|Google|Google|10
+216.239.50.93|United States|CA|Mountain View|-122.085|37.4229|Google|Google|11
+216.239.48.2|United States|LA|Sulphur|-93.4063|30.2585|Google|Google|12
+216.239.48.6|United States|LA|Sulphur|-93.4063|30.2585|Google|Google|13
+216.239.48.2|United States|LA|Sulphur|-93.4063|30.2585|Google|Google|14
+216.239.40.132|United States|FL|Sarasota|-82.356|27.2379|Google|Google|15
+216.239.40.118|United States|FL|Sarasota|-82.356|27.2379|Google|Google|16
+209.85.253.1|United States|CA|Mountain View|-122.085|37.4229|Google|Google|17
+209.85.143.197|United States|CA|Mountain View|-122.085|37.4229|Google|Google|18
+173.194.219.138|United States|CA|Mountain View|-122.0574|37.4192|Google|Google|19
+174.111.102.226|United States|NC|High Point|-80.0053|35.9557|Time Warner Cable|Time Warner Cable|2
+24.25.62.50|United States|NY|New York|-73.9597|40.7903|Time Warner Cable|Time Warner Cable|3
+24.93.67.202|United States|NC|Charlotte|-80.8439|35.2277|Time Warner Cable|Time Warner Cable|4
+24.93.64.186|United States|NC|Charlotte|-80.8431|35.2271|Time Warner Cable|Time Warner Cable|5
+66.109.6.82|United States|GA|Forest Park|-84.3691|33.6221|Time Warner Cable|Time Warner Cable|6
+205.197.180.41|United States|IL|Chicago|-87.6441|41.8825|XO Communications|XO Communications|7
+205.197.180.54|United States|IL|Chicago|-87.6441|41.8825|XO Communications|XO Communications|8
+216.239.51.47|United States|LA|Sulphur|-93.4063|30.2585|Google|Google|9
+216.239.51.53|United States|LA|Sulphur|-93.4063|30.2585|Google|Google|10
+216.239.51.245|United States|LA|Sulphur|-93.4063|30.2585|Google|Google|11
+108.170.232.71|United States|CA|Mountain View|-122.0574|37.4192|Google|Google|12
+66.249.94.20|United States|CA|Mountain View|-122.0574|37.4192|Google|Google|13
+209.85.143.201|United States|CA|Mountain View|-122.085|37.4229|Google|Google|14
+209.85.142.157|United States|CA|Mountain View|-122.085|37.4229|Google|Google|15
+64.233.174.133|United States|CA|Mountain View|-122.0574|37.4192|Google|Google|16
+173.194.219.139|United States|CA|Mountain View|-122.0574|37.4192|Google|Google|17
+24.93.64.186|United States|NC|Charlotte|-80.8431|35.2271|Time Warner Cable|Time Warner Cable|4
+24.93.67.202|United States|NC|Charlotte|-80.8439|35.2277|Time Warner Cable|Time Warner Cable|5
+24.93.64.186|United States|NC|Charlotte|-80.8431|35.2271|Time Warner Cable|Time Warner Cable|6
+66.109.6.82|United States|GA|Forest Park|-84.3691|33.6221|Time Warner Cable|Time Warner Cable|7
+205.197.180.41|United States|IL|Chicago|-87.6441|41.8825|XO Communications|XO Communications|8
+205.197.180.54|United States|IL|Chicago|-87.6441|41.8825|XO Communications|XO Communications|9
+216.239.51.47|United States|LA|Sulphur|-93.4063|30.2585|Google|Google|11
+66.249.94.20|United States|CA|Mountain View|-122.0574|37.4192|Google|Google|12
+108.170.232.71|United States|CA|Mountain View|-122.0574|37.4192|Google|Google|13
+216.239.51.243|United States|LA|Sulphur|-93.4063|30.2585|Google|Google|14
+209.85.243.254|United States|CA|Mountain View|-122.085|37.4229|Google|Google|15
+209.85.253.1|United States|CA|Mountain View|-122.085|37.4229|Google|Google|16
+209.85.143.197|United States|CA|Mountain View|-122.085|37.4229|Google|Google|17
+173.194.219.139|United States|CA|Mountain View|-122.0574|37.4192|Google|Google|18
+66.109.6.82|United States|GA|Forest Park|-84.3691|33.6221|Time Warner Cable|Time Warner Cable|5
+205.197.180.41|United States|IL|Chicago|-87.6441|41.8825|XO Communications|XO Communications|6
+205.197.180.54|United States|IL|Chicago|-87.6441|41.8825|XO Communications|XO Communications|7
+216.239.51.53|United States|LA|Sulphur|-93.4063|30.2585|Google|Google|8
+209.85.247.150|United States|CA|Mountain View|-122.085|37.4229|Google|Google|11
+209.85.142.138|United States|CA|Mountain View|-122.085|37.4229|Google|Google|13
+209.85.243.254|United States|CA|Mountain View|-122.085|37.4229|Google|Google|14
+64.233.174.133|United States|CA|Mountain View|-122.0574|37.4192|Google|Google|15
+74.125.196.100|United States|CA|Mountain View|-122.0574|37.4192|Google|Google|16
+66.249.94.20|United States|CA|Mountain View|-122.0574|37.4192|Google|Google|10
+108.170.232.71|United States|CA|Mountain View|-122.0574|37.4192|Google|Google|11
+64.233.174.133|United States|CA|Mountain View|-122.0574|37.4192|Google|Google|12
+209.85.142.157|United States|CA|Mountain View|-122.085|37.4229|Google|Google|13
+74.125.196.100|United States|CA|Mountain View|-122.0574|37.4192|Google|Google|14
+216.239.51.243|United States|LA|Sulphur|-93.4063|30.2585|Google|Google|10
+209.85.142.140|United States|CA|Mountain View|-122.085|37.4229|Google|Google|12
+209.85.143.197|United States|CA|Mountain View|-122.085|37.4229|Google|Google|13
+64.233.174.133|United States|CA|Mountain View|-122.0574|37.4192|Google|Google|14
+209.85.253.1|United States|CA|Mountain View|-122.085|37.4229|Google|Google|15
+173.194.219.113|United States|CA|Mountain View|-122.0574|37.4192|Google|Google|16
+216.239.51.47|United States|LA|Sulphur|-93.4063|30.2585|Google|Google|8
+216.239.51.53|United States|LA|Sulphur|-93.4063|30.2585|Google|Google|9
+209.85.243.254|United States|CA|Mountain View|-122.085|37.4229|Google|Google|13
+209.85.253.1|United States|CA|Mountain View|-122.085|37.4229|Google|Google|14
+209.85.143.201|United States|CA|Mountain View|-122.085|37.4229|Google|Google|15
+216.239.51.243|United States|LA|Sulphur|-93.4063|30.2585|Google|Google|11
+64.233.175.12|United States|CA|Mountain View|-122.0574|37.4192|Google|Google|13
+209.85.248.53|United States|CA|Mountain View|-122.085|37.4229|Google|Google|14
+74.125.21.139|United States|CA|Mountain View|-122.0574|37.4192|Google|Google|15
+66.249.94.20|United States|CA|Mountain View|-122.0574|37.4192|Google|Google|11
+209.85.142.153|United States|CA|Mountain View|-122.085|37.4229|Google|Google|14
+216.239.56.166|United States|CA|Mountain View|-122.0574|37.4192|Google|Google|15
+216.239.56.164|United States|CA|Mountain View|-122.0574|37.4192|Google|Google|16
+74.125.21.139|United States|CA|Mountain View|-122.0574|37.4192|Google|Google|17
+209.85.142.138|United States|CA|Mountain View|-122.085|37.4229|Google|Google|11
+216.239.51.243|United States|LA|Sulphur|-93.4063|30.2585|Google|Google|12
+64.233.175.12|United States|CA|Mountain View|-122.0574|37.4192|Google|Google|15
+74.125.21.139|United States|CA|Mountain View|-122.0574|37.4192|Google|Google|16
+64.233.175.12|United States|CA|Mountain View|-122.0574|37.4192|Google|Google|12
+209.85.253.3|United States|CA|Mountain View|-122.085|37.4229|Google|Google|13
+209.85.247.150|United States|CA|Mountain View|-122.085|37.4229|Google|Google|10
+209.85.142.138|United States|CA|Mountain View|-122.085|37.4229|Google|Google|12
+216.239.56.166|United States|CA|Mountain View|-122.0574|37.4192|Google|Google|14
+24.93.64.184|United States|NC|Charlotte|-80.8431|35.2271|Time Warner Cable|Time Warner Cable|4
+24.93.67.200|United States|NC|Charlotte|-80.8439|35.2277|Time Warner Cable|Time Warner Cable|5
+216.58.215.46|United States|CA|Mountain View|-122.0574|37.4192|Google|Google|10
+216.239.49.181|United States|LA|Sulphur|-93.4063|30.2585|Google|Google|11
+108.170.235.157|United States|CA|Mountain View|-122.0574|37.4192|Google|Google|12
+216.239.49.197|United States|LA|Sulphur|-93.4063|30.2585|Google|Google|13
+216.239.48.31|United States|LA|Sulphur|-93.4063|30.2585|Google|Google|14
+216.239.40.138|United States|FL|Sarasota|-82.356|27.2379|Google|Google|15
+64.233.174.133|United States|CA|Mountain View|-122.0574|37.4192|Google|Google|17
+209.85.253.1|United States|CA|Mountain View|-122.085|37.4229|Google|Google|18
+64.233.185.138|United States|CA|Mountain View|-122.0574|37.4192|Google|Google|19
+216.58.215.46|United States|CA|Mountain View|-122.0574|37.4192|Google|Google|9
+216.239.62.139|United States|CA|Mountain View|-122.0574|37.4192|Google|Google|10
+216.239.48.6|United States|LA|Sulphur|-93.4063|30.2585|Google|Google|14
+216.239.48.31|United States|LA|Sulphur|-93.4063|30.2585|Google|Google|15
+216.239.48.6|United States|LA|Sulphur|-93.4063|30.2585|Google|Google|16
+216.239.40.138|United States|FL|Sarasota|-82.356|27.2379|Google|Google|17
+216.239.40.130|United States|FL|Sarasota|-82.356|27.2379|Google|Google|18
+216.239.40.118|United States|FL|Sarasota|-82.356|27.2379|Google|Google|19
+209.85.142.157|United States|CA|Mountain View|-122.085|37.4229|Google|Google|20
+209.85.254.105|United States|CA|Mountain View|-122.085|37.4229|Google|Google|21
+64.233.174.133|United States|CA|Mountain View|-122.0574|37.4192|Google|Google|22
+64.233.185.138|United States|CA|Mountain View|-122.0574|37.4192|Google|Google|23
+24.93.67.202|United States|NC|Charlotte|-80.8439|35.2277|Time Warner Cable|Time Warner Cable|6
+209.85.244.218|United States|CA|Mountain View|-122.085|37.4229|Google|Google|12
+216.239.51.245|United States|LA|Sulphur|-93.4063|30.2585|Google|Google|13
+66.249.94.20|United States|CA|Mountain View|-122.0574|37.4192|Google|Google|14
+209.85.143.193|United States|CA|Mountain View|-122.085|37.4229|Google|Google|16
+209.85.243.254|United States|CA|Mountain View|-122.085|37.4229|Google|Google|17
+74.125.196.102|United States|CA|Mountain View|-122.0574|37.4192|Google|Google|18
+209.85.247.150|United States|CA|Mountain View|-122.085|37.4229|Google|Google|12
+216.239.51.243|United States|LA|Sulphur|-93.4063|30.2585|Google|Google|13
+209.85.244.218|United States|CA|Mountain View|-122.085|37.4229|Google|Google|14
+216.239.51.47|United States|LA|Sulphur|-93.4063|30.2585|Google|Google|10
+216.239.51.53|United States|LA|Sulphur|-93.4063|30.2585|Google|Google|11
+209.85.142.140|United States|CA|Mountain View|-122.085|37.4229|Google|Google|13
+209.85.143.197|United States|CA|Mountain View|-122.085|37.4229|Google|Google|14
+64.233.185.113|United States|CA|Mountain View|-122.0574|37.4192|Google|Google|16
+209.85.143.197|United States|CA|Mountain View|-122.085|37.4229|Google|Google|16
+173.194.219.113|United States|CA|Mountain View|-122.0574|37.4192|Google|Google|17
+216.239.51.53|United States|LA|Sulphur|-93.4063|30.2585|Google|Google|12
+209.85.142.140|United States|CA|Mountain View|-122.085|37.4229|Google|Google|14
+66.249.94.20|United States|CA|Mountain View|-122.0574|37.4192|Google|Google|15
+209.85.143.193|United States|CA|Mountain View|-122.085|37.4229|Google|Google|17
+173.194.219.113|United States|CA|Mountain View|-122.0574|37.4192|Google|Google|18
+209.85.240.63|United States|CA|Mountain View|-122.085|37.4229|Google|Google|10
+216.239.48.95|United States|LA|Sulphur|-93.4063|30.2585|Google|Google|11
+216.239.48.6|United States|LA|Sulphur|-93.4063|30.2585|Google|Google|12
+216.239.48.9|United States|LA|Sulphur|-93.4063|30.2585|Google|Google|13
+216.239.40.118|United States|FL|Sarasota|-82.356|27.2379|Google|Google|15
+209.85.253.3|United States|CA|Mountain View|-122.085|37.4229|Google|Google|17
+216.239.56.164|United States|CA|Mountain View|-122.0574|37.4192|Google|Google|18
+74.125.21.100|United States|CA|Mountain View|-122.0574|37.4192|Google|Google|19
+216.239.49.197|United States|LA|Sulphur|-93.4063|30.2585|Google|Google|11
+216.239.50.93|United States|CA|Mountain View|-122.085|37.4229|Google|Google|12
+216.239.49.181|United States|LA|Sulphur|-93.4063|30.2585|Google|Google|13
+216.239.48.2|United States|LA|Sulphur|-93.4063|30.2585|Google|Google|15
+216.239.40.132|United States|FL|Sarasota|-82.356|27.2379|Google|Google|16
+216.239.40.118|United States|FL|Sarasota|-82.356|27.2379|Google|Google|17
+216.239.40.132|United States|FL|Sarasota|-82.356|27.2379|Google|Google|18
+216.239.56.164|United States|CA|Mountain View|-122.0574|37.4192|Google|Google|19
+209.85.142.153|United States|CA|Mountain View|-122.085|37.4229|Google|Google|20
+209.85.248.53|United States|CA|Mountain View|-122.085|37.4229|Google|Google|21
+74.125.21.100|United States|CA|Mountain View|-122.0574|37.4192|Google|Google|22
+216.239.62.139|United States|CA|Mountain View|-122.0574|37.4192|Google|Google|11
+216.239.50.97|United States|CA|Mountain View|-122.085|37.4229|Google|Google|13
+216.239.49.181|United States|LA|Sulphur|-93.4063|30.2585|Google|Google|14
+216.239.48.6|United States|LA|Sulphur|-93.4063|30.2585|Google|Google|15
+216.239.48.2|United States|LA|Sulphur|-93.4063|30.2585|Google|Google|16
+216.239.56.164|United States|CA|Mountain View|-122.0574|37.4192|Google|Google|20
+64.233.175.12|United States|CA|Mountain View|-122.0574|37.4192|Google|Google|21
+216.58.215.46|United States|CA|Mountain View|-122.0574|37.4192|Google|Google|11
+209.85.240.63|United States|CA|Mountain View|-122.085|37.4229|Google|Google|12
+216.239.50.93|United States|CA|Mountain View|-122.085|37.4229|Google|Google|13
+209.85.240.63|United States|CA|Mountain View|-122.085|37.4229|Google|Google|14
+216.239.48.9|United States|LA|Sulphur|-93.4063|30.2585|Google|Google|16
+216.239.48.31|United States|LA|Sulphur|-93.4063|30.2585|Google|Google|17
+216.239.40.132|United States|FL|Sarasota|-82.356|27.2379|Google|Google|19
+216.239.40.138|United States|FL|Sarasota|-82.356|27.2379|Google|Google|20
+216.239.56.164|United States|CA|Mountain View|-122.0574|37.4192|Google|Google|22
+74.125.21.100|United States|CA|Mountain View|-122.0574|37.4192|Google|Google|23
+216.239.48.101|United States|LA|Sulphur|-93.4063|30.2585|Google|Google|12
+216.239.40.132|United States|FL|Sarasota|-82.356|27.2379|Google|Google|17
+216.239.40.138|United States|FL|Sarasota|-82.356|27.2379|Google|Google|18
+74.125.21.100|United States|CA|Mountain View|-122.0574|37.4192|Google|Google|20
+216.239.49.181|United States|LA|Sulphur|-93.4063|30.2585|Google|Google|12
+216.239.40.138|United States|FL|Sarasota|-82.356|27.2379|Google|Google|19
+209.85.254.107|United States|CA|Mountain View|-122.085|37.4229|Google|Google|20
+216.239.56.164|United States|CA|Mountain View|-122.0574|37.4192|Google|Google|21
+209.85.253.3|United States|CA|Mountain View|-122.085|37.4229|Google|Google|22
+216.239.50.97|United States|CA|Mountain View|-122.085|37.4229|Google|Google|12
+216.239.40.130|United States|FL|Sarasota|-82.356|27.2379|Google|Google|16
+209.85.254.107|United States|CA|Mountain View|-122.085|37.4229|Google|Google|19
+209.85.253.3|United States|CA|Mountain View|-122.085|37.4229|Google|Google|20
+209.85.254.107|United States|CA|Mountain View|-122.085|37.4229|Google|Google|21
+216.239.48.95|United States|LA|Sulphur|-93.4063|30.2585|Google|Google|13
+216.239.50.97|United States|CA|Mountain View|-122.085|37.4229|Google|Google|14
+216.239.48.9|United States|LA|Sulphur|-93.4063|30.2585|Google|Google|17
+216.239.40.130|United States|FL|Sarasota|-82.356|27.2379|Google|Google|20
+64.233.175.12|United States|CA|Mountain View|-122.0574|37.4192|Google|Google|22
+216.239.40.118|United States|FL|Sarasota|-82.356|27.2379|Google|Google|20
+209.85.142.153|United States|CA|Mountain View|-122.085|37.4229|Google|Google|22
+216.239.48.95|United States|LA|Sulphur|-93.4063|30.2585|Google|Google|12
+209.85.142.153|United States|CA|Mountain View|-122.085|37.4229|Google|Google|21
+216.239.50.97|United States|CA|Mountain View|-122.085|37.4229|Google|Google|11
+216.239.48.101|United States|LA|Sulphur|-93.4063|30.2585|Google|Google|13
+216.239.40.118|United States|FL|Sarasota|-82.356|27.2379|Google|Google|18
+209.85.142.153|United States|CA|Mountain View|-122.085|37.4229|Google|Google|19
+216.239.48.101|United States|LA|Sulphur|-93.4063|30.2585|Google|Google|11
+216.239.48.9|United States|LA|Sulphur|-93.4063|30.2585|Google|Google|14
+108.170.232.70|United States|CA|Mountain View|-122.0574|37.4192|Google|Google|17
+209.85.241.71|United States|CA|Mountain View|-122.085|37.4229|Google|Google|18
+216.58.218.14|United States|CA|Mountain View|-122.0574|37.4192|Google|Google|19
+216.239.48.9|United States|LA|Sulphur|-93.4063|30.2585|Google|Google|15
+216.239.40.138|United States|FL|Sarasota|-82.356|27.2379|Google|Google|16
+216.239.40.130|United States|FL|Sarasota|-82.356|27.2379|Google|Google|17
+209.85.142.139|United States|CA|Mountain View|-122.085|37.4229|Google|Google|18
+209.85.241.71|United States|CA|Mountain View|-122.085|37.4229|Google|Google|19
+216.58.218.14|United States|CA|Mountain View|-122.0574|37.4192|Google|Google|20
+108.170.232.70|United States|CA|Mountain View|-122.0574|37.4192|Google|Google|18
+209.85.142.139|United States|CA|Mountain View|-122.085|37.4229|Google|Google|19
+209.85.241.71|United States|CA|Mountain View|-122.085|37.4229|Google|Google|20
+216.58.218.14|United States|CA|Mountain View|-122.0574|37.4192|Google|Google|21
+216.239.48.9|United States|LA|Sulphur|-93.4063|30.2585|Google|Google|12
+216.239.40.138|United States|FL|Sarasota|-82.356|27.2379|Google|Google|13
+216.239.40.130|United States|FL|Sarasota|-82.356|27.2379|Google|Google|14
+209.85.142.139|United States|CA|Mountain View|-122.085|37.4229|Google|Google|15
+209.85.241.71|United States|CA|Mountain View|-122.085|37.4229|Google|Google|16
+216.58.218.14|United States|CA|Mountain View|-122.0574|37.4192|Google|Google|17
+209.85.142.139|United States|CA|Mountain View|-122.085|37.4229|Google|Google|17
+209.85.142.139|United States|CA|Mountain View|-122.085|37.4229|Google|Google|16
+108.170.232.71|United States|CA|Mountain View|-122.0574|37.4192|Google|Google|14
+209.85.143.193|United States|CA|Mountain View|-122.085|37.4229|Google|Google|15
+64.233.185.101|United States|CA|Mountain View|-122.0574|37.4192|Google|Google|17
+209.85.244.218|United States|CA|Mountain View|-122.085|37.4229|Google|Google|13
+209.85.254.105|United States|CA|Mountain View|-122.085|37.4229|Google|Google|14
+216.239.49.197|United States|LA|Sulphur|-93.4063|30.2585|Google|Google|12
+209.85.243.254|United States|CA|Mountain View|-122.085|37.4229|Google|Google|18
+209.85.143.197|United States|CA|Mountain View|-122.085|37.4229|Google|Google|19
+209.85.243.254|United States|CA|Mountain View|-122.085|37.4229|Google|Google|20
+64.233.185.100|United States|CA|Mountain View|-122.0574|37.4192|Google|Google|21
+64.233.175.94|United States|CA|Mountain View|-122.0574|37.4192|Google|Google|10
+216.58.193.142|United States|CA|Mountain View|-122.0574|37.4192|Google|Google|11
+64.233.175.94|United States|CA|Mountain View|-122.0574|37.4192|Google|Google|9
+216.58.193.142|United States|CA|Mountain View|-122.0574|37.4192|Google|Google|10
+64.233.175.94|United States|CA|Mountain View|-122.0574|37.4192|Google|Google|11
+216.58.193.142|United States|CA|Mountain View|-122.0574|37.4192|Google|Google|12
+216.239.48.9|United States|LA|Sulphur|-93.4063|30.2585|Google|Google|11
+216.239.40.138|United States|FL|Sarasota|-82.356|27.2379|Google|Google|12
+216.239.40.130|United States|FL|Sarasota|-82.356|27.2379|Google|Google|13
+209.85.142.139|United States|CA|Mountain View|-122.085|37.4229|Google|Google|14
+108.170.232.70|United States|CA|Mountain View|-122.0574|37.4192|Google|Google|15
+209.85.241.71|United States|CA|Mountain View|-122.085|37.4229|Google|Google|17
+216.58.218.14|United States|CA|Mountain View|-122.0574|37.4192|Google|Google|18
+216.239.48.2|United States|LA|Sulphur|-93.4063|30.2585|Google|Google|13
+209.85.253.3|United States|CA|Mountain View|-122.085|37.4229|Google|Google|19
+74.125.21.100|United States|CA|Mountain View|-122.0574|37.4192|Google|Google|21
+216.239.48.101|United States|LA|Sulphur|-93.4063|30.2585|Google|Google|10
+108.170.235.157|United States|CA|Mountain View|-122.0574|37.4192|Google|Google|11
+216.239.48.31|United States|LA|Sulphur|-93.4063|30.2585|Google|Google|13
+216.239.40.132|United States|FL|Sarasota|-82.356|27.2379|Google|Google|14
+216.239.40.130|United States|FL|Sarasota|-82.356|27.2379|Google|Google|15
+64.233.175.12|United States|CA|Mountain View|-122.0574|37.4192|Google|Google|17
+64.233.175.12|United States|CA|Mountain View|-122.0574|37.4192|Google|Google|19
+216.239.56.166|United States|CA|Mountain View|-122.0574|37.4192|Google|Google|20
+64.233.175.12|United States|CA|Mountain View|-122.0574|37.4192|Google|Google|20
+216.239.56.166|United States|CA|Mountain View|-122.0574|37.4192|Google|Google|21
+216.239.40.138|United States|FL|Sarasota|-82.356|27.2379|Google|Google|14
+216.239.48.95|United States|LA|Sulphur|-93.4063|30.2585|Google|Google|10
+66.249.94.20|United States|CA|Mountain View|-122.0574|37.4192|Google|Google|9
+209.85.142.153|United States|CA|Mountain View|-122.085|37.4229|Google|Google|10
+209.85.142.149|United States|CA|Mountain View|-122.085|37.4229|Google|Google|11
+74.125.21.139|United States|CA|Mountain View|-122.0574|37.4192|Google|Google|12
+216.239.51.245|United States|LA|Sulphur|-93.4063|30.2585|Google|Google|14
+209.85.254.105|United States|CA|Mountain View|-122.085|37.4229|Google|Google|17
+64.233.185.113|United States|CA|Mountain View|-122.0574|37.4192|Google|Google|18
+209.85.247.150|United States|CA|Mountain View|-122.085|37.4229|Google|Google|13
+209.85.254.105|United States|CA|Mountain View|-122.085|37.4229|Google|Google|16
+64.233.185.101|United States|CA|Mountain View|-122.0574|37.4192|Google|Google|18
+209.85.143.193|United States|CA|Mountain View|-122.085|37.4229|Google|Google|14
+108.170.232.70|United States|CA|Mountain View|-122.0574|37.4192|Google|Google|20
+209.85.241.71|United States|CA|Mountain View|-122.085|37.4229|Google|Google|21
+216.58.218.14|United States|CA|Mountain View|-122.0574|37.4192|Google|Google|22
+108.170.232.70|United States|CA|Mountain View|-122.0574|37.4192|Google|Google|16
+209.85.248.53|United States|CA|Mountain View|-122.085|37.4229|Google|Google|16
+74.125.21.101|United States|CA|Mountain View|-122.0574|37.4192|Google|Google|17
+209.85.142.140|United States|CA|Mountain View|-122.085|37.4229|Google|Google|11
+216.239.56.164|United States|CA|Mountain View|-122.0574|37.4192|Google|Google|14
+209.85.253.3|United States|CA|Mountain View|-122.085|37.4229|Google|Google|15
+209.85.254.107|United States|CA|Mountain View|-122.085|37.4229|Google|Google|16
+209.85.247.150|United States|CA|Mountain View|-122.085|37.4229|Google|Google|15
+209.85.142.149|United States|CA|Mountain View|-122.085|37.4229|Google|Google|16
+209.85.142.153|United States|CA|Mountain View|-122.085|37.4229|Google|Google|17
+64.233.175.12|United States|CA|Mountain View|-122.0574|37.4192|Google|Google|18
+74.125.21.101|United States|CA|Mountain View|-122.0574|37.4192|Google|Google|19
+216.239.56.164|United States|CA|Mountain View|-122.0574|37.4192|Google|Google|15
+216.239.56.166|United States|CA|Mountain View|-122.0574|37.4192|Google|Google|16
+209.85.254.107|United States|CA|Mountain View|-122.085|37.4229|Google|Google|17
+209.85.248.53|United States|CA|Mountain View|-122.085|37.4229|Google|Google|15
+64.233.175.12|United States|CA|Mountain View|-122.0574|37.4192|Google|Google|16
+216.239.56.166|United States|CA|Mountain View|-122.0574|37.4192|Google|Google|17
+74.125.21.101|United States|CA|Mountain View|-122.0574|37.4192|Google|Google|18
+216.239.51.245|United States|LA|Sulphur|-93.4063|30.2585|Google|Google|12
+209.85.143.193|United States|CA|Mountain View|-122.085|37.4229|Google|Google|13
+209.85.142.157|United States|CA|Mountain View|-122.085|37.4229|Google|Google|14
+173.194.219.113|United States|CA|Mountain View|-122.0574|37.4192|Google|Google|15
+209.85.244.218|United States|CA|Mountain View|-122.085|37.4229|Google|Google|11
+216.239.56.164|United States|CA|Mountain View|-122.0574|37.4192|Google|Google|13
+74.125.21.113|United States|CA|Mountain View|-122.0574|37.4192|Google|Google|15
+209.85.254.107|United States|CA|Mountain View|-122.085|37.4229|Google|Google|13
+209.85.253.3|United States|CA|Mountain View|-122.085|37.4229|Google|Google|14
