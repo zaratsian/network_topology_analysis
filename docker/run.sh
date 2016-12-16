@@ -18,7 +18,7 @@ docker exec zeppelin wget http://central.maven.org/maven2/org/apache/phoenix/pho
 
 
 # Phoenix
-docker cp ../data/traceroute_google_mapped.txt zeppelin:/traceroute_google_mapped.txt
+docker cp ../data/traceroute_google_mapped.txt phoenix:/traceroute_google_mapped.csv
 
 
 # Kafka
