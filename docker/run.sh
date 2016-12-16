@@ -19,6 +19,11 @@ docker exec zeppelin wget http://central.maven.org/maven2/org/apache/phoenix/pho
 
 # Phoenix
 docker cp ../data/traceroute_google_mapped.txt phoenix:/traceroute_google_mapped.csv
+docker cp ../phoenix_ddls/device_topology.sql phoenix:/.
+docker cp ../phoenix_ddls/device_info.sql phoenix:/.
+docker exec phoenix /phoenix/bin/psql.py localhost:2181 /device_info.sql
+docker exec phoenix /phoenix/bin/psql.py localhost:2181 /device_topology.sql
+docker exec phoenix /phoenix/bin/psql.py -t DEVICE_TOPOLOGY localhost /traceroute_google_mapped.csv
 
 
 # Kafka
