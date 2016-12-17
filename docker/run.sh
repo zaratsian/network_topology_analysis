@@ -17,13 +17,10 @@ docker exec zeppelin tar xvf apache-maven-3.3.9-bin.tar.gz
 docker exec zeppelin wget http://central.maven.org/maven2/org/apache/phoenix/phoenix-spark/4.8.1-HBase-1.1/phoenix-spark-4.8.1-HBase-1.1.jar
 
 
-# Phoenix
+# Phoenix - Part 1
 docker cp ../data/traceroute_google_mapped.txt phoenix:/traceroute_google_mapped.csv
 docker cp ../phoenix_ddls/device_topology.sql phoenix:/.
 docker cp ../phoenix_ddls/device_info.sql phoenix:/.
-docker exec phoenix /phoenix/bin/psql.py localhost:2181 /device_info.sql
-docker exec phoenix /phoenix/bin/psql.py localhost:2181 /device_topology.sql
-docker exec phoenix /phoenix/bin/psql.py -t DEVICE_TOPOLOGY localhost /traceroute_google_mapped.csv
 
 
 # Kafka
@@ -38,6 +35,15 @@ docker exec kafka pip install kafka
 
 
 # NiFi
+
+
+# Phoenix - Part 2
+# Sleeping for 60 seconds while services start up, then create and load phoenix tables
+echo "\n\n[ INFO ] Sleeping for 60 seconds while services start up, then create and load phoenix tables
+sleep 60
+docker exec phoenix /phoenix/bin/psql.py localhost:2181 /device_info.sql
+docker exec phoenix /phoenix/bin/psql.py localhost:2181 /device_topology.sql
+docker exec phoenix /phoenix/bin/psql.py -t DEVICE_TOPOLOGY localhost /traceroute_google_mapped.csv
 
 
 # Completion
