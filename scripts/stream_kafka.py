@@ -21,7 +21,7 @@ events = data.split('\n')
 
 for i,event in enumerate(events):
     if i != 0:
-        time.sleep(0.5)
+        time.sleep(0.1)
         signal_strength = 80.1
         signal_noise    = 10.1
         record = event + '|' + str(signal_strength) + '|' + str(signal_noise)    
