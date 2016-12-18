@@ -39,7 +39,9 @@ docker exec kafka pip install kafka
 
 # Phoenix - Part 2
 # Sleeping for 60 seconds while services start up, then create and load phoenix tables
-echo "\n\n[ INFO ] Sleeping for 60 seconds while services start up, then create and load phoenix tables
+echo ""
+echo "[ INFO ] Sleeping for 60 seconds while services start up, then create and load phoenix tables"
+echo ""
 sleep 60
 docker exec phoenix /phoenix/bin/psql.py localhost:2181 /device_info.sql
 docker exec phoenix /phoenix/bin/psql.py localhost:2181 /device_topology.sql
