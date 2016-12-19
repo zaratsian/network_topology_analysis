@@ -17,6 +17,12 @@ This repo contains the code used to collect network topology data (using a trace
 <br>4. Enter the Zeppelin container bash (```docker exec -it zeppelin bash```)
 <br>5. 
 <br>
+<br>Zeppelin notebook screenshot showing the user-input, where IP addresses (or points of interest) can be entered within the Zeppelin. This input is fed into a Spark job that fetches the data from HBase, performs data processing, then feeds the results to angular where it is rendered within Google Maps.
+<br><img src="images/zeppelin_screenshot1.png" class="inline"/>
+<br>
+<br>Zeppelin notebook screenshot showing the IP traceroute from my home wifi in Raleigh to Google.com servers (in Mountain View, CA). 
+<br><img src="images/zeppelin_screenshot2.png" class="inline"/>
+<br>
 <br><b>References:</b>
 <br>&bull; <a href="http://zeppelin.apache.org/docs/latest/displaysystem/front-end-angular.html">Apache Zeppelin - Angular (front-end API)</a>
 <br>&bull; <a href="http://zeppelin.apache.org/docs/latest/displaysystem/back-end-angular.html">Apache Zeppelin - Angular (back-end API)</a>
