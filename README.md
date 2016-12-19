@@ -9,7 +9,7 @@ This repo contains the code used to collect network topology data (using a trace
 <br>
 <br>This example focuses on a network topology for telecom, but the process and technology can be extended to any use case that involves a topology or hierarchy of information that needs to be analyzed in real-time.
 <br>
-<br>To Run:
+<br><b>To Run:</b>
 <br>
 <br>1. Clone this repo
 <br>2. Navigate to the docker directory
@@ -24,11 +24,11 @@ This repo contains the code used to collect network topology data (using a trace
 <br>&ensp;&ensp;&ensp;&bull; Select the "Dashboard" notebook
 <br>&ensp;&ensp;&ensp;&bull; Run the notebook, and enter in new IP addresses (POI) as desired.
 <br>
-<br><b>Image 1: </b>Zeppelin notebook screenshot showing the user-input, where IP addresses (or points of interest) can be entered within the Zeppelin. This input is fed into a Spark job that fetches the data from HBase, performs data processing, then feeds the results to angular where it is rendered within Google Maps.
+<br><b>Screenshot #1: </b>Zeppelin notebook screenshot showing the user-input, where IP addresses (or points of interest) can be entered within the Zeppelin. This input is fed into a Spark job that fetches the data from HBase, performs data processing, then feeds the results to angular where it is rendered within Google Maps.
 <br><img src="images/zeppelin_screenshot1.png" class="inline"/>
 <br>
 <br>
-<br><b>Image 2: </b>Zeppelin notebook screenshot showing the IP traceroute from my home wifi in Raleigh to Google.com servers (in Mountain View, CA). 
+<br><b>Screenshot #2: </b>Zeppelin notebook screenshot showing the IP traceroute from my home wifi in Raleigh to Google.com servers (in Mountain View, CA). 
 <br><img src="images/zeppelin_screenshot2.png" class="inline"/>
 <br>
 <br><b>References:</b>
