@@ -9,5 +9,13 @@ A network topology consists of many nodes (or hosts) and edges (connections) tha
 <br>
 <br>This repo contains the code used to collect network topology data (using a traceroute script), the Apache Spark code used for the analysis, and the Zeppelin notebook used for data visualization. 
 <br>
-<br><b>References:</b>
+<br>To Run:
 <br>
+<br>1. Clone this repo
+<br>2. Navigate to the docker directory
+<br>3. Execute ./run.sh (You'll need to have <a href="https://www.docker.com/">Docker</a> installed on your machine)
+<br>4. 
+<br>
+<br><b>References:</b>
+<br>&bull; <a href="http://zeppelin.apache.org/docs/latest/displaysystem/front-end-angular.html">Apache Zeppelin - Angular (front-end API)</a>
+<br>&bull; <a href="http://zeppelin.apache.org/docs/latest/displaysystem/back-end-angular.html">Apache Zeppelin - Angular (back-end API)</a>
