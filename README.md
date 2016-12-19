@@ -15,12 +15,20 @@ This repo contains the code used to collect network topology data (using a trace
 <br>2. Navigate to the docker directory
 <br>3. Execute ```./run.sh``` (You'll need to have <a href="https://www.docker.com/">Docker</a> installed on your machine)
 <br>4. Enter the Zeppelin container bash (```docker exec -it zeppelin bash```)
-<br>5. 
+<br>5. cd SparkNetworkAnalysis
+<br>6. Build the Spark streaming project (```/apache-maven-3.3.9/bin/mvn clean package```)
+<br>7. Start the Spark streaming project (```/spark/bin/spark-submit --master local[*] --class "SparkNetworkAnalysis" --jars /phoenix-spark-4.8.1-HBase-1.1.jar target/SparkStreaming-0.0.1.jar phoenix.dev:2181 mytestgroup dztopic1 1 kafka.dev:9092```)
+<br>8. Start the Kafka stream, which will simulate the heath status for each device (```docker exec kafka python stream_kafka.py```)
+<br>9. Open up the Zeppelin notebook, and view the Google Map and run interactive queries on the data stored in HBase (via Phoenix)
+<br>&ensp;&ensp;&ensp;&bull; Open your browser and go to http://localhost:8079/
+<br>&ensp;&ensp;&ensp;&bull; Select the "Dashboard" notebook
+<br>&ensp;&ensp;&ensp;&bull; Run the notebook, and enter in new IP addresses (POI) as desired.
 <br>
-<br>Zeppelin notebook screenshot showing the user-input, where IP addresses (or points of interest) can be entered within the Zeppelin. This input is fed into a Spark job that fetches the data from HBase, performs data processing, then feeds the results to angular where it is rendered within Google Maps.
+<br><b>Image 1: </b>Zeppelin notebook screenshot showing the user-input, where IP addresses (or points of interest) can be entered within the Zeppelin. This input is fed into a Spark job that fetches the data from HBase, performs data processing, then feeds the results to angular where it is rendered within Google Maps.
 <br><img src="images/zeppelin_screenshot1.png" class="inline"/>
 <br>
-<br>Zeppelin notebook screenshot showing the IP traceroute from my home wifi in Raleigh to Google.com servers (in Mountain View, CA). 
+<br>
+<br><b>Image 2: </b>Zeppelin notebook screenshot showing the IP traceroute from my home wifi in Raleigh to Google.com servers (in Mountain View, CA). 
 <br><img src="images/zeppelin_screenshot2.png" class="inline"/>
 <br>
 <br><b>References:</b>
