@@ -11,13 +11,14 @@ This repo contains the code used to collect network topology data (using a trace
 <br>
 <br>This example focuses on a network topology for telecom, but the process and technology can be extended to any use case that involves a topology or hierarchy of information that needs to be analyzed in real-time.
 <br>
-<br>Technology Stack:
-<br>&bull; Apache Kafka: Streams in the real-time health status of each device in the network topology.
-<br>&bull; Apache Spark: Spark Streaming is used to process and analyze the device status in real-time. I also use <a href="https://databricks.com/blog/2016/02/01/faster-stateful-stream-processing-in-apache-spark-streaming.html">mapWithState</a> to maintain the state, or current health status, of all devices in memory so that recompute and roll-ups / aggregations can be performed quickly on the real-time stream. 
-<br>&bull; Apache HBase: The NoSQL distributed database, where all health status values are stored. This enables real-time read/write access to large database tables. 
-<br>&bull; Apache Phoenix: Phoenix is the SQL interface to HBase, which allows SQL syntax to be used on top of the NoSQL DB.
+<br><b>Technology Stack:</b>
+<br>
+<br>&bull; <a href="https://kafka.apache.org/">Apache Kafka</a>: Streams in the real-time health status of each device in the network topology.
+<br>&bull; <a href="http://spark.apache.org/">Apache Spark</a>: Spark Streaming is used to process and analyze the device status in real-time. I also use <a href="https://databricks.com/blog/2016/02/01/faster-stateful-stream-processing-in-apache-spark-streaming.html">mapWithState</a> to maintain the state, or current health status, of all devices in memory so that recompute and roll-ups / aggregations can be performed quickly on the real-time stream. 
+<br>&bull; <a href="https://hbase.apache.org/">Apache HBase</a>: The NoSQL distributed database, where all health status values are stored. This enables real-time read/write access to large database tables. 
+<br>&bull; <a href="https://phoenix.apache.org/">Apache Phoenix</a>: Phoenix is the SQL interface to HBase, which allows SQL syntax to be used on top of the NoSQL DB.
 
-<br>&bull; Apache Zeppelin:
+<br>&bull; <a href="https://zeppelin.apache.org/">Apache Zeppelin</a>: Browser-based code editor and visualization tool. Zeppelin has many interpreters, or code plugins, that enable a variety of languages/protocols to be used. These include Python, Spark, HBase, JDBC, Hive, Angular, etc. For this example, Angular was used to product the Google Maps visuals, by leveraging Zeppelin's front-end Angular API and some tricks (thanks <a href="http://randerzander.github.io/#?post=data-apps.md">Randerzander</a>) using to bind several backend JS variables to a globally accessible object.
 <br>
 <br><b>To run this project:</b>
 <br>
