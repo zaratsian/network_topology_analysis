@@ -15,6 +15,7 @@ Kafka Stream - Here's an example msg:
 import java.util.HashMap
 import java.util.Arrays
 import java.sql.DriverManager
+import scala.collection.mutable.ListBuffer
 
 import org.apache.spark.{SparkContext, SparkConf}
 import org.apache.spark.sql.SQLContext
@@ -59,7 +60,7 @@ object SparkNetworkAnalysis {
 
       /********************************************************************************************
       *
-      *  Parse each Kafka (DStream) and enrich raw events
+      *  Parse each Kafka (DStream)
       *
       *********************************************************************************************/
 
@@ -69,9 +70,8 @@ object SparkNetworkAnalysis {
       val event = events.map(_.split("\\|")).map(p =>   
           (p(0), (p(0),p(1),p(2),p(3),p(4),p(5),p(6),p(7),p(8).toInt,p(9).toFloat,p(10).toFloat,
 
-          // Rule #1: Bad Node/Device
-          // If signal_strength is less than 25 AND signal noise is greater than 65, then device_health = 1 (1 = bad health)
-          if ( (p(9).toFloat < 25) && (p(10).toFloat > 65) ) 1 else 0
+          // Add default value of 0 for device health (meaning health is ok). Device health status will be calculated below. 
+          0
           ))
       )
 
@@ -102,123 +102,106 @@ object SparkNetworkAnalysis {
       *  Join DStream (Data from Kafka) with Static Data (Topology Map)
       *
       *********************************************************************************************/
-
+      
       val topology_map = sc.textFile("/traceroute_google_mapped.txt").map(x => x.split("\\|")).map(x => (x(0).toString, (x) ) ).cache()
-
+      
       /********************************************************************************************
       *  
       *  State Mapping Function
       *
       *********************************************************************************************/
-
+      
       // Key:    ip_address
       // Value:  ip_address, signal_strength, signal_noise, device_health
-      // State:  ip_address, avg3_signal_strength, avg3_signal_noise, device_health
+      // State:  ip_address, avg3_signal_strength, signal_strength_array, avg3_signal_noise, signal_noise_array, device_health
+      // Output: ip_address, 
       
-      def trackStateFunc(batchTime: Time, key: String, value: Option[(String, Float, Float, Int)], state: State[(String,Double,Double,Int)] ): Option[(String, Double, Double, Int)] = {
-         val avg3_signal_strength = value.get._2.toFloat
-         val avg3_signal_noise    = value.get._3.toFloat
-         val device_health        = value.get._4.toFloat
-         val output = (value.get._1, avg3_signal_strength, avg3_signal_noise, device_health) 
+      def trackStateFunc(batchTime: Time, key: String, value: Option[(String, Float, Float, Int)], state: State[(String, Float, ListBuffer[Float], Float, ListBuffer[Float], Int)] ): Option[(String, Float, ListBuffer[Float], Float, ListBuffer[Float], Int)] = {
+         
+         val currentState = state.getOption.getOrElse( ("ip_address", (99.0).toFloat, ListBuffer[Float](), (1.0).toFloat, ListBuffer[Float](), 0) )
+         val signal_strength_array = currentState._3
+         val signal_noise_array    = currentState._5
+         
+         // Calculate avg for last 3 signal strength readings:
+         signal_strength_array += value.get._2.toFloat
+         if (signal_strength_array.length > 3 { signal_strength_array -= signal_strength_array(0) }
+         
+         // Calculate avg for last 3 signal noise readings:
+         signal_noise_array += value.get._4.toFloat
+         if (signal_noise_array.length > 3) { signal_noise_array -= signal_noise_array(0) }
+         
+         val avg3_signal_strength = signal_strength_array.sum / signal_strength_array.length
+         val avg3_signal_noise    = signal_noise_array.sum / signal_noise_array.length
+         
+         // Calculate device health status based on avg signal strength and noise metrics:
+         if (avg3_signal_strength < 25 && avg3_signal_noise > 65) {
+             val device_health = 1
+         } else {
+             val device_health = 0
+         }
+          
+         val output = (value.get._1, avg3_signal_strength, signal_strength_array, avg3_signal_noise, signal_noise_array, device_health) 
          state.update(output)
-         Some( value.get._1, (output))
+         Some(output)
       }
       
       val stateSpec = StateSpec.function(trackStateFunc _)
                          //.initialState(initialRDD)
                          //.numPartitions(2)
                          //.timeout(Seconds(60))
-
+      
       
       /********************************************************************************************
       *  
       *  Level 1
       *
       *********************************************************************************************/      
-
+      
       // (ip_address, (ip_address, signal_strength, signal_noise, device_health))
       val eventlevel1 = event.map(x => (x._1, (x._1, x._2._10, x._2._11, x._2._12)) )
       
       val eventStateLevel1 = eventlevel1.mapWithState(stateSpec)
       eventStateLevel1.print()
-
+      
 /*
       // Snapshot of the state for the current batch - This DStream contains one entry per key.
-      val eventStateSnapshot0 = eventStateLevel0.stateSnapshots() 
+      val eventStateSnapshot1 = eventStateLevel1.stateSnapshots() 
 */
 
       /*********************************************************
-      *  Write State SnapShot to Phoenix
+      *  Level 1 - Write State SnapShot to Phoenix
       **********************************************************/
-/*
-      eventStateSnapshot0.map(x => (x._2._2._1, x._2._2._2, x._2._2._6, x._2._2._7.mkString("|")) ).print()
-      // (localhost,0.0,174.111.102.226,localhost|174.111.102.226|24.25.62.50|24.93.64.186|24.93.67.202|66.109.6.82|205.197.180.41|205.197.180.54|216.239.51.53|64.233.175.94|216.58.193.142) 
 
-      eventStateSnapshot0.map(x => (x._2._2._1, x._2._2._2, x._2._2._6, x._2._2._7.mkString("|") )).foreachRDD { rdd =>
+      eventStateLevel1.foreachRDD { rdd =>
             rdd.foreachPartition { rddpartition =>
-                //val thinUrl = "jdbc:phoenix:thin:url=http://phoenix.dev:8765;serialization=PROTOBUF"
                 val thinUrl = "jdbc:phoenix:phoenix.dev:2181:/hbase"
                 val conn = DriverManager.getConnection(thinUrl)
                 rddpartition.foreach { record =>
-                     conn.createStatement().execute("upsert into DEVICE_TOPOLOGY (IP,DEVICE_HEALTH,UPSTREAM_DEVICE,NODE_PATH) values ('" + record._1 + "', " + record._2 + ", '" + record._3 + "', '" + record._4 + "')" )
-                     //conn.createStatement().execute("UPSERT INTO CX_LOOKUP VALUES('mydevice2',1.0,'next_device2',0)")
+                     conn.createStatement().execute("upsert into DEVICE_TOPOLOGY (IP,DEVICE_HEALTH) values ('" + record._1 + "', " + record._6 + ")" )
+                     //conn.createStatement().execute("UPSERT INTO DEVICE_TOPOLOGY (IP,DEVICE_HEALTH) VALUES ('192.168.0.1',1)")
                 }
                 conn.commit()
             }
       }
-*/
+
       /********************************************************************************************
       *  
-      *  LEVEL 1
-      *
-      *********************************************************************************************/
-/*
-      val eventLevel1 = eventStateSnapshot0.map(x => (x._2._2._6, (x._2._2._6, x._2._2._2, x._2._2._3, x._2._2._4, x._1, x._2._2._7(2), x._2._2._7, 1 )) )
-
-      val eventStateLevel1 = eventLevel1.mapWithState(stateSpec)
-      eventStateLevel1.print()
-
-      // Snapshot of the state for the current batch - This DStream contains one entry per key.
-      val eventStateSnapshot1 = eventStateLevel1.stateSnapshots()
-      eventStateSnapshot1.print(10)
-*/
-      /*********************************************************
-      *  Write State SnapShot to Phoenix
-      **********************************************************/
-/*
-      eventStateSnapshot1.map(x => (x._2._2._9, x._2._2._2, x._2._2._8) ).foreachRDD { rdd =>
-            rdd.foreachPartition { rddpartition =>
-                //val thinUrl = "jdbc:phoenix:thin:url=http://phoenix.dev:8765;serialization=PROTOBUF"
-                val thinUrl = "jdbc:phoenix:phoenix.dev:2181:/hbase"
-                val conn = DriverManager.getConnection(thinUrl)
-                rddpartition.foreach { record =>
-                     conn.createStatement().execute("upsert into CX_LOOKUP (ID,MER_FLAG,TOPOLOGY_LEVEL) values ('" + record._1 + "', " + record._2 + ", " + record._3 + ")" )
-                }
-                conn.commit()
-            }
-      }
-
-*/
-      /********************************************************************************************
-      *
       *  LEVEL 2
       *
       *********************************************************************************************/
 /*
-      val eventLevel2 = eventStateSnapshot1.map(x => (x._2._2._6, (x._2._2._6, x._2._2._2, x._2._2._3, x._2._2._4, x._1, x._2._2._7(3), x._2._2._7, 2, x._2._2._7(0) )) )
+      val eventLevel2 = eventStateSnapshot1.map(x => (x._2._2._6, (x._2._2._6, x._2._2._2, x._2._2._3, x._2._2._4, x._1, x._2._2._7(2), x._2._2._7, 1 )) )
 
       val eventStateLevel2 = eventLevel2.mapWithState(stateSpec)
-      eventStateLevel2.print()
 
       // Snapshot of the state for the current batch - This DStream contains one entry per key.
       val eventStateSnapshot2 = eventStateLevel2.stateSnapshots()
-      eventStateSnapshot2.print(10)
 */
       /*********************************************************
-      *  Write State SnapShot to Phoenix
+      *  Level 2 - Write State SnapShot to Phoenix
       **********************************************************/
 /*
-      eventStateSnapshot2.map(x => (x._1.split("_")(0) , x._2._2._2, x._2._2._8) ).foreachRDD { rdd =>
+      eventStateSnapshot2.map(x => (x._2._2._9, x._2._2._2, x._2._2._8) ).foreachRDD { rdd =>
             rdd.foreachPartition { rddpartition =>
                 //val thinUrl = "jdbc:phoenix:thin:url=http://phoenix.dev:8765;serialization=PROTOBUF"
                 val thinUrl = "jdbc:phoenix:phoenix.dev:2181:/hbase"
