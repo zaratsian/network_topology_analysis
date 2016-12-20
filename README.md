@@ -1,6 +1,8 @@
 <h3>Network Topology Analysis</h3>
 This repo contains the code used to collect network topology data (using a traceroute script), the <a href="http://spark.apache.org/">Apache Spark</a> code used for real-time analysis, and the <a href="https://zeppelin.apache.org/">Zeppelin</a> notebook used for data visualization.
 <br>
+<br><b>Background:</b>
+<br>
 <br>A network topology consists of many nodes (or hosts) and edges (connections) that link each of the nodes. In communication systems, there are typically many routes that we can take to get from Point A to Point B. 
 <br>
 <br>For example, if you are on your home wifi (Point A) and you request a webpage from Google.com (Point B), then your request will be relayed through many hosts along the route. Each time you make the request, a slightly different path may be used based on how the network is optimized, timeouts, failed nodes, etc. 
@@ -9,7 +11,7 @@ This repo contains the code used to collect network topology data (using a trace
 <br>
 <br>This example focuses on a network topology for telecom, but the process and technology can be extended to any use case that involves a topology or hierarchy of information that needs to be analyzed in real-time.
 <br>
-<br><b>To Run:</b>
+<br><b>To run this project:</b>
 <br>
 <br>1. Clone this repo
 <br>2. Navigate to the docker directory
