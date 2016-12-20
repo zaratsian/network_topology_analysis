@@ -63,8 +63,8 @@ object SparkNetworkAnalysis {
       *
       *********************************************************************************************/
 
-      //INPUT:  ip_address|country|region|city|longitude|latitude|isp|level|org|signal_strength|signal_noise
-      //OUTPUT: ip_address|country|region|city|longitude|latitude|isp|level|org|signal_strength|signal_noise|device_health
+      //INPUT:  ip_address|country|region|city|longitude|latitude|isp|org|level|signal_strength|signal_noise
+      //OUTPUT: ip_address|country|region|city|longitude|latitude|isp|org|level|signal_strength|signal_noise|device_health
 
       val event = events.map(_.split("\\|")).map(p =>   
           (p(0), (p(0),p(1),p(2),p(3),p(4),p(5),p(6),p(7),p(8).toInt,p(9).toFloat,p(10).toFloat,
@@ -102,85 +102,47 @@ object SparkNetworkAnalysis {
       *  Join DStream (Data from Kafka) with Static Data (Topology Map)
       *
       *********************************************************************************************/
-/*
-      val partitioner = new HashPartitioner(2)
 
       val topology_map = sc.textFile("/traceroute_google_mapped.txt").map(x => x.split("\\|")).map(x => (x(0).toString, (x) ) ).cache()
 
-      // Data for join:
-      // traceroute_google_mapped.txt: localhost|ipaddress2|ipaddress3|ipaddress4|...
-      // event:                        ip_address|country|region|city|longitude|latitude|isp|org|level|signal_strength|signal_noise|device_health
-
-      val eventJoined= event.transform(rdd => topology_map.join(rdd, partitioner))
-
-      eventJoined.print()
-      // (localhost,([Ljava.lang.String;@6ae20f43,(localhost,United States,NC,Raleigh,-78.6382,35.7796,Time Warner Cable,Time Warner Cable,1,80.1,10.1,0)))
-*/
-
       /********************************************************************************************
       *  
-      *  LEVEL 0
+      *  State Mapping Function
       *
       *********************************************************************************************/
-/*
-      val eventLevel0 = eventJoined.map(x => (x._1, (x._1, x._2._2._12.toDouble, 1.0, 0.0, x._2._2._1, x._2._1(1), x._2._1, x._2._2._9.toInt  )) )
 
-      // INPUTS: (DEVICE_OF_INTEREST, (DEVICE_OF_INTEREST, DEVICE_HEALTH, CHILD_NODE_COUNT, BAD_CHILD_NODE_COUNT, CHILD_DEVICE, PARENT_DEVICE, DEVICE_TOPOLOGY, TOPOLOGY_LEVEL)) 
-      // OUTPUT: (DEVICE_OF_INTEREST, (DEVICE_OF_INTEREST, DEVICE_HEALTH, CHILD_NODE_COUNT, BAD_CHILD_NODE_COUNT, CHILD_DEVICE, PARENT_DEVICE, DEVICE_TOPOLOGY, TOPOLOGY_LEVEL))
-    
-      def trackStateFunc(batchTime: Time, key: String, value: Option[(String, Double, Double, Double, String, String, Array[String], Int)], state: State[(Map[String,Double],(String,Double,Double,Double,String,String,Array[String],Int))] ): Option[(String, (String, Double, Double, Double, String, String, Array[String], Int))] = {
-         
-          val currentState = state.getOption.getOrElse( (Map("aaa" -> 0.0), ("key", 0.0, 0.0, 0.0, "previous_key", "next_key", Array("temp"), 0 )) )
-          val seen_devices = currentState._1
-          val previous_device = value.get._5
-
-          if (state.exists()) {
-              if (seen_devices.contains(previous_device)) {
-                  val sum = currentState._2._3
-
-                  val red_old_value = seen_devices.get(previous_device).get.toDouble
-                  val red_new_value = value.get._2
-                  
-                  val red = if (red_old_value == red_new_value) currentState._2._4 else if (red_old_value > red_new_value) currentState._2._4 - 1.0 else currentState._2._4 + 1.0
-
-                  val red_percentage = red / sum
-                  
-                  val device_mer_flag = if (red_percentage >= 0.50) 1.0 else 0.0
-                  state.update( (seen_devices + (previous_device -> value.get._2) , (key, device_mer_flag, sum, red, value.get._5, value.get._6, value.get._7, value.get._8)) )
-                  val output = (key, (key, device_mer_flag, sum, red, value.get._5, value.get._6, value.get._7, value.get._8))
-                  Some(output)
-              } else {
-                  val sum = currentState._2._3 + value.get._3
-                  val red = currentState._2._4 + value.get._4
-                  val red_percentage = red / sum
-                  val device_mer_flag = if (red_percentage >= 0.50) 1.0 else 0.0
-                  state.update( (seen_devices + (previous_device -> value.get._2) , (key, device_mer_flag, sum, red, value.get._5, value.get._6, value.get._7, value.get._8)) )
-                  val output = (key, (key, device_mer_flag, sum, red, value.get._5, value.get._6, value.get._7, value.get._8))
-                  Some(output)
-              }
-          } else {
-              val sum = value.get._3
-              //val red = value.get._2
-              val red = if (value.get._8 == 0) value.get._2 else value.get._4
-              val red_percentage = red / sum
-              val device_mer_flag = if (red_percentage >= 0.50) 1.0 else 0.0
-              state.update( ( Map(previous_device -> value.get._2) , (key, device_mer_flag, sum, red, value.get._5, value.get._6, value.get._7, value.get._8)) )
-              val output = (key, (key, device_mer_flag, sum, red, value.get._5, value.get._6, value.get._7, value.get._8))
-              Some(output)
-          }
+      // Key:    ip_address
+      // Value:  ip_address, signal_strength, signal_noise, device_health
+      // State:  ip_address, avg3_signal_strength, avg3_signal_noise, device_health
+      
+      def trackStateFunc(batchTime: Time, key: String, value: Option[(String, Float, Float, Int)], state: State[(String,Double,Double,Int)] ): Option[(String, Double, Double, Int)] = {
+         val avg3_signal_strength = value.get._2.toFloat
+         val avg3_signal_noise    = value.get._3.toFloat
+         val device_health        = value.get._4.toFloat
+         val output = (value.get._1, avg3_signal_strength, avg3_signal_noise, device_health) 
+         state.update(output)
+         Some( value.get._1, (output))
       }
-
-      val initialRDD = sc.parallelize( Array((0.0, (0.0, List("xyz")))) )
- 
+      
       val stateSpec = StateSpec.function(trackStateFunc _)
                          //.initialState(initialRDD)
                          //.numPartitions(2)
                          //.timeout(Seconds(60))
 
-      val eventStateLevel0 = eventLevel0.mapWithState(stateSpec)
-      eventStateLevel0.print()
+      
+      /********************************************************************************************
+      *  
+      *  Level 1
+      *
+      *********************************************************************************************/      
 
+      // (ip_address, (ip_address, signal_strength, signal_noise, device_health))
+      val eventlevel1 = event.map(x => (x._1, (x._1, x._2._10, x._2._11, x._2._12)) )
+      
+      val eventStateLevel1 = eventlevel1.mapWithState(stateSpec)
+      eventStateLevel1.print()
 
+/*
       // Snapshot of the state for the current batch - This DStream contains one entry per key.
       val eventStateSnapshot0 = eventStateLevel0.stateSnapshots() 
 */
