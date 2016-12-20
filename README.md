@@ -11,6 +11,14 @@ This repo contains the code used to collect network topology data (using a trace
 <br>
 <br>This example focuses on a network topology for telecom, but the process and technology can be extended to any use case that involves a topology or hierarchy of information that needs to be analyzed in real-time.
 <br>
+<br>Technology Stack:
+<br>&bull; Apache Kafka: Streams in the real-time health status of each device in the network topology.
+<br>&bull; Apache Spark: Spark Streaming is used to process and analyze the device status in real-time. I also use <a href="https://databricks.com/blog/2016/02/01/faster-stateful-stream-processing-in-apache-spark-streaming.html">mapWithState</a> to maintain the state, or current health status, of all devices in memory so that recompute and roll-ups / aggregations can be performed quickly on the real-time stream. 
+<br>&bull; Apache HBase: The NoSQL distributed database, where all health status values are stored. This enables real-time read/write access to large database tables. 
+<br>&bull; Apache Phoenix: Phoenix is the SQL interface to HBase, which allows SQL syntax to be used on top of the NoSQL DB.
+
+<br>&bull; Apache Zeppelin:
+<br>
 <br><b>To run this project:</b>
 <br>
 <br>1. Clone this repo
@@ -37,3 +45,4 @@ This repo contains the code used to collect network topology data (using a trace
 <br>&bull; <a href="http://zeppelin.apache.org/docs/latest/displaysystem/front-end-angular.html">Apache Zeppelin - Angular (front-end API)</a>
 <br>&bull; <a href="http://zeppelin.apache.org/docs/latest/displaysystem/back-end-angular.html">Apache Zeppelin - Angular (back-end API)</a>
 <br>&bull; <a href="http://randerzander.github.io/#?post=data-apps.md">Randerzander's Data Apps in Zeppelin</a>
+<br>&bull; <a href="https://databricks.com/blog/2016/02/01/faster-stateful-stream-processing-in-apache-spark-streaming.html">Apache Spark - mapWithState</a>
