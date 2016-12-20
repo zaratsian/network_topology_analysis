@@ -34,3 +34,4 @@ This repo contains the code used to collect network topology data (using a trace
 <br><b>References:</b>
 <br>&bull; <a href="http://zeppelin.apache.org/docs/latest/displaysystem/front-end-angular.html">Apache Zeppelin - Angular (front-end API)</a>
 <br>&bull; <a href="http://zeppelin.apache.org/docs/latest/displaysystem/back-end-angular.html">Apache Zeppelin - Angular (back-end API)</a>
+<br>&bull; <a href="http://randerzander.github.io/#?post=data-apps.md">Randerzander's Data Apps in Zeppelin</a>
