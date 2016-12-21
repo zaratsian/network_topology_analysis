@@ -12,9 +12,12 @@ docker run -d --hostname kafka --net dev --name kafka kafka
 docker cp ../data/traceroute_google_mapped.txt zeppelin:/traceroute_google_mapped.txt
 docker cp ../SparkNetworkAnalysis zeppelin:/SparkNetworkAnalysis
 docker cp assets/log4j.properties zeppelin:/spark/conf/log4j.properties
+docker cp containers/zeppelin/resources zeppelin:/resources
 docker exec zeppelin wget https://archive.apache.org/dist/maven/maven-3/3.3.9/binaries/apache-maven-3.3.9-bin.tar.gz
 docker exec zeppelin tar xvf apache-maven-3.3.9-bin.tar.gz
 docker exec zeppelin wget http://central.maven.org/maven2/org/apache/phoenix/phoenix-spark/4.8.1-HBase-1.1/phoenix-spark-4.8.1-HBase-1.1.jar
+docker exec zeppelin rm -rf /zeppelin/notebook
+docker exec zeppelin mv /resources/notebook/ /zeppelin/notebook/
 
 
 # Phoenix - Part 1
