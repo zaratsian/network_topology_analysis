@@ -121,10 +121,11 @@ object SparkNetworkAnalysis {
          val currentState = state.getOption.getOrElse( ("ip_address", (99.0).toFloat, ListBuffer[Float](), (1.0).toFloat, ListBuffer[Float](), 0) )
          val signal_strength_array = currentState._3
          val signal_noise_array    = currentState._5
+         val device_health         = value.get._1.toInt
          
          // Calculate avg for last 3 signal strength readings:
          signal_strength_array += value.get._2.toFloat
-         if (signal_strength_array.length > 3 { signal_strength_array -= signal_strength_array(0) }
+         if (signal_strength_array.length > 3) { signal_strength_array -= signal_strength_array(0) }
          
          // Calculate avg for last 3 signal noise readings:
          signal_noise_array += value.get._4.toFloat
