@@ -90,7 +90,7 @@ object SparkNetworkAnalysis {
                 rddpartition.foreach { record =>
                      conn.createStatement().execute("upsert into DEVICE_INFO values ('" + record._1 + "', '" + record._2 + "', '" + record._3 + "', '" + record._4 + "', '" + record._5 + "', '" + record._6 + "', '" + record._7 + "', '" + record._8 + "', " + record._9 + ", " + record._10 + ", " + record._11 + ", " + record._12 + ")" )
                      
-                     //conn.createStatement().execute("upsert into DEVICE_TOPOLOGY (IP,COUNTRY,REGION,CITY,LONGITUDE,LATITUDE,ISP,ORG,LEVEL,SIGNAL_STRENGTH,SIGNAL_NOISE,DEVICE_HEALTH) values ('" + record._1 + "', '" + record._2 + "', '" + record._3 + "', '" + record._4 + "', '" + record._5 + "', '" + record._6 + "', '" + record._7 + "', '" + record._8 + "', " + record._9 + ", " + record._10 + ", " + record._11 + ", " + record._12 + ")" )
+                     //conn.createStatement().execute("upsert into DEVICE_INFO (IP,COUNTRY,REGION,CITY,LONGITUDE,LATITUDE,ISP,ORG,LEVEL,SIGNAL_STRENGTH,SIGNAL_NOISE,DEVICE_HEALTH) values ('" + record._1 + "', '" + record._2 + "', '" + record._3 + "', '" + record._4 + "', '" + record._5 + "', '" + record._6 + "', '" + record._7 + "', '" + record._8 + "', " + record._9 + ", " + record._10 + ", " + record._11 + ", " + record._12 + ")" )
                 }
                 conn.commit()
             }
@@ -121,26 +121,21 @@ object SparkNetworkAnalysis {
          val currentState = state.getOption.getOrElse( ("ip_address", (99.0).toFloat, ListBuffer[Float](), (1.0).toFloat, ListBuffer[Float](), 0) )
          val signal_strength_array = currentState._3
          val signal_noise_array    = currentState._5
-         val device_health         = value.get._1.toInt
          
          // Calculate avg for last 3 signal strength readings:
          signal_strength_array += value.get._2.toFloat
          if (signal_strength_array.length > 3) { signal_strength_array -= signal_strength_array(0) }
          
          // Calculate avg for last 3 signal noise readings:
-         signal_noise_array += value.get._4.toFloat
+         signal_noise_array += value.get._3.toFloat
          if (signal_noise_array.length > 3) { signal_noise_array -= signal_noise_array(0) }
          
          val avg3_signal_strength = signal_strength_array.sum / signal_strength_array.length
          val avg3_signal_noise    = signal_noise_array.sum / signal_noise_array.length
          
-         // Calculate device health status based on avg signal strength and noise metrics:
-         if (avg3_signal_strength < 25 && avg3_signal_noise > 65) {
-             val device_health = 1
-         } else {
-             val device_health = 0
-         }
-          
+         // Calculate device health status based on avg signal strength and avg noise (for the past 3 signals):
+         val device_health = if (avg3_signal_strength < 25 && avg3_signal_noise > 65) 1 else 0
+         
          val output = (value.get._1, avg3_signal_strength, signal_strength_array, avg3_signal_noise, signal_noise_array, device_health) 
          state.update(output)
          Some(output)
@@ -150,7 +145,6 @@ object SparkNetworkAnalysis {
                          //.initialState(initialRDD)
                          //.numPartitions(2)
                          //.timeout(Seconds(60))
-      
       
       /********************************************************************************************
       *  
@@ -163,11 +157,6 @@ object SparkNetworkAnalysis {
       
       val eventStateLevel1 = eventlevel1.mapWithState(stateSpec)
       eventStateLevel1.print()
-      
-/*
-      // Snapshot of the state for the current batch - This DStream contains one entry per key.
-      val eventStateSnapshot1 = eventStateLevel1.stateSnapshots() 
-*/
 
       /*********************************************************
       *  Level 1 - Write State SnapShot to Phoenix
@@ -178,8 +167,8 @@ object SparkNetworkAnalysis {
                 val thinUrl = "jdbc:phoenix:phoenix.dev:2181:/hbase"
                 val conn = DriverManager.getConnection(thinUrl)
                 rddpartition.foreach { record =>
-                     conn.createStatement().execute("upsert into DEVICE_TOPOLOGY (IP,DEVICE_HEALTH) values ('" + record._1 + "', " + record._6 + ")" )
-                     //conn.createStatement().execute("UPSERT INTO DEVICE_TOPOLOGY (IP,DEVICE_HEALTH) VALUES ('192.168.0.1',1)")
+                     conn.createStatement().execute("upsert into DEVICE_INFO (IP,HEALTH_STATUS) values ('" + record._1 + "', " + record._6 + ")" )
+                     //conn.createStatement().execute("UPSERT INTO DEVICE_INFO (IP,HEALTH_STATUS) VALUES ('192.168.0.1',1)")
                 }
                 conn.commit()
             }
