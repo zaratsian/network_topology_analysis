@@ -174,36 +174,6 @@ object SparkNetworkAnalysis {
             }
       }
 
-      /********************************************************************************************
-      *  
-      *  LEVEL 2
-      *
-      *********************************************************************************************/
-/*
-      val eventLevel2 = eventStateSnapshot1.map(x => (x._2._2._6, (x._2._2._6, x._2._2._2, x._2._2._3, x._2._2._4, x._1, x._2._2._7(2), x._2._2._7, 1 )) )
-
-      val eventStateLevel2 = eventLevel2.mapWithState(stateSpec)
-
-      // Snapshot of the state for the current batch - This DStream contains one entry per key.
-      val eventStateSnapshot2 = eventStateLevel2.stateSnapshots()
-*/
-      /*********************************************************
-      *  Level 2 - Write State SnapShot to Phoenix
-      **********************************************************/
-/*
-      eventStateSnapshot2.map(x => (x._2._2._9, x._2._2._2, x._2._2._8) ).foreachRDD { rdd =>
-            rdd.foreachPartition { rddpartition =>
-                //val thinUrl = "jdbc:phoenix:thin:url=http://phoenix.dev:8765;serialization=PROTOBUF"
-                val thinUrl = "jdbc:phoenix:phoenix.dev:2181:/hbase"
-                val conn = DriverManager.getConnection(thinUrl)
-                rddpartition.foreach { record =>
-                     conn.createStatement().execute("upsert into CX_LOOKUP (ID,MER_FLAG,TOPOLOGY_LEVEL) values ('" + record._1 + "', " + record._2 + ", " + record._3 + ")" )
-                }
-                conn.commit()
-            }
-      }
-*/
-
 
       ssc.start()
       ssc.awaitTermination()
