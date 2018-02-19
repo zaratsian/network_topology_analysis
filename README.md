@@ -23,12 +23,12 @@ This repo contains the code used to collect network topology data (using a trace
 <br>
 <br>1. Clone this repo
 <br>2. Navigate to the docker directory
-<br>3. Execute ```./run.sh``` (You'll need to have <a href="https://www.docker.com/">Docker</a> installed on your machine)
-<br>4. Enter the Zeppelin container bash (```docker exec -it zeppelin bash```)
+<br>3. Execute <code>./run.sh</code> (You'll need to have <a href="https://www.docker.com/">Docker</a> installed on your machine)
+<br>4. Enter the Zeppelin container bash (<code>docker exec -it zeppelin bash</code>)
 <br>5. cd SparkNetworkAnalysis
-<br>6. Build the Spark streaming project (```/apache-maven-3.3.9/bin/mvn clean package```)
-<br>7. Start the Spark streaming project (```/spark/bin/spark-submit --master local[*] --class "SparkNetworkAnalysis" --jars /phoenix-spark-4.8.1-HBase-1.1.jar target/SparkStreaming-0.0.1.jar phoenix.dev:2181 mytestgroup dztopic1 1 kafka.dev:9092```)
-<br>8. Start the Kafka stream, which will simulate the heath status for each device (```docker exec kafka python stream_kafka.py```)
+<br>6. Build the Spark streaming project (<code>/apache-maven-3.3.9/bin/mvn clean package</code>)
+<br>7. Start the Spark streaming project (<code>/spark/bin/spark-submit --master local[*] --class "SparkNetworkAnalysis" --jars /phoenix-spark-4.8.1-HBase-1.1.jar target/SparkStreaming-0.0.1.jar phoenix.dev:2181 mytestgroup dztopic1 1 kafka.dev:9092</code>)
+<br>8. Start the Kafka stream, which will simulate the heath status for each device (<code>docker exec kafka python stream_kafka.py</code>)
 <br>9. View the results as a Google Map within Zeppelin (also run interactive queries on data stored in HBase, via Phoenix)
 <br>&ensp;&ensp;&ensp;&bull; Open your browser and go to http://localhost:8079/
 <br>&ensp;&ensp;&ensp;&bull; Select the "Dashboard" notebook
